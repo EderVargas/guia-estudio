@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "category": "Ejemplo",
+      "question": "¿Cuál es la capital de Francia?",
+      "answers": [
+        { "option": "París", "correct": true },
+        { "option": "Londres" },
+        { "option": "Madrid" },
+        { "option": "Roma" }
+      ]
+    }
+  ]
+}
