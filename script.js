@@ -198,7 +198,17 @@ function displayProgressInfo() {
     const stats = getProgressStats();
     const incorrectQuestions = getIncorrectQuestions();
     
-    let infoHTML = '<div class="stat-row">';
+    let infoHTML = '';
+    
+    // Mostrar ID de la pregunta actual si hay una pregunta visible
+    if (currentQuizQuestions.length > 0 && currentQuestionIndex < currentQuizQuestions.length) {
+        const currentQuestion = currentQuizQuestions[currentQuestionIndex];
+        infoHTML += '<div class="stat-row" style="background-color: #e3f2fd;">';
+        infoHTML += `<p>🔢 <strong>ID de pregunta actual:</strong> ${currentQuestion.id}</p>`;
+        infoHTML += '</div>';
+    }
+    
+    infoHTML += '<div class="stat-row">';
     infoHTML += `<p>📚 <strong>Total de preguntas:</strong> ${stats.total}</p>`;
     infoHTML += '</div>';
     

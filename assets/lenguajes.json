@@ -189,13 +189,13 @@
                     "correct": true
                 },
                 {
-                    "option": "Mn, Ll, Zz, Bb, Yy"
+                    "option": "Mm, Ll, Zz, Bb, Yy"
                 },
                 {
                     "option": "Ch, Ll, Gu, Qu, RR"
                 },
                 {
-                    "option": "Ch, Rr, Mn, Pp, Bb"
+                    "option": "Ch, Rr, Mm, Pp, Bb"
                 }
             ],
             "id": 10
@@ -205,7 +205,7 @@
             "question": "¿Cuáles son ejemplo de consonantes?",
             "answers": [
                 {
-                    "option": "Mn, Ll, Zz, Bb, Yy",
+                    "option": "Mm, Nn, Zz, Bb, Yy",
                     "correct": true
                 },
                 {
@@ -215,7 +215,7 @@
                     "option": "Ch, Ll, Gu, Qu, RR"
                 },
                 {
-                    "option": "Ch, Rr, Mn, Pp, Bb"
+                    "option": "Ch, Rr, Mm, Pp, Bb"
                 }
             ],
             "id": 11
@@ -232,10 +232,10 @@
                     "option": "Aa, Ee, Ii, Oo, Uu"
                 },
                 {
-                    "option": "Mn, Ll, Zz, Bb, Yy"
+                    "option": "Mm, Ll, Zz, Bb, Yy"
                 },
                 {
-                    "option": "Ch, Rr, Mn, Pp, Bb"
+                    "option": "Ch, Rr, Mm, Pp, Bb"
                 }
             ],
             "id": 12
@@ -385,7 +385,7 @@
             "question": "Es un conjunto de palabras agrupadas que transmiten un mensaje.",
             "answers": [
                 {
-                    "option": "Frase.",
+                    "option": "Frase o enunciado.",
                     "correct": true
                 },
                 {
@@ -1029,7 +1029,7 @@
                     "correct": true
                 },
                 {
-                    "option": "Bicicleta - Paleta."
+                    "option": "Bicicleta - Anacleto."
                 },
                 {
                     "option": "Ojo - Feliz."
