@@ -13,7 +13,7 @@ Una aplicación web interactiva diseñada para crear y presentar cuestionarios e
 
 ## 🚀 Demo en vivo
 
-[Ver demo aquí](https://edervargas.github.io/guia-estudio/) *(actualizar con tu URL de GitHub Pages)*
+[Ver demo aquí](https://edervargas.github.io/guia-estudio/)
 
 ## 📁 Estructura del proyecto
 
