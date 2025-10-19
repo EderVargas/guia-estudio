@@ -78,19 +78,6 @@ Si necesitas hacer cambios en `script.js`:
    npx terser script.js -o script.min.js -c -m
    ```
 
-## 🌐 Desplegar en GitHub Pages
-
-1. **Crea un repositorio en GitHub**
-2. **Sube todos los archivos:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/TuUsuario/guia-estudio.git
-   git push -u origin main
-   ```
-
 ## 🎨 Personalización
 
 ### Cambiar colores
@@ -128,4 +115,4 @@ Las contribuciones son bienvenidas. Por favor:
 
 ---
 
-Hecho con ❤️ para hacer el aprendizaje más divertido de mis hijos.
+Hecho con ❤️ para hacer el aprendizaje más divertido de los amores de mi vida, mis hijos.

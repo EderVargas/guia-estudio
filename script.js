@@ -5,7 +5,7 @@
  */
 
 // Constantes
-const QUESTIONS_PER_QUIZ = 20;
+const QUESTIONS_PER_QUIZ = 10;
 const STORAGE_KEYS = {
     ANSWERED_QUESTIONS: 'answeredQuestions',
     INCORRECT_QUESTIONS: 'incorrectQuestions'
