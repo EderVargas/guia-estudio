@@ -23,8 +23,38 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Build files (si decides agregar un proceso de build)
+# Build files
 dist/
 build/
+
+# Python
 .venv/
+venv/
+ENV/
+env/
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Imágenes originales (muy pesadas, no subir al repo)
+assets/images/originales/*.jpg
+assets/images/originales/*.jpeg
+assets/images/originales/*.png
+assets/images/originales/*.gif
+assets/images/originales/*.bmp
+assets/images/originales/*.webp
+
+# Reportes temporales generados
+assets/images/_optimization_report.txt
+docs/assets/images/_optimization_report.txt
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Configuración local
+config.local.json
+*.local.*
+

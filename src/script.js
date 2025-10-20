@@ -262,6 +262,22 @@ function displayQuestion() {
     // Actualizar número de pregunta
     currentQuestionDisplay.textContent = currentQuestionIndex + 1;
     
+    // Mostrar imagen si existe
+    const existingImage = document.getElementById('question-image');
+    if (existingImage) {
+        existingImage.remove();
+    }
+    
+    if (currentQuestion.image) {
+        const img = document.createElement('img');
+        img.id = 'question-image';
+        img.className = 'question-image';
+        img.src = currentQuestion.image;
+        img.alt = 'Imagen de la pregunta';
+        img.loading = 'lazy'; // Lazy loading para optimizar carga
+        questionText.parentElement.appendChild(img);
+    }
+    
     // Limpiar contenedor de respuestas
     answersContainer.innerHTML = '';
     

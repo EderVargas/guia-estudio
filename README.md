@@ -4,12 +4,15 @@ Una aplicación web interactiva diseñada para crear y presentar cuestionarios e
 
 ## 🌟 Características
 
-- ✅ Preguntas y respuestas en orden aleatorio
+- ✅ Sistema inteligente de selección de preguntas (10 por cuestionario)
 - 🎨 Diseño colorido y atractivo con colores pastel
 - 🎉 Efectos de celebración con confeti y sonidos
-- 📱 Totalmente responsivo (funciona en computadoras y dispositivos móviles)
-- 🔄 Sistema de puntaje en tiempo real
-- 💡 Retroalimentación inmediata sobre respuestas correctas/incorrectas
+- 📱 Totalmente responsivo (computadoras, tablets y móviles)
+- 🔄 Seguimiento de progreso con sessionStorage
+- 💡 Repriorización de preguntas incorrectas
+- 📊 Estadísticas de progreso en modal informativo
+- 🖼️ Soporte para imágenes opcionales en preguntas
+- ⚡ Sistema de optimización automática de imágenes
 
 ## 🚀 Demo en vivo
 
@@ -19,31 +22,135 @@ Una aplicación web interactiva diseñada para crear y presentar cuestionarios e
 
 ```
 guia-estudio/
-├── index.html          # Página principal
-├── styles.css          # Estilos del proyecto
-├── script.js           # Código JavaScript (versión completa con comentarios)
-├── script.min.js       # Código JavaScript minificado (usado en producción)
+├── docs/                          # 🌐 PÚBLICO (GitHub Pages)
+│   ├── index.html                 # Página principal
+│   ├── styles.css                 # Estilos del proyecto
+│   ├── script.min.js              # JavaScript minificado (producción)
+│   └── assets/
+│       ├── lenguajes.json         # Preguntas y respuestas
+│       ├── images/                # Imágenes optimizadas
+│       └── sounds/                # Efectos de sonido
+│
+├── src/                           # 📝 Código fuente
+│   └── script.js                  # JavaScript con comentarios
+│
+├── scripts/                       # 🐍 Scripts Python
+│   ├── optimize_images.py         # Optimizador de imágenes
+│   ├── extract_pdf.py             # Extractor de texto PDF
+│   ├── generate_questions.py      # Generador de preguntas
+│   └── build.py                   # Utilidades de desarrollo
+│
 ├── assets/
-│   └── questions.json  # Archivo de preguntas y respuestas
-├── AGENTS.md           # Documentación para agentes
-└── README.md           # Este archivo
+│   └── images/
+│       └── originales/            # Imágenes originales (no publicadas)
+│
+├── AGENTS.md                      # Documentación del proyecto
+├── CONFIGURAR-GITHUB-PAGES.md     # Guía de configuración
+├── OPTIMIZAR-IMAGENES.md          # Guía de optimización de imágenes
+├── ESTRUCTURA-DOCS.md             # Explicación de la estructura
+└── README.md                      # Este archivo
 ```
 
-## 🎮 Cómo usar
+## 🎮 Inicio Rápido
+
+### Para ver el sitio web:
+
+Simplemente visita: [https://edervargas.github.io/guia-estudio/](https://edervargas.github.io/guia-estudio/)
+
+### Para desarrollo local:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/TuUsuario/guia-estudio.git
+   git clone https://github.com/EderVargas/guia-estudio.git
    cd guia-estudio
    ```
 
 2. **Abrir el proyecto:**
-   - Simplemente abre `index.html` en tu navegador web
-   - O usa Live Server en VS Code para desarrollo
+   - Abre `docs/index.html` en tu navegador
+   - O usa Live Server en VS Code apuntando a la carpeta `docs/`
 
-3. **Personalizar las preguntas:**
-   - Edita el archivo `assets/questions.json`
-   - Sigue el esquema de ejemplo que se muestra abajo
+3. **Instalar dependencias Python (opcional, para optimizar imágenes):**
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1  # Windows PowerShell
+   pip install Pillow
+   ```
+
+## 🛠️ Flujo de Trabajo para Desarrollo
+
+### 1️⃣ Modificar código JavaScript
+
+```bash
+# 1. Edita el código fuente
+code src/script.js
+
+# 2. Minifica para producción
+npx terser src/script.js -o docs/script.min.js -c -m
+
+# O usa el script auxiliar:
+python scripts/build.py minify
+```
+
+### 2️⃣ Optimizar imágenes
+
+```bash
+# 1. Coloca imágenes originales en:
+#    assets/images/originales/
+
+# 2. Ejecuta el optimizador (desde la raíz del proyecto)
+cd scripts
+python optimize_images.py
+
+# O usa el script auxiliar (desde la raíz):
+python scripts/build.py optimize
+```
+
+Las imágenes optimizadas se guardan automáticamente en `docs/assets/images/`
+
+### 3️⃣ Agregar/modificar preguntas
+
+```bash
+# Edita el archivo JSON
+code docs/assets/lenguajes.json
+```
+
+**Formato con imagen opcional:**
+
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Vocales",
+      "question": "¿Cuál de estas letras es una vocal?",
+      "image": "assets/images/vocales.webp",
+      "answers": [
+        { "option": "A", "correct": true },
+        { "option": "B" },
+        { "option": "C" },
+        { "option": "D" }
+      ]
+    }
+  ]
+}
+```
+
+### 4️⃣ Verificar estructura
+
+```bash
+# Verifica que todas las carpetas y archivos estén en su lugar
+python scripts/build.py check
+```
+
+### 5️⃣ Publicar cambios
+
+```bash
+git add .
+git commit -m "Descripción de cambios"
+git push origin main
+
+# GitHub Pages se actualiza automáticamente en 1-2 minutos
+```
 
 ## 📝 Formato del archivo JSON
 
@@ -51,7 +158,10 @@ guia-estudio/
 {
   "data": [
     {
+      "id": 1,
+      "category": "Categoría de la pregunta",
       "question": "¿Tu pregunta aquí?",
+      "image": "assets/images/imagen.webp",  // Opcional
       "answers": [
         { "option": "Respuesta correcta", "correct": true },
         { "option": "Respuesta incorrecta 1" },
@@ -64,19 +174,11 @@ guia-estudio/
 ```
 
 ### Reglas importantes:
+
+- Cada pregunta debe tener un `id` único
 - Solo una respuesta debe tener `"correct": true`
-- Las demás respuestas no necesitan la propiedad `correct` (o pueden tenerla en `false`)
+- El campo `image` es opcional
 - Puedes tener entre 2 y 6 opciones de respuesta por pregunta
-
-## 🛠️ Modificar el código JavaScript
-
-Si necesitas hacer cambios en `script.js`:
-
-1. Edita el archivo `script.js`
-2. Minifica el código usando Terser:
-   ```bash
-   npx terser script.js -o script.min.js -c -m
-   ```
 
 ## 🎨 Personalización
 

@@ -1,0 +1,72 @@
+{
+  "description": "Configuración para optimización de imágenes del cuestionario",
+  "version": "1.0",
+  
+  "folders": {
+    "input": "assets/images/originales",
+    "output": "assets/images"
+  },
+  
+  "quality": {
+    "jpeg": 80,
+    "webp": 85,
+    "png": 90
+  },
+  
+  "dimensions": {
+    "max_width": 600,
+    "max_height": 400
+  },
+  
+  "options": {
+    "convert_to_webp": true,
+    "keep_originals": true,
+    "preserve_transparency": true,
+    "add_suffix": false
+  },
+  
+  "presets": {
+    "description": "Puedes cambiar rápidamente entre estos presets editando 'active_preset'",
+    "active_preset": "balanced",
+    
+    "balanced": {
+      "description": "Balance óptimo entre calidad y tamaño",
+      "jpeg_quality": 80,
+      "webp_quality": 85,
+      "png_quality": 90
+    },
+    
+    "high_quality": {
+      "description": "Máxima calidad visual",
+      "jpeg_quality": 95,
+      "webp_quality": 95,
+      "png_quality": 95
+    },
+    
+    "max_compression": {
+      "description": "Máxima compresión (menor tamaño)",
+      "jpeg_quality": 70,
+      "webp_quality": 75,
+      "png_quality": 85
+    },
+    
+    "webp_only": {
+      "description": "Solo WebP para máximo ahorro",
+      "jpeg_quality": 70,
+      "webp_quality": 80,
+      "png_quality": 85,
+      "convert_to_webp": true,
+      "keep_originals": false
+    }
+  },
+  
+  "supported_formats": [".jpg", ".jpeg", ".png", ".webp"],
+  
+  "notes": [
+    "Los valores de calidad van de 1 (peor) a 100 (mejor)",
+    "WebP generalmente ofrece mejor compresión que JPG/PNG",
+    "Para fotografías, usa jpeg_quality entre 70-85",
+    "Para gráficos/capturas, usa png_quality entre 85-95",
+    "max_width y max_height redimensionan automáticamente imágenes grandes"
+  ]
+}

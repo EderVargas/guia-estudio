@@ -1,32 +1,20 @@
-# AGENTS.md# AGENTS.md
-
-
+# AGENTS.md
 
 ## Propósito del proyecto
 
+Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.
 
+**Características principales:**
 
-Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.## Propósito del proyecto
-
-
-
-**Características principales:**Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.
-
-
-
-- Sistema de selección inteligente de preguntas (10 por cuestionario)## Propósito del proyecto## Propósito del proyecto
-
+- Sistema de selección inteligente de preguntas (10 por cuestionario)
 - Distribución proporcional por categorías
-
-- Seguimiento de progreso con sessionStorage (se limpia al cerrar la pestaña)**Características principales:**
-
+- Seguimiento de progreso con sessionStorage (se limpia al cerrar la pestaña)
 - Repriorización de preguntas incorrectas
-
-- Estadísticas de progreso general en modal informativo- Sistema de selección inteligente de preguntas (10 por cuestionario)Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.
-
+- Estadísticas de progreso general en modal informativo
 - Interfaz intuitiva con efectos visuales y sonoros
-
-- Enlace para limpiar la sesión manualmente- Distribución proporcional por categorías
+- Enlace para limpiar la sesión manualmente
+- **Soporte para imágenes opcionales en preguntas**
+- **Sistema de optimización automática de imágenes**
 
 
 
@@ -336,6 +324,52 @@ Para agregar más preguntas, edita el archivo `assets/lenguajes.json` siguiendo 
 - **localStorage**: Los datos se guardan automáticamente en el navegador. Para limpiar manualmente, abre la consola del navegador y ejecuta: `localStorage.clear()`
 
 ## Notas adicionales
+
 - El código está comentado para facilitar su comprensión y mantenimiento.
 - El diseño es responsivo y apto para computadoras y dispositivos móviles.
-- El sistema es compatible con navegadores modernos que soporten localStorage y ES6+.
+- El sistema es compatible con navegadores modernos que soporten sessionStorage y ES6+.
+- El modal es accesible y se puede cerrar de múltiples formas para mejor UX.
+- La sesión se limpia automáticamente al cerrar la pestaña, ideal para uso compartido de dispositivos.
+
+## Optimización de Imágenes
+
+El proyecto incluye un script de Python para optimizar imágenes automáticamente antes de usarlas en los cuestionarios.
+
+### Características del optimizador
+
+- **Redimensionamiento automático**: Ajusta imágenes grandes al tamaño ideal para web (600x400px)
+- **Compresión inteligente**: Reduce el tamaño entre 50-80% sin pérdida visible de calidad
+- **Conversión a WebP**: Genera versiones WebP con mejor compresión que JPG/PNG
+- **Preserva transparencia**: Mantiene fondos transparentes en PNG
+- **Procesamiento en lote**: Optimiza múltiples imágenes de una vez
+- **Reporte detallado**: Genera estadísticas de ahorro de espacio
+
+### Uso rápido
+
+1. Coloca las imágenes originales en: `assets/images/originales/`
+2. Ejecuta: `python optimize_images.py`
+3. Las imágenes optimizadas se guardan en: `assets/images/`
+4. Revisa el reporte en: `assets/images/_optimization_report.txt`
+
+### Configuración disponible
+
+Puedes personalizar en `optimize_images.py`:
+
+- **Calidad de compresión**: JPG (80), WebP (85), PNG (90)
+- **Tamaño máximo**: 600x400 píxeles (ajustable)
+- **Conversión a WebP**: Activado por defecto
+- **Mantener originales**: Genera tanto WebP como formato original
+
+### Documentación completa
+
+Para más detalles, consulta:
+
+- `OPTIMIZAR-IMAGENES.md` - Guía completa de uso y configuración
+- `IMAGENES.md` - Cómo usar imágenes en preguntas
+- `IMPLEMENTACION-IMAGENES.md` - Detalles técnicos de implementación
+
+### Requisitos
+
+- Python 3.7+
+- Pillow (PIL): `pip install Pillow`
+
