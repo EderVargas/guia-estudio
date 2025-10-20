@@ -360,8 +360,14 @@ function verifyAnswer() {
     if (questionType === 'text-input') {
         // Verificar respuesta de texto
         const textInput = document.getElementById('text-answer-input');
-        const userAnswer = textInput.value.trim().toUpperCase();
-        const correctAnswer = currentQuestion.correctAnswer.toUpperCase();
+        const userAnswer = textInput.value.trim().toUpperCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[.,]/g, '');
+        const correctAnswer = currentQuestion.correctAnswer.toUpperCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[.,]/g, '');
         
         isCorrect = userAnswer === correctAnswer;
         
