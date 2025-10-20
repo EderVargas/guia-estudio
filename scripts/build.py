@@ -71,7 +71,8 @@ def optimize_images():
             [sys.executable, "optimize_images.py"],
             cwd=SCRIPTS_DIR,
             capture_output=True,
-            encoding="utf-8"
+            encoding="utf-8",
+            errors="replace"
         )
 
         print(result.stdout)
