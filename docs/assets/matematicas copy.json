@@ -212,7 +212,7 @@
       "id": 17,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos observas en la imagen?",
-      "image": "assets/images/17.jpg",
+      "image": "assets/images/17.png",
       "type": "multiple-choice",
       "answers": [
         { "option": "18" },
