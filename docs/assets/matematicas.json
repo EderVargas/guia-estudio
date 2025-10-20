@@ -654,7 +654,7 @@
       "id": 61,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas piñas faltan para completar 10?",
-      "image": "assets/images/1.png",
+      "image": "assets/images/1.jpg",
       "type": "text-input",
       "correctAnswer": "9"
     },
@@ -662,7 +662,7 @@
       "id": 62,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas cerezas faltan para completar 10?",
-      "image": "assets/images/2.png",
+      "image": "assets/images/2.jpg",
       "type": "text-input",
       "correctAnswer": "8"
     },
@@ -670,7 +670,7 @@
       "id": 63,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas blueberryes faltan para completar 10?",
-      "image": "assets/images/3.png",
+      "image": "assets/images/3.jpg",
       "type": "text-input",
       "correctAnswer": "7"
     },
@@ -678,7 +678,7 @@
       "id": 64,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas manzanas faltan para completar 10?",
-      "image": "assets/images/4.png",
+      "image": "assets/images/4.jpg",
       "type": "text-input",
       "correctAnswer": "6"
     },
@@ -686,7 +686,7 @@
       "id": 65,
       "category": "Sumas para completar 10",
       "question": "¿Cuántos peces faltan para completar 10?",
-      "image": "assets/images/5.png",
+      "image": "assets/images/5.jpg",
       "type": "text-input",
       "correctAnswer": "5"
     },
@@ -694,7 +694,7 @@
       "id": 66,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas tortugas faltan para completar 10?",
-      "image": "assets/images/6.png",
+      "image": "assets/images/6.jpg",
       "type": "text-input",
       "correctAnswer": "4"
     },
@@ -702,7 +702,7 @@
       "id": 67,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas pizzas faltan para completar 10?",
-      "image": "assets/images/7.png",
+      "image": "assets/images/7.jpg",
       "type": "text-input",
       "correctAnswer": "3"
     },
@@ -710,7 +710,7 @@
       "id": 68,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas lechitas faltan para completar 10?",
-      "image": "assets/images/8.png",
+      "image": "assets/images/8.jpg",
       "type": "text-input",
       "correctAnswer": "2"
     },
@@ -718,7 +718,7 @@
       "id": 69,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas mariposas faltan para completar 10?",
-      "image": "assets/images/9.png",
+      "image": "assets/images/9.jpg",
       "type": "text-input",
       "correctAnswer": "1"
     }
