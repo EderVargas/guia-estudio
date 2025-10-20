@@ -32,37 +32,37 @@ SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 
 def minify_js():
     """Minifica JavaScript con Terser"""
-    print("\n🔨 Minificando JavaScript...")
+    print("\nMinificando JavaScript...")
     
     src_file = SRC_DIR / "script.js"
     dest_file = DOCS_DIR / "script.min.js"
     
     if not src_file.exists():
-        print(f"❌ Error: No se encuentra {src_file}")
+        print(f"Error: No se encuentra {src_file}")
         return False
-    
+
     try:
         cmd = f'npx terser "{src_file}" -o "{dest_file}" -c -m'
-        result = subprocess.run(cmd, shell=True, cwd=PROJECT_ROOT, capture_output=True, text=True)
-        
+        result = subprocess.run(cmd, shell=True, cwd=PROJECT_ROOT, capture_output=True, encoding="utf-8")
+
         if result.returncode == 0:
-            print(f"✅ JavaScript minificado: {dest_file}")
+            print(f"JavaScript minificado: {dest_file}")
             return True
         else:
-            print(f"❌ Error al minificar: {result.stderr}")
+            print(f"Error al minificar: {result.stderr}")
             return False
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
         return False
 
 def optimize_images():
     """Ejecuta el script de optimización de imágenes"""
-    print("\n🖼️  Optimizando imágenes...")
+    print("\nOptimizando imágenes...")
     
     optimize_script = SCRIPTS_DIR / "optimize_images.py"
     
     if not optimize_script.exists():
-        print(f"❌ Error: No se encuentra {optimize_script}")
+        print(f"Error: No se encuentra {optimize_script}")
         return False
     
     try:
@@ -71,23 +71,23 @@ def optimize_images():
             [sys.executable, "optimize_images.py"],
             cwd=SCRIPTS_DIR,
             capture_output=True,
-            text=True
+            encoding="utf-8"
         )
-        
+
         print(result.stdout)
-        
+
         if result.returncode == 0:
             return True
         else:
-            print(f"❌ Error: {result.stderr}")
+            print(f"Error: {result.stderr}")
             return False
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
         return False
 
 def check_structure():
     """Verifica que la estructura de carpetas sea correcta"""
-    print("\n📁 Verificando estructura de carpetas...")
+    print("\nVerificando estructura de carpetas...")
     
     required_dirs = [
         DOCS_DIR,
@@ -111,24 +111,24 @@ def check_structure():
     
     for directory in required_dirs:
         if directory.exists():
-            print(f"✅ {directory.relative_to(PROJECT_ROOT)}")
+            print(f"OK: {directory.relative_to(PROJECT_ROOT)}")
         else:
-            print(f"❌ Falta: {directory.relative_to(PROJECT_ROOT)}")
+            print(f"Falta: {directory.relative_to(PROJECT_ROOT)}")
             all_ok = False
     
     print()
     
     for file in required_files:
         if file.exists():
-            print(f"✅ {file.relative_to(PROJECT_ROOT)}")
+            print(f"OK: {file.relative_to(PROJECT_ROOT)}")
         else:
-            print(f"⚠️  Falta: {file.relative_to(PROJECT_ROOT)}")
+            print(f"Falta: {file.relative_to(PROJECT_ROOT)}")
             all_ok = False
     
     if all_ok:
-        print("\n✅ Estructura correcta")
+        print("\nEstructura correcta")
     else:
-        print("\n⚠️  Hay problemas en la estructura")
+        print("\nHay problemas en la estructura")
     
     return all_ok
 
@@ -156,7 +156,7 @@ def main():
     elif command in ["help", "-h", "--help"]:
         show_help()
     else:
-        print(f"❌ Comando desconocido: {command}")
+        print(f"Comando desconocido: {command}")
         print("\nComandos disponibles: minify, optimize, check, all, help")
 
 if __name__ == "__main__":

@@ -27,7 +27,8 @@ guia-estudio/
 │   ├── styles.css                 # Estilos del proyecto
 │   ├── script.min.js              # JavaScript minificado (producción)
 │   └── assets/
-│       ├── lenguajes.json         # Preguntas y respuestas
+│       ├── lenguajes.json         # Preguntas de lenguaje
+│       ├── matematicas.json       # Preguntas de matemáticas
 │       ├── images/                # Imágenes optimizadas
 │       └── sounds/                # Efectos de sonido
 │
@@ -41,13 +42,12 @@ guia-estudio/
 │   └── build.py                   # Utilidades de desarrollo
 │
 ├── assets/
+│   ├── cuestionario_matematicas.txt  # Fuente de preguntas
 │   └── images/
 │       └── originales/            # Imágenes originales (no publicadas)
 │
 ├── AGENTS.md                      # Documentación del proyecto
-├── CONFIGURAR-GITHUB-PAGES.md     # Guía de configuración
 ├── OPTIMIZAR-IMAGENES.md          # Guía de optimización de imágenes
-├── ESTRUCTURA-DOCS.md             # Explicación de la estructura
 └── README.md                      # Este archivo
 ```
 
@@ -142,6 +142,11 @@ code docs/assets/lenguajes.json
 python scripts/build.py check
 ```
 
+### 4️⃣ Hacer todo (minify + optimize):
+```powershell
+python scripts/build.py all
+```
+
 ### 5️⃣ Publicar cambios
 
 ```bash
@@ -154,6 +159,10 @@ git push origin main
 
 ## 📝 Formato del archivo JSON
 
+El sistema soporta **dos tipos de preguntas**:
+
+### 1️⃣ Preguntas de Opción Múltiple
+
 ```json
 {
   "data": [
@@ -161,7 +170,8 @@ git push origin main
       "id": 1,
       "category": "Categoría de la pregunta",
       "question": "¿Tu pregunta aquí?",
-      "image": "assets/images/imagen.webp",  // Opcional
+      "type": "multiple-choice",
+      "image": "assets/images/imagen.webp",
       "answers": [
         { "option": "Respuesta correcta", "correct": true },
         { "option": "Respuesta incorrecta 1" },
@@ -173,12 +183,29 @@ git push origin main
 }
 ```
 
+### 2️⃣ Preguntas de Texto Libre
+
+```json
+{
+  "data": [
+    {
+      "id": 2,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 6?",
+      "type": "text-input",
+      "correctAnswer": "SEIS"
+    }
+  ]
+}
+```
+
 ### Reglas importantes:
 
 - Cada pregunta debe tener un `id` único
-- Solo una respuesta debe tener `"correct": true`
+- **Opción múltiple**: Solo una respuesta debe tener `"correct": true`
+- **Texto libre**: La respuesta se valida sin importar mayúsculas/minúsculas
 - El campo `image` es opcional
-- Puedes tener entre 2 y 6 opciones de respuesta por pregunta
+- El campo `type` por defecto es `"multiple-choice"`
 
 ## 🎨 Personalización
 

@@ -1,0 +1,454 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/1.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1", "correct": true },
+        { "option": "2" },
+        { "option": "3" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/2.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "2", "correct": true },
+        { "option": "3" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/3.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "3", "correct": true },
+        { "option": "2" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/4.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "4", "correct": true },
+        { "option": "3" },
+        { "option": "2" }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/5.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "6" },
+        { "option": "5", "correct": true },
+        { "option": "7" },
+        { "option": "8" }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/6.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "5" },
+        { "option": "6", "correct": true },
+        { "option": "7" },
+        { "option": "8" }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/7.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "6" },
+        { "option": "7", "correct": true },
+        { "option": "5" },
+        { "option": "8" }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/8.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "6" },
+        { "option": "8", "correct": true },
+        { "option": "7" },
+        { "option": "5" }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/9.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "10" },
+        { "option": "9", "correct": true },
+        { "option": "11" },
+        { "option": "12" }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/10.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "9" },
+        { "option": "10", "correct": true },
+        { "option": "11" },
+        { "option": "12" }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/11.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "10" },
+        { "option": "11", "correct": true },
+        { "option": "9" },
+        { "option": "12" }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/12.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "10" },
+        { "option": "12", "correct": true },
+        { "option": "11" },
+        { "option": "9" }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/13.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "14" },
+        { "option": "13", "correct": true },
+        { "option": "15" },
+        { "option": "16" }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/14.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "13" },
+        { "option": "14", "correct": true },
+        { "option": "15" },
+        { "option": "16" }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/15.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "13" },
+        { "option": "15", "correct": true },
+        { "option": "14" },
+        { "option": "16" }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/16.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "14" },
+        { "option": "16", "correct": true },
+        { "option": "15" },
+        { "option": "13" }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/17.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "18" },
+        { "option": "17", "correct": true },
+        { "option": "19" },
+        { "option": "20" }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/18.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "17" },
+        { "option": "18", "correct": true },
+        { "option": "19" },
+        { "option": "20" }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/19.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "18" },
+        { "option": "19", "correct": true },
+        { "option": "17" },
+        { "option": "20" }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/20.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "18" },
+        { "option": "20", "correct": true },
+        { "option": "19" },
+        { "option": "17" }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Números Ascendentes",
+      "question": "¿Cuáles son los Números Ascendentes?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Los que inician de menos a más.", "correct": true },
+        { "option": "Los que inician de más a menos." },
+        { "option": "Los que son iguales." },
+        { "option": "Los que son diferentes." }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Números Ascendentes",
+      "question": "La siguiente imagen representa los...",
+      "image": "assets/images/22.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Números Ascendentes.", "correct": true },
+        { "option": "Números Descendentes." },
+        { "option": "Números iguales." },
+        { "option": "Signos." }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Números Descendentes",
+      "question": "¿Cuáles son los Números Descendentes?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Los que inician de menos a más." },
+        { "option": "Los que inician de más a menos.", "correct": true },
+        { "option": "Los que son iguales." },
+        { "option": "Los que son diferentes." }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Números Descendentes",
+      "question": "La siguiente imagen representa los...",
+      "image": "assets/images/28.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Números Ascendentes." },
+        { "option": "Números Descendentes.", "correct": true },
+        { "option": "Números iguales." },
+        { "option": "Signos." }
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 1?",
+      "type": "text-input",
+      "correctAnswer": "UNO"
+    },
+    {
+      "id": 35,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 2?",
+      "type": "text-input",
+      "correctAnswer": "DOS"
+    },
+    {
+      "id": 36,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 3?",
+      "type": "text-input",
+      "correctAnswer": "TRES"
+    },
+    {
+      "id": 37,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 4?",
+      "type": "text-input",
+      "correctAnswer": "CUATRO"
+    },
+    {
+      "id": 38,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 5?",
+      "type": "text-input",
+      "correctAnswer": "CINCO"
+    },
+    {
+      "id": 39,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 6?",
+      "type": "text-input",
+      "correctAnswer": "SEIS"
+    },
+    {
+      "id": 40,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 7?",
+      "type": "text-input",
+      "correctAnswer": "SIETE"
+    },
+    {
+      "id": 41,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 8?",
+      "type": "text-input",
+      "correctAnswer": "OCHO"
+    },
+    {
+      "id": 42,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 9?",
+      "type": "text-input",
+      "correctAnswer": "NUEVE"
+    },
+    {
+      "id": 43,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 10?",
+      "type": "text-input",
+      "correctAnswer": "DIEZ"
+    },
+    {
+      "id": 44,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 11?",
+      "type": "text-input",
+      "correctAnswer": "ONCE"
+    },
+    {
+      "id": 45,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 12?",
+      "type": "text-input",
+      "correctAnswer": "DOCE"
+    },
+    {
+      "id": 46,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 13?",
+      "type": "text-input",
+      "correctAnswer": "TRECE"
+    },
+    {
+      "id": 47,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 14?",
+      "type": "text-input",
+      "correctAnswer": "CATORCE"
+    },
+    {
+      "id": 48,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 15?",
+      "type": "text-input",
+      "correctAnswer": "QUINCE"
+    },
+    {
+      "id": 49,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 16?",
+      "type": "text-input",
+      "correctAnswer": "DIECISÉIS"
+    },
+    {
+      "id": 50,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 17?",
+      "type": "text-input",
+      "correctAnswer": "DIECISIETE"
+    },
+    {
+      "id": 51,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 18?",
+      "type": "text-input",
+      "correctAnswer": "DIECIOCHO"
+    },
+    {
+      "id": 52,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 19?",
+      "type": "text-input",
+      "correctAnswer": "DIECINUEVE"
+    },
+    {
+      "id": 53,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 20?",
+      "type": "text-input",
+      "correctAnswer": "VEINTE"
+    }
+  ]
+}

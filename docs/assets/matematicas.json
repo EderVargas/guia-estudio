@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/1.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1", "correct": true },
+        { "option": "2" },
+        { "option": "3" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/2.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "2", "correct": true },
+        { "option": "3" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/3.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "3", "correct": true },
+        { "option": "2" },
+        { "option": "4" }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Conteo de Elementos",
+      "question": "¿Cuántos elementos observas en la imagen?",
+      "image": "assets/images/4.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "1" },
+        { "option": "4", "correct": true },
+        { "option": "3" },
+        { "option": "2" }
+      ]
+    },
+    {
+      "id": 53,
+      "category": "Escritura correcta de números",
+      "question": "¿Cómo se escribe el número 20?",
+      "type": "text-input",
+      "correctAnswer": "VEINTE"
+    }
+  ]
+}

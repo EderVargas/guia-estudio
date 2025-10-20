@@ -101,53 +101,36 @@ function resetProgress() {
 
 /**
  * Seleccionar preguntas para el cuestionario
- * Prioriza preguntas incorrectas y luego distribuye por categorías
+ * Prioriza preguntas incorrectas y luego rellena con nuevas no respondidas.
+ * Si hay menos de QUESTIONS_PER_QUIZ disponibles, solo muestra las que hay.
+ * Nunca repite todas las preguntas si solo hay una incorrecta.
  * @returns {Array} - Array de preguntas seleccionadas
  */
 function selectQuestions() {
     const answeredQuestions = getAnsweredQuestions();
     const incorrectQuestions = getIncorrectQuestions();
-    
-    // Filtrar preguntas disponibles (no respondidas)
-    const availableQuestions = allQuestionsData.filter(q => !answeredQuestions.has(q.id));
-    
-    // Si no hay preguntas disponibles, resetear progreso
-    if (availableQuestions.length === 0) {
+
+    // Preguntas incorrectas (no respondidas correctamente aún)
+    const incorrectQuestionsData = allQuestionsData.filter(q => incorrectQuestions.has(q.id));
+
+    // Preguntas nuevas (no respondidas nunca)
+    const newQuestions = allQuestionsData.filter(q => !answeredQuestions.has(q.id) && !incorrectQuestions.has(q.id));
+
+    // Si no hay preguntas nuevas ni incorrectas, resetear progreso
+    if (incorrectQuestionsData.length === 0 && newQuestions.length === 0) {
         resetProgress();
         return selectQuestions();
     }
-    
-    const selectedQuestions = [];
-    
-    // 1. Agregar preguntas incorrectas primero
-    const incorrectQuestionsData = allQuestionsData.filter(q => incorrectQuestions.has(q.id));
+
+    // Selección priorizada: incorrectas primero, luego nuevas
+    let selectedQuestions = [];
     selectedQuestions.push(...shuffleArray(incorrectQuestionsData));
-    
-    // 2. Si necesitamos más preguntas, agregar de categorías disponibles
     if (selectedQuestions.length < QUESTIONS_PER_QUIZ) {
         const remainingCount = QUESTIONS_PER_QUIZ - selectedQuestions.length;
-        
-        // Agrupar preguntas disponibles por categoría
-        const questionsByCategory = {};
-        availableQuestions.forEach(q => {
-            if (!questionsByCategory[q.category]) {
-                questionsByCategory[q.category] = [];
-            }
-            questionsByCategory[q.category].push(q);
-        });
-        
-        const categories = Object.keys(questionsByCategory);
-        const questionsPerCategory = Math.ceil(remainingCount / categories.length);
-        
-        // Distribuir preguntas por categoría
-        categories.forEach(category => {
-            const categoryQuestions = shuffleArray(questionsByCategory[category]);
-            const toAdd = categoryQuestions.slice(0, questionsPerCategory);
-            selectedQuestions.push(...toAdd);
-        });
+        selectedQuestions.push(...shuffleArray(newQuestions).slice(0, remainingCount));
     }
-    
-    // Limitar a QUESTIONS_PER_QUIZ y mezclar
+
+    // Si hay menos de 10 disponibles, solo muestra las que hay
     return shuffleArray(selectedQuestions.slice(0, QUESTIONS_PER_QUIZ));
 }
 
@@ -174,7 +157,8 @@ function getProgressStats() {
  */
 async function loadQuestions() {
     try {
-        const response = await fetch('assets/lenguajes.json');
+        // const response = await fetch('assets/lenguajes.json');
+        const response = await fetch('assets/matematicas.json');
         const data = await response.json();
         allQuestionsData = data.data;
         
@@ -204,25 +188,25 @@ function displayProgressInfo() {
     if (currentQuizQuestions.length > 0 && currentQuestionIndex < currentQuizQuestions.length) {
         const currentQuestion = currentQuizQuestions[currentQuestionIndex];
         infoHTML += '<div class="stat-row" style="background-color: #e3f2fd;">';
-        infoHTML += `<p>🔢 <strong>ID de pregunta actual:</strong> ${currentQuestion.id}</p>`;
+            infoHTML += `<p><strong>ID de pregunta actual:</strong> ${currentQuestion.id}</p>`;
         infoHTML += '</div>';
     }
     
     infoHTML += '<div class="stat-row">';
-    infoHTML += `<p>📚 <strong>Total de preguntas:</strong> ${stats.total}</p>`;
+        infoHTML += `<p><strong>Total de preguntas:</strong> ${stats.total}</p>`;
     infoHTML += '</div>';
     
     infoHTML += '<div class="stat-row">';
-    infoHTML += `<p>✅ <strong>Respondidas correctamente:</strong> ${stats.answered}</p>`;
+        infoHTML += `<p><strong>Respondidas correctamente:</strong> ${stats.answered}</p>`;
     infoHTML += '</div>';
     
     infoHTML += '<div class="stat-row">';
-    infoHTML += `<p>� <strong>Preguntas restantes:</strong> ${stats.remaining}</p>`;
+        infoHTML += `<p><strong>Preguntas restantes:</strong> ${stats.remaining}</p>`;
     infoHTML += '</div>';
     
     if (incorrectQuestions.size > 0) {
         infoHTML += '<div class="warning">';
-        infoHTML += `<p><strong>⚠️ Atención:</strong> Tienes ${incorrectQuestions.size} pregunta(s) incorrecta(s) que debes repasar en tu próximo cuestionario.</p>`;
+            infoHTML += `<p><strong>Atención:</strong> Tienes ${incorrectQuestions.size} pregunta(s) incorrecta(s) que debes repasar en tu próximo cuestionario.</p>`;
         infoHTML += '</div>';
     }
     
@@ -281,22 +265,56 @@ function displayQuestion() {
     // Limpiar contenedor de respuestas
     answersContainer.innerHTML = '';
     
-    // Mezclar respuestas
-    const shuffledAnswers = shuffleArray(currentQuestion.answers);
+    // Determinar tipo de pregunta
+    const questionType = currentQuestion.type || 'multiple-choice';
     
-    // Crear botones de respuesta
-    shuffledAnswers.forEach((answer, index) => {
-        const answerDiv = document.createElement('div');
-        answerDiv.className = 'answer-option';
-        answerDiv.textContent = answer.option;
-        answerDiv.dataset.correct = answer.correct || false;
-        answerDiv.dataset.index = index;
+    if (questionType === 'text-input') {
+        // Crear campo de texto para respuesta
+        const inputContainer = document.createElement('div');
+        inputContainer.className = 'text-input-container';
         
-        // Agregar evento de click
-        answerDiv.addEventListener('click', () => selectAnswer(answerDiv));
+        const textInput = document.createElement('input');
+        textInput.type = 'text';
+        textInput.id = 'text-answer-input';
+        textInput.className = 'text-answer-input';
+        textInput.placeholder = 'Escribe tu respuesta aquí...';
+        textInput.maxLength = 50;
         
-        answersContainer.appendChild(answerDiv);
-    });
+        // Habilitar botón cuando se escriba algo
+        textInput.addEventListener('input', () => {
+            verifyBtn.disabled = textInput.value.trim().length === 0;
+            selectedAnswer = textInput.value.trim();
+        });
+        
+        // Permitir Enter para verificar
+        textInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !verifyBtn.disabled) {
+                verifyAnswer();
+            }
+        });
+        
+        inputContainer.appendChild(textInput);
+        answersContainer.appendChild(inputContainer);
+        
+        // Auto-focus en el input
+        setTimeout(() => textInput.focus(), 100);
+        
+    } else {
+        // Preguntas de opción múltiple (comportamiento actual)
+        const shuffledAnswers = shuffleArray(currentQuestion.answers);
+        
+        shuffledAnswers.forEach((answer, index) => {
+            const answerDiv = document.createElement('div');
+            answerDiv.className = 'answer-option';
+            answerDiv.textContent = answer.option;
+            answerDiv.dataset.correct = answer.correct || false;
+            answerDiv.dataset.index = index;
+            
+            answerDiv.addEventListener('click', () => selectAnswer(answerDiv));
+            
+            answersContainer.appendChild(answerDiv);
+        });
+    }
     
     // Resetear estado de los botones
     selectedAnswer = null;
@@ -335,48 +353,72 @@ function selectAnswer(answerElement) {
 function verifyAnswer() {
     if (!selectedAnswer) return;
     
-    // Deshabilitar todas las opciones
-    document.querySelectorAll('.answer-option').forEach(option => {
-        option.classList.add('disabled');
-    });
-    
-    const isCorrect = selectedAnswer.dataset.correct === 'true';
     const currentQuestion = currentQuizQuestions[currentQuestionIndex];
+    const questionType = currentQuestion.type || 'multiple-choice';
+    let isCorrect = false;
+    
+    if (questionType === 'text-input') {
+        // Verificar respuesta de texto
+        const textInput = document.getElementById('text-answer-input');
+        const userAnswer = textInput.value.trim().toUpperCase();
+        const correctAnswer = currentQuestion.correctAnswer.toUpperCase();
+        
+        isCorrect = userAnswer === correctAnswer;
+        
+        // Deshabilitar input
+        textInput.disabled = true;
+        textInput.classList.add(isCorrect ? 'correct-input' : 'incorrect-input');
+        
+        if (isCorrect) {
+            feedback.textContent = '¡Excelente! 🎉 ¡Respuesta correcta!';
+            feedback.className = 'correct';
+            score++;
+            scoreDisplay.textContent = score;
+            
+            launchConfetti();
+            playSuccessSound();
+        } else {
+            feedback.textContent = `❌ Respuesta incorrecta. La respuesta correcta es: ${currentQuestion.correctAnswer}`;
+            feedback.className = 'incorrect';
+            playErrorSound();
+        }
+        
+    } else {
+        // Verificar respuesta de opción múltiple
+        document.querySelectorAll('.answer-option').forEach(option => {
+            option.classList.add('disabled');
+        });
+        
+        isCorrect = selectedAnswer.dataset.correct === 'true';
+        
+        if (isCorrect) {
+            selectedAnswer.classList.add('correct');
+            feedback.textContent = '¡Excelente! 🎉 ¡Respuesta correcta!';
+            feedback.className = 'correct';
+            score++;
+            scoreDisplay.textContent = score;
+            
+            launchConfetti();
+            playSuccessSound();
+        } else {
+            selectedAnswer.classList.add('incorrect');
+            
+            const correctAnswer = Array.from(document.querySelectorAll('.answer-option'))
+                .find(option => option.dataset.correct === 'true');
+            
+            if (correctAnswer) {
+                correctAnswer.classList.add('correct');
+            }
+            
+            feedback.textContent = `Ups... La respuesta correcta era:\n${correctAnswer.textContent}`;
+            feedback.className = 'incorrect';
+            
+            playErrorSound();
+        }
+    }
     
     // Guardar resultado en sessionStorage
     saveQuestionResult(currentQuestion.id, isCorrect);
-    
-    if (isCorrect) {
-        // Respuesta correcta
-        selectedAnswer.classList.add('correct');
-        feedback.textContent = '¡Excelente! 🎉 ¡Respuesta correcta!';
-        feedback.className = 'correct';
-        score++;
-        scoreDisplay.textContent = score;
-        
-        // Efecto de confeti
-        launchConfetti();
-        
-        // Sonido de éxito (usando Web Audio API)
-        playSuccessSound();
-    } else {
-        // Respuesta incorrecta
-        selectedAnswer.classList.add('incorrect');
-        
-        // Mostrar la respuesta correcta
-        const correctAnswer = Array.from(document.querySelectorAll('.answer-option'))
-            .find(option => option.dataset.correct === 'true');
-        
-        if (correctAnswer) {
-            correctAnswer.classList.add('correct');
-        }
-        
-        feedback.textContent = `Ups... La respuesta correcta era:\n${correctAnswer.textContent}`;
-        feedback.className = 'incorrect';
-        
-        // Sonido de error
-        playErrorSound();
-    }
     
     // Mostrar retroalimentación
     feedback.style.display = 'block';

@@ -1,3 +1,23 @@
+# Lógica de selección de preguntas (script.js)
+
+## Resumen profesional
+
+El sistema selecciona preguntas para cada cuestionario siguiendo estas reglas:
+
+1. **Prioridad a preguntas incorrectas:**
+  - Si el usuario falló preguntas en sesiones anteriores, esas se seleccionan primero.
+  - No se repiten todas las preguntas si solo hay una incorrecta; solo se muestra la(s) fallada(s) y se rellena con nuevas.
+
+2. **Relleno con preguntas nuevas:**
+  - Si hay menos de 10 incorrectas, se agregan preguntas nuevas (no respondidas nunca) hasta completar el máximo permitido.
+  - Si hay menos de 10 disponibles en total, solo se muestran las que quedan.
+
+3. **Nunca repite preguntas ya respondidas correctamente.**
+
+4. **Cuando no quedan preguntas nuevas ni incorrectas:**
+  - El sistema resetea el progreso automáticamente y comienza de nuevo.
+
+Esta lógica asegura que el usuario repase lo que falló y avance hasta cubrir todo el banco de preguntas, sin repeticiones innecesarias ni cuestionarios incompletos si hay suficientes preguntas.
 # AGENTS.md
 
 ## Propósito del proyecto

@@ -1,0 +1,456 @@
+Id: 1
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 1.jpg
+Opcion: 1 _correcta
+Opcion: 2
+Opcion: 3
+Opcion: 4
+
+Id: 2
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 2.jpg
+Opcion: 1
+Opcion: 2 _correcta
+Opcion: 3
+Opcion: 4
+
+Id: 3
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 3.jpg
+Opcion: 1
+Opcion: 3 _correcta
+Opcion: 2
+Opcion: 4
+
+Id: 4
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 4.jpg
+Opcion: 1
+Opcion: 4 _correcta
+Opcion: 3
+Opcion: 2
+
+Id: 5
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 5.jpg
+Opcion: 6
+Opcion: 5 _correcta
+Opcion: 7
+Opcion: 8
+
+Id: 6
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 6.jpg
+Opcion: 5
+Opcion: 6 _correcta
+Opcion: 7
+Opcion: 8
+
+Id: 7
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 7.jpg
+Opcion: 6
+Opcion: 7 _correcta
+Opcion: 5
+Opcion: 8
+
+Id: 8
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 8.jpg
+Opcion: 6
+Opcion: 8 _correcta
+Opcion: 7
+Opcion: 5
+
+Id: 9
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 9.jpg
+Opcion: 10
+Opcion: 9 _correcta
+Opcion: 11
+Opcion: 12
+
+Id: 10
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 10.jpg
+Opcion: 9
+Opcion: 10 _correcta
+Opcion: 11
+Opcion: 12
+
+Id: 11
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 11.jpg
+Opcion: 10
+Opcion: 11 _correcta
+Opcion: 9
+Opcion: 12
+
+Id: 12
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 12.jpg
+Opcion: 10
+Opcion: 12 _correcta
+Opcion: 11
+Opcion: 9
+
+Id: 13
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 13.jpg
+Opcion: 14
+Opcion: 13 _correcta
+Opcion: 15
+Opcion: 16
+
+Id: 14
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 14.jpg
+Opcion: 13
+Opcion: 14 _correcta
+Opcion: 15
+Opcion: 16
+
+Id: 15
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 15.jpg
+Opcion: 13
+Opcion: 15 _correcta
+Opcion: 14
+Opcion: 16
+
+Id: 16
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 16.jpg
+Opcion: 14
+Opcion: 16 _correcta
+Opcion: 15
+Opcion: 13
+
+Id: 17
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 17.jpg
+Opcion: 18
+Opcion: 17 _correcta
+Opcion: 19
+Opcion: 20
+
+Id: 18
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 18.jpg
+Opcion: 17
+Opcion: 18 _correcta
+Opcion: 19
+Opcion: 20
+
+Id: 19
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 19.jpg
+Opcion: 18
+Opcion: 19 _correcta
+Opcion: 17
+Opcion: 20
+
+Id: 20
+Materia: Matemáticas
+Categoria: Conteo de Elementos
+Pregunta: ¿Cuántos elementos observas en la imágen?
+Imagen: 20.jpg
+Opcion: 18
+Opcion: 20 _correcta
+Opcion: 19
+Opcion: 17
+
+Id:21
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: ¿Cuáles son los Números Ascendentes?
+Opcion: Los que inician de menos a más. _correcta
+Opcion: Los que inician de más a menos.
+Opcion: Los que son iguales.
+Opcion: Los  que son diferentes.
+
+Id: 22
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: La siguiente imágen representa los...
+Imagen: 22.jpg
+Opcion: Números Ascendentes. _correcta
+Opcion: Números Descendentes.
+Opcion: Números iguales.
+Opcion: Signos.
+
+Id:23
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: ¿Qué números en orden ascendente faltan en la siguiente imágen?
+Imagen: 23.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:24
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: ¿Qué números en orden ascendente faltan en la siguiente imágen?
+Imagen: 24.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:25
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: ¿Qué números en orden ascendente faltan en la siguiente imágen?
+Imagen: 25.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:26
+Materia: Matemáticas
+Categoria: Números Ascendentes
+Pregunta: ¿Qué números en orden ascendente faltan en la siguiente imágen?
+Imagen: 26.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:27
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Cuáles son los Números Descendentes?
+Opcion: Los que inician de menos a más.
+Opcion: Los que inician de más a menos. _correcta
+Opcion: Los que son iguales.
+Opcion: Los  que son diferentes.
+
+Id: 28
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: La siguiente imágen representa los...
+Imagen: 28.jpg
+Opcion: Números Ascendentes.
+Opcion: Números Descendentes. _correcta
+Opcion: Números iguales.
+Opcion: Signos.
+
+Id:29
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Qué números en orden descendente faltan en la siguiente imágen?
+Imagen: 29.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:30
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Qué números en orden descendente faltan en la siguiente imágen?
+Imagen: 30.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:31
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Qué números en orden descendente faltan en la siguiente imágen?
+Imagen: 31.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:32
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Qué números en orden descendente faltan en la siguiente imágen?
+Imagen: 32.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:33
+Materia: Matemáticas
+Categoria: Números Descendentes
+Pregunta: ¿Qué números en orden descendente faltan en la siguiente imágen?
+Imagen: 29.jpg
+Opcion:
+Opcion:
+Opcion:
+Opcion:
+
+Id:34
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 1?
+Respuesta: Uno
+
+Id:35
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 2?
+Respuesta: Dos
+
+Id:36
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 3?
+Respuesta: Tres
+
+Id:37
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 4?
+Respuesta: Cuatro
+
+Id:38
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 5?
+Respuesta: Cinco
+
+Id:39
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 6?
+Respuesta: Seis
+
+Id:40
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 7?
+Respuesta: Siete
+
+Id:41
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 8?
+Respuesta: Ocho
+
+Id:42
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 9?
+Respuesta: Nueve
+
+Id:43
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 10?
+Respuesta: Diez
+
+Id:44
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 11?
+Respuesta: Once
+
+Id:45
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 12?
+Respuesta: Doce
+
+Id:46
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 13?
+Respuesta: Trece
+
+Id:47
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 14?
+Respuesta: Catorce
+
+Id:48
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 15?
+Respuesta: Quince
+
+Id:49
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 16?
+Respuesta: Dieciséis
+
+Id:50
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 17?
+Respuesta: Diecisiete
+
+Id:51
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 18?
+Respuesta: Dieciocho
+
+Id:52
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 19?
+Respuesta: Diecinueve
+
+Id:53
+Materia: Matemáticas
+Categoria: Escritura correcta de números
+Pregunta: ¿Cómo se escribe el número 20?
+Respuesta: Veinte
+
+Id:54
+Materia: Matemáticas
+Categoria: Antecesor y Sucesor
+Pregunta: ¿Qué número va antes del 4?
+Opcion:
+Opcion:
+Opcion:
+Opcion:

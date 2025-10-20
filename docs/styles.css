@@ -253,6 +253,50 @@ header h1 {
     opacity: 0.7;
 }
 
+/* Input de texto para respuestas */
+.text-input-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.text-answer-input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+    text-align: center;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.text-answer-input:focus {
+    outline: none;
+    border-color: #4ecdc4;
+    box-shadow: 0 0 15px rgba(78, 205, 196, 0.3);
+    transform: scale(1.02);
+}
+
+.text-answer-input:disabled {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.text-answer-input.correct-input {
+    border-color: #2ecc71;
+    background: #d4edda;
+    animation: pulse 0.5s ease;
+}
+
+.text-answer-input.incorrect-input {
+    border-color: #e74c3c;
+    background: #f8d7da;
+    animation: shake 0.5s ease;
+}
+
 /* Botones */
 #buttons-container {
     display: flex;
