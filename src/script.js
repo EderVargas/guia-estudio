@@ -24,6 +24,11 @@ const SUBJECTS = {
         title: '🌍 Conocimiento del Medio',
         jsonFile: 'assets/conocimientoMedio.json',
         storagePrefix: 'cm_'
+    },
+    'formacionCivicaEtica': {
+        title: '🤝 Formación Cívica y Ética',
+        jsonFile: 'assets/formacionCivicaEtica.json',
+        storagePrefix: 'fce_'
     }
 };
 
@@ -39,6 +44,19 @@ const STORAGE_KEYS = {
 
 // Usar sessionStorage en lugar de localStorage
 const storage = sessionStorage;
+
+// Limpiar sesión de la materia actual si viene del menú
+const LAST_SUBJECT_KEY = 'lastSubject';
+const lastSubject = storage.getItem(LAST_SUBJECT_KEY);
+
+if (lastSubject && lastSubject !== selectedSubject) {
+    // El usuario cambió de materia, limpiar la sesión de la materia actual
+    storage.removeItem(STORAGE_KEYS.ANSWERED_QUESTIONS);
+    storage.removeItem(STORAGE_KEYS.INCORRECT_QUESTIONS);
+}
+
+// Guardar la materia actual
+storage.setItem(LAST_SUBJECT_KEY, selectedSubject);
 
 // Variables globales
 let allQuestionsData = []; // Todas las preguntas del JSON

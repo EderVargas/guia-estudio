@@ -229,7 +229,7 @@
     {
       "id": 19,
       "category": "Plato del bien comer",
-      "question": "¿Cuáles son dos alimentos del grupo rojo?",
+      "question": "¿Cuáles son alimentos del grupo rojo?",
       "type": "multiple-choice",
       "answers": [
         { "option": "Zanahoria y Mango" },

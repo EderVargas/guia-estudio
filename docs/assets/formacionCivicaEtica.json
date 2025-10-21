@@ -1,0 +1,136 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "Las Reglas",
+			"question": "¿Qué son las reglas?",
+			"answers": [
+				{ "option": "Indicaciones para no tener accidentes.", "correct": true },
+				{ "option": "Situaciones para buscar hacer equipo." },
+				{ "option": "Indicaciones para romper cosas." },
+				{ "option": "Indicaciones para molestar a las personas." }
+			]
+		},
+		{
+			"id": 2,
+			"category": "Las Reglas",
+			"question": "¿Dónde encontramos reglas?",
+			"answers": [
+				{ "option": "En la casa, la escuela y la calle.", "correct": true },
+				{ "option": "En los libros." },
+				{ "option": "En las lapiceras." },
+				{ "option": "En el plato del buen comer." }
+			]
+		},
+		{
+			"id": 3,
+			"category": "Las Reglas",
+			"question": "La casa, la escuela y la calle son lugares en los que…",
+			"answers": [
+				{ "option": "Encontramos las reglas.", "correct": true },
+				{ "option": "Guardamos nuestros colores." },
+				{ "option": "Gritamos mucho." },
+				{ "option": "Golpeamos a nuestros compañeros." }
+			]
+		},
+		{
+			"id": 4,
+			"category": "Las Reglas",
+			"question": "La niña de la siguiente imagen está…",
+			"image": "assets/images/formacionCivicaEtica/4.jpg",
+			"answers": [
+				{ "option": "Siguiendo las reglas.", "correct": true },
+				{ "option": "Gritando." },
+				{ "option": "Soñando." },
+				{ "option": "Jugando." }
+			]
+		},
+		{
+			"id": 5,
+			"category": "Riesgos y Accidentes",
+			"question": "¿Qué es el riesgo?",
+			"answers": [
+				{ "option": "Ponerme en peligro yo y a los demás.", "correct": true },
+				{ "option": "Tratar bien a los demás." },
+				{ "option": "Comer frutas y verduras." },
+				{ "option": "Seguir las recomendaciones de la jarra del buen beber." }
+			]
+		},
+		{
+			"id": 6,
+			"category": "Riesgos y Accidentes",
+			"question": "¿Qué pasa si corremos riesgos?",
+			"answers": [
+				{ "option": "Nos lastimamos nuestro cuerpo o el de los demás.", "correct": true },
+				{ "option": "Nos dan dulces." },
+				{ "option": "Somos felices." },
+				{ "option": "Nos da sueño." }
+			]
+		},
+		{
+			"id": 7,
+			"category": "Riesgos y Accidentes",
+			"question": "El niño de la siguiente imagen está cuidando de su cuerpo y no está poniendo en riesgo a nadie.",
+			"image": "assets/images/formacionCivicaEtica/7.jpg",
+			"answers": [
+				{ "option": "Sí" },
+				{ "option": "No", "correct": true }
+			]
+		},
+		{
+			"id": 8,
+			"category": "Respeto",
+			"question": "¿Qué es el respeto?",
+			"answers": [
+				{ "option": "Escuchar a los profesores y compañeros.", "correct": true },
+				{ "option": "Jugar atrapadas." },
+				{ "option": "Masticar chicle." },
+				{ "option": "Soñar." }
+			]
+		},
+		{
+			"id": 9,
+			"category": "Respeto",
+			"question": "Tratar bien a los demás es signo de…",
+			"answers": [
+				{ "option": "Respeto.", "correct": true },
+				{ "option": "Hambre." },
+				{ "option": "Sueño." },
+				{ "option": "Sed." }
+			]
+		},
+		{
+			"id": 10,
+			"category": "Respeto",
+			"question": "Cuando seguimos las reglas del aula practicamos el…",
+			"answers": [
+				{ "option": "Respeto.", "correct": true },
+				{ "option": "Juego." },
+				{ "option": "Deseo de comprar cosas." },
+				{ "option": "Sentir hambre." }
+			]
+		},
+		{
+			"id": 11,
+			"category": "Respeto",
+			"question": "El niño de la siguiente imagen está practicando…",
+			"image": "assets/images/formacionCivicaEtica/11.jpg",
+			"answers": [
+				{ "option": "El Respeto.", "correct": true },
+				{ "option": "La Paz." },
+				{ "option": "El amor." },
+				{ "option": "El hambre." }
+			]
+		},
+		{
+			"id": 12,
+			"category": "Respeto",
+			"question": "¿El niño de la siguiente imagen está practicando el Respeto?",
+			"image": "assets/images/formacionCivicaEtica/12.jpg",
+			"answers": [
+				{ "option": "Sí" },
+				{ "option": "No", "correct": true }
+			]
+		}
+	]
+}

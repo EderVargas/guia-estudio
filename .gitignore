@@ -58,3 +58,4 @@ docs/assets/images/_optimization_report.txt
 config.local.json
 *.local.*
 
+/assets/*
