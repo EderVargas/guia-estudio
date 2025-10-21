@@ -4,7 +4,7 @@
       "id": 1,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/1.jpg",
+      "image": "assets/images/matematicas/1.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1", "correct": true },
@@ -17,7 +17,7 @@
       "id": 2,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/2.jpg",
+      "image": "assets/images/matematicas/2.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1" },
@@ -30,7 +30,7 @@
       "id": 3,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/3.jpg",
+      "image": "assets/images/matematicas/3.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1" },
@@ -43,7 +43,7 @@
       "id": 4,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/4.jpg",
+      "image": "assets/images/matematicas/4.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1" },
@@ -56,7 +56,7 @@
       "id": 5,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/5.jpg",
+      "image": "assets/images/matematicas/5.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "6" },
@@ -69,7 +69,7 @@
       "id": 6,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/6.jpg",
+      "image": "assets/images/matematicas/6.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "5" },
@@ -82,7 +82,7 @@
       "id": 7,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/7.jpg",
+      "image": "assets/images/matematicas/7.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "6" },
@@ -95,7 +95,7 @@
       "id": 8,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/8.jpg",
+      "image": "assets/images/matematicas/8.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "6" },
@@ -108,7 +108,7 @@
       "id": 9,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/9.jpg",
+      "image": "assets/images/matematicas/9.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "10" },
@@ -121,7 +121,7 @@
       "id": 10,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/10.jpg",
+      "image": "assets/images/matematicas/10.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "9" },
@@ -134,7 +134,7 @@
       "id": 11,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/11.jpg",
+      "image": "assets/images/matematicas/11.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "10" },
@@ -147,7 +147,7 @@
       "id": 12,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/12.jpg",
+      "image": "assets/images/matematicas/12.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "10" },
@@ -160,7 +160,7 @@
       "id": 13,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/13.jpg",
+      "image": "assets/images/matematicas/13.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "14" },
@@ -173,7 +173,7 @@
       "id": 14,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/14.jpg",
+      "image": "assets/images/matematicas/14.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "13" },
@@ -186,7 +186,7 @@
       "id": 15,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/15.jpg",
+      "image": "assets/images/matematicas/15.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "13" },
@@ -199,7 +199,7 @@
       "id": 16,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/16.jpg",
+      "image": "assets/images/matematicas/16.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "14" },
@@ -212,7 +212,7 @@
       "id": 17,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/17.png",
+      "image": "assets/images/matematicas/17.png",
       "type": "multiple-choice",
       "answers": [
         { "option": "18" },
@@ -225,7 +225,7 @@
       "id": 18,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/18.jpg",
+      "image": "assets/images/matematicas/18.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "17" },
@@ -238,7 +238,7 @@
       "id": 19,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/19.jpg",
+      "image": "assets/images/matematicas/19.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "18" },
@@ -251,7 +251,7 @@
       "id": 20,
       "category": "Conteo de Elementos",
       "question": "¿Cuántos elementos de esta colección observas en la imagen?",
-      "image": "assets/images/20.jpg",
+      "image": "assets/images/matematicas/20.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "18" },
@@ -276,7 +276,7 @@
       "id": 22,
       "category": "Números Ascendentes",
       "question": "La siguiente imagen representa los...",
-      "image": "assets/images/22.jpg",
+      "image": "assets/images/matematicas/22.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "Números Ascendentes.", "correct": true },
@@ -289,7 +289,7 @@
       "id": 23,
       "category": "Números Ascendentes",
       "question": "¿Qué números en orden ascendente faltan en la siguiente imagen?",
-      "image": "assets/images/23.jpg",
+      "image": "assets/images/matematicas/23.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1, 3, 5", "correct": true },
@@ -302,7 +302,7 @@
       "id": 24,
       "category": "Números Ascendentes",
       "question": "¿Qué números en orden ascendente faltan en la siguiente imagen?",
-      "image": "assets/images/24.jpg",
+      "image": "assets/images/matematicas/24.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1, 3, 5" },
@@ -315,7 +315,7 @@
       "id": 25,
       "category": "Números Ascendentes",
       "question": "¿Qué números en orden ascendente faltan en la siguiente imagen?",
-      "image": "assets/images/25.jpg",
+      "image": "assets/images/matematicas/25.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1, 3, 5" },
@@ -328,7 +328,7 @@
       "id": 26,
       "category": "Números Ascendentes",
       "question": "¿Qué números en orden ascendente faltan en la siguiente imagen?",
-      "image": "assets/images/26.jpg",
+      "image": "assets/images/matematicas/26.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "1, 3, 5" },
@@ -353,7 +353,7 @@
       "id": 28,
       "category": "Números Descendentes",
       "question": "La siguiente imagen representa los...",
-      "image": "assets/images/28.jpg",
+      "image": "assets/images/matematicas/28.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "Números Ascendentes." },
@@ -366,7 +366,7 @@
       "id": 29,
       "category": "Números Descendentes",
       "question": "¿Qué números en orden descendente faltan en la siguiente imagen?",
-      "image": "assets/images/29.jpg",
+      "image": "assets/images/matematicas/29.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "4, 2", "correct": true },
@@ -379,7 +379,7 @@
       "id": 30,
       "category": "Números Descendentes",
       "question": "¿Qué números en orden descendente faltan en la siguiente imagen?",
-      "image": "assets/images/30.jpg",
+      "image": "assets/images/matematicas/30.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "4, 2" },
@@ -392,7 +392,7 @@
       "id": 31,
       "category": "Números Descendentes",
       "question": "¿Qué números en orden descendente faltan en la siguiente imagen?",
-      "image": "assets/images/31.jpg",
+      "image": "assets/images/matematicas/31.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "4, 2" },
@@ -405,7 +405,7 @@
       "id": 32,
       "category": "Números Descendentes",
       "question": "¿Qué números en orden descendente faltan en la siguiente imagen?",
-      "image": "assets/images/32.jpg",
+      "image": "assets/images/matematicas/32.jpg",
       "type": "multiple-choice",
       "answers": [
         { "option": "4, 2" },
@@ -654,7 +654,7 @@
       "id": 61,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas piñas faltan para completar 10?",
-      "image": "assets/images/1.jpg",
+      "image": "assets/images/matematicas/1.jpg",
       "type": "text-input",
       "correctAnswer": "9"
     },
@@ -662,7 +662,7 @@
       "id": 62,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas cerezas faltan para completar 10?",
-      "image": "assets/images/2.jpg",
+      "image": "assets/images/matematicas/2.jpg",
       "type": "text-input",
       "correctAnswer": "8"
     },
@@ -670,7 +670,7 @@
       "id": 63,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas blueberryes faltan para completar 10?",
-      "image": "assets/images/3.jpg",
+      "image": "assets/images/matematicas/3.jpg",
       "type": "text-input",
       "correctAnswer": "7"
     },
@@ -678,7 +678,7 @@
       "id": 64,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas manzanas faltan para completar 10?",
-      "image": "assets/images/4.jpg",
+      "image": "assets/images/matematicas/4.jpg",
       "type": "text-input",
       "correctAnswer": "6"
     },
@@ -686,7 +686,7 @@
       "id": 65,
       "category": "Sumas para completar 10",
       "question": "¿Cuántos peces faltan para completar 10?",
-      "image": "assets/images/5.jpg",
+      "image": "assets/images/matematicas/5.jpg",
       "type": "text-input",
       "correctAnswer": "5"
     },
@@ -694,7 +694,7 @@
       "id": 66,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas tortugas faltan para completar 10?",
-      "image": "assets/images/6.jpg",
+      "image": "assets/images/matematicas/6.jpg",
       "type": "text-input",
       "correctAnswer": "4"
     },
@@ -702,7 +702,7 @@
       "id": 67,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas pizzas faltan para completar 10?",
-      "image": "assets/images/7.jpg",
+      "image": "assets/images/matematicas/7.jpg",
       "type": "text-input",
       "correctAnswer": "3"
     },
@@ -710,7 +710,7 @@
       "id": 68,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas lechitas faltan para completar 10?",
-      "image": "assets/images/8.jpg",
+      "image": "assets/images/matematicas/8.jpg",
       "type": "text-input",
       "correctAnswer": "2"
     },
@@ -718,7 +718,7 @@
       "id": 69,
       "category": "Sumas para completar 10",
       "question": "¿Cuántas mariposas faltan para completar 10?",
-      "image": "assets/images/9.jpg",
+      "image": "assets/images/matematicas/9.jpg",
       "type": "text-input",
       "correctAnswer": "1"
     }

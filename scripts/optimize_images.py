@@ -25,8 +25,11 @@ from pathlib import Path
 # ========== CONFIGURACIÓN ==========
 CONFIG = {
     # Carpetas (rutas desde la raíz del proyecto)
-    'input_folder': '../assets/images/originales',
-    'output_folder': '../docs/assets/images',
+    'input_base': '../assets/images/originales',
+    'output_base': '../docs/assets/images',
+    
+    # Materias a procesar
+    'subjects': ['matematicas', 'lenguajes'],
     
     # Calidad de compresión (1-100, recomendado: 70-85)
     'jpeg_quality': 80,
@@ -181,36 +184,48 @@ def main():
     print("OPTIMIZADOR DE IMAGENES PARA CUESTIONARIOS")
     print("=" * 60 + "\n")
     
-    # Crear carpetas si no existen
-    os.makedirs(CONFIG['input_folder'], exist_ok=True)
-    os.makedirs(CONFIG['output_folder'], exist_ok=True)
+    all_results = []
     
-    # Obtener lista de imágenes
-    supported_formats = ('.jpg', '.jpeg', '.png', '.webp')
-    image_files = [
-        f for f in os.listdir(CONFIG['input_folder'])
-        if f.lower().endswith(supported_formats)
-    ]
-    
-    if not image_files:
-        print(f"ERROR: No se encontraron imagenes en: {CONFIG['input_folder']}")
-        print(f"\nColoca tus imagenes en la carpeta '{CONFIG['input_folder']}' y vuelve a ejecutar.")
-        return
-    
-    print(f"Carpeta de entrada: {CONFIG['input_folder']}")
-    print(f"Carpeta de salida: {CONFIG['output_folder']}")
-    print(f"Imagenes encontradas: {len(image_files)}\n")
-    
-    # Procesar cada imagen
-    results = []
-    for i, file_name in enumerate(image_files, 1):
-        print(f"[{i}/{len(image_files)}]", end=" ")
-        input_path = os.path.join(CONFIG['input_folder'], file_name)
-        result = optimize_image(input_path, CONFIG['output_folder'], CONFIG)
-        results.append(result)
-    
-    # Generar reporte
-    generate_report(results, CONFIG['output_folder'])
+    # Procesar cada materia
+    for subject in CONFIG['subjects']:
+        input_folder = os.path.join(CONFIG['input_base'], subject)
+        output_folder = os.path.join(CONFIG['output_base'], subject)
+        
+        # Crear carpetas si no existen
+        os.makedirs(input_folder, exist_ok=True)
+        os.makedirs(output_folder, exist_ok=True)
+        
+        # Obtener lista de imágenes
+        supported_formats = ('.jpg', '.jpeg', '.png', '.webp')
+        
+        if not os.path.exists(input_folder):
+            print(f"Saltando {subject}: carpeta no existe\n")
+            continue
+            
+        image_files = [
+            f for f in os.listdir(input_folder)
+            if f.lower().endswith(supported_formats)
+        ]
+        
+        if not image_files:
+            print(f"Saltando {subject}: no hay imagenes\n")
+            continue
+        
+        print(f"\nPROCESANDO: {subject.upper()}")
+        print(f"Carpeta de entrada: {input_folder}")
+        print(f"Carpeta de salida: {output_folder}")
+        print(f"Imagenes encontradas: {len(image_files)}\n")
+        
+        # Procesar cada imagen
+        for i, file_name in enumerate(image_files, 1):
+            print(f"[{i}/{len(image_files)}]", end=" ")
+            input_path = os.path.join(input_folder, file_name)
+            result = optimize_image(input_path, output_folder, CONFIG)
+            all_results.append(result)
+        
+        # Generar reporte por materia
+        generate_report([r for r in all_results if r], output_folder)
+        all_results = []
     
     print("\n" + "=" * 60)
     print("OPTIMIZACION COMPLETADA")

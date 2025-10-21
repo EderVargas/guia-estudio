@@ -4,11 +4,32 @@
  * Versión 2.1 - Con gestión de progreso y sessionStorage
  */
 
+// Obtener la materia desde la URL
+const urlParams = new URLSearchParams(window.location.search);
+const selectedSubject = urlParams.get('subject') || 'lenguajes';
+
+// Configuración de materias
+const SUBJECTS = {
+    'matematicas': {
+        title: '🔢 Matemáticas',
+        jsonFile: 'assets/matematicas.json',
+        storagePrefix: 'math_'
+    },
+    'lenguajes': {
+        title: '📚 Lenguajes',
+        jsonFile: 'assets/lenguajes.json',
+        storagePrefix: 'lang_'
+    }
+};
+
+// Obtener configuración de la materia actual
+const currentSubject = SUBJECTS[selectedSubject];
+
 // Constantes
 const QUESTIONS_PER_QUIZ = 10;
 const STORAGE_KEYS = {
-    ANSWERED_QUESTIONS: 'answeredQuestions',
-    INCORRECT_QUESTIONS: 'incorrectQuestions'
+    ANSWERED_QUESTIONS: currentSubject.storagePrefix + 'answeredQuestions',
+    INCORRECT_QUESTIONS: currentSubject.storagePrefix + 'incorrectQuestions'
 };
 
 // Usar sessionStorage en lugar de localStorage
@@ -157,8 +178,14 @@ function getProgressStats() {
  */
 async function loadQuestions() {
     try {
-        // const response = await fetch('assets/lenguajes.json');
-        const response = await fetch('assets/matematicas.json');
+        // Actualizar el título de la página con la materia seleccionada
+        const titleElement = document.getElementById('quiz-title');
+        if (titleElement) {
+            titleElement.textContent = currentSubject.title;
+        }
+        
+        // Cargar el JSON correspondiente a la materia
+        const response = await fetch(currentSubject.jsonFile);
         const data = await response.json();
         allQuestionsData = data.data;
         

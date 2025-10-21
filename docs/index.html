@@ -1,84 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cuestionario Interactivo</title>
-        <link rel="stylesheet" href="styles.css">
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KLM05R1ECY"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Estudio - Selecciona una Materia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        gtag('config', 'G-KLM05R1ECY');
-        </script>
+        body {
+            font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 50px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .subject-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 40px 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .subject-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .subject-card.matematicas {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .subject-card.lenguajes {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .subject-icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .subject-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subject-description {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .subjects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Contenedor principal -->
     <div class="container">
-        <!-- Encabezado -->
-        <header>
-            <h1>🎯 Cuestionario Divertido 🎯</h1>
-            <div id="progress">
-                <span>
-                    Pregunta <span id="current-question">1</span> de <span id="total-questions">0</span>
-                    <button id="info-btn" class="info-icon" title="Ver información de progreso">ℹ️</button>
-                </span>
-                <span class="score">Aciertos: <span id="score">0</span></span>
-            </div>
-        </header>
+        <h1>Guía de Estudio</h1>
+        <p class="subtitle">Selecciona la materia que quieres practicar</p>
 
-        <!-- Área de la pregunta -->
-        <div id="quiz-container">
+        <div class="subjects-grid">
+            <a href="quiz.html?subject=matematicas" class="subject-card matematicas">
+                <span class="subject-icon">🔢</span>
+                <div class="subject-title">Matemáticas</div>
+                <div class="subject-description">Números, sumas y conteo</div>
+            </a>
 
-            <!-- Mensaje de retroalimentación -->
-            <div id="feedback" style="display: none;"></div>
-
-            <div id="question-container">
-                <h2 id="question-text"></h2>
-            </div>
-
-            <!-- Área de respuestas -->
-            <div id="answers-container"></div>
-
-            <!-- Botones de acción -->
-            <div id="buttons-container">
-                <button id="verify-btn" class="btn btn-primary">Verificar Respuesta</button>
-                <button id="next-btn" class="btn btn-secondary" style="display: none;">Siguiente Pregunta</button>
-            </div>
-
-        </div>
-
-        <!-- Pantalla final -->
-        <div id="final-screen" style="display: none;">
-            <h2>🎉 ¡Completaste el cuestionario! 🎉</h2>
-            <div id="final-score"></div>
-            <button id="restart-btn" class="btn btn-primary">Volver a Empezar</button>
-        </div>
-
-        <!-- Enlace para limpiar sesión -->
-        <div style="text-align: center; margin-top: 30px; padding-bottom: 20px;">
-            <a href="#" id="clear-session-link" style="font-size: 0.75rem; color: #666; text-decoration: none; opacity: 0.7;">
-                Limpiar sesión
+            <a href="quiz.html?subject=lenguajes" class="subject-card lenguajes">
+                <span class="subject-icon">📚</span>
+                <div class="subject-title">Lenguajes</div>
+                <div class="subject-description">Vocales, letras y palabras</div>
             </a>
         </div>
+
+        <footer>
+            Hecho con ❤️ para hacer el aprendizaje más divertido
+            <br>
+            &copy; 2025 EGLG
+        </footer>
     </div>
-
-    <!-- Canvas para el efecto de confeti -->
-    <canvas id="confetti-canvas"></canvas>
-
-    <!-- Modal de información de progreso -->
-    <div id="info-modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>📊 Información de Progreso</h2>
-            <div id="modal-info-content"></div>
-        </div>
-    </div>
-
-    <!-- Script principal -->
-    <script src="script.min.js"></script>
 </body>
 </html>
