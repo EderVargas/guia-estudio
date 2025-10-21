@@ -19,6 +19,11 @@ const SUBJECTS = {
         title: '📚 Lenguajes',
         jsonFile: 'assets/lenguajes.json',
         storagePrefix: 'lang_'
+    },
+    'conocimientoMedio': {
+        title: '🌍 Conocimiento del Medio',
+        jsonFile: 'assets/conocimientoMedio.json',
+        storagePrefix: 'cm_'
     }
 };
 

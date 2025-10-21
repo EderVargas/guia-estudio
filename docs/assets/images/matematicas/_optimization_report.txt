@@ -1,0 +1,158 @@
+============================================================
+REPORTE DE OPTIMIZACIÓN DE IMÁGENES
+============================================================
+
+Archivo: 1.jpg
+  Original: 5.31 KB
+  JPEG: 3.72 KB
+  WebP: 3.15 KB
+
+Archivo: 10.jpg
+  Original: 7.50 KB
+  JPEG: 5.20 KB
+  WebP: 4.33 KB
+
+Archivo: 11.jpg
+  Original: 8.19 KB
+  JPEG: 5.78 KB
+  WebP: 5.26 KB
+
+Archivo: 12.jpg
+  Original: 8.15 KB
+  JPEG: 5.65 KB
+  WebP: 4.93 KB
+
+Archivo: 13.jpg
+  Original: 7.59 KB
+  JPEG: 5.33 KB
+  WebP: 4.63 KB
+
+Archivo: 14.jpg
+  Original: 8.74 KB
+  JPEG: 6.11 KB
+  WebP: 5.58 KB
+
+Archivo: 15.jpg
+  Original: 8.47 KB
+  JPEG: 5.89 KB
+  WebP: 5.30 KB
+
+Archivo: 16.jpg
+  Original: 9.55 KB
+  JPEG: 6.68 KB
+  WebP: 6.40 KB
+
+Archivo: 17.png
+  Original: 45.67 KB
+  PNG: 39.09 KB
+  WebP: 6.12 KB
+
+Archivo: 18.jpg
+  Original: 6.69 KB
+  JPEG: 4.51 KB
+  WebP: 3.96 KB
+
+Archivo: 19.jpg
+  Original: 12.42 KB
+  JPEG: 8.66 KB
+  WebP: 7.29 KB
+
+Archivo: 2.jpg
+  Original: 3.87 KB
+  JPEG: 2.65 KB
+  WebP: 1.80 KB
+
+Archivo: 20.jpg
+  Original: 12.79 KB
+  JPEG: 8.49 KB
+  WebP: 8.12 KB
+
+Archivo: 22.jpg
+  Original: 12.84 KB
+  JPEG: 8.72 KB
+  WebP: 5.64 KB
+
+Archivo: 23.jpg
+  Original: 3.96 KB
+  JPEG: 2.53 KB
+  WebP: 0.86 KB
+
+Archivo: 24.jpg
+  Original: 4.92 KB
+  JPEG: 3.19 KB
+  WebP: 1.43 KB
+
+Archivo: 25.jpg
+  Original: 5.12 KB
+  JPEG: 3.27 KB
+  WebP: 1.16 KB
+
+Archivo: 26.jpg
+  Original: 6.32 KB
+  JPEG: 4.16 KB
+  WebP: 1.84 KB
+
+Archivo: 28.jpg
+  Original: 16.43 KB
+  JPEG: 11.25 KB
+  WebP: 6.96 KB
+
+Archivo: 29.jpg
+  Original: 4.17 KB
+  JPEG: 2.63 KB
+  WebP: 1.04 KB
+
+Archivo: 3.jpg
+  Original: 3.56 KB
+  JPEG: 2.41 KB
+  WebP: 1.57 KB
+
+Archivo: 30.jpg
+  Original: 3.94 KB
+  JPEG: 2.46 KB
+  WebP: 0.90 KB
+
+Archivo: 31.jpg
+  Original: 4.82 KB
+  JPEG: 3.05 KB
+  WebP: 1.10 KB
+
+Archivo: 32.jpg
+  Original: 6.11 KB
+  JPEG: 4.03 KB
+  WebP: 1.71 KB
+
+Archivo: 4.jpg
+  Original: 5.41 KB
+  JPEG: 3.71 KB
+  WebP: 2.61 KB
+
+Archivo: 5.jpg
+  Original: 8.53 KB
+  JPEG: 5.87 KB
+  WebP: 4.86 KB
+
+Archivo: 6.jpg
+  Original: 8.72 KB
+  JPEG: 5.97 KB
+  WebP: 5.01 KB
+
+Archivo: 7.jpg
+  Original: 13.26 KB
+  JPEG: 9.12 KB
+  WebP: 8.37 KB
+
+Archivo: 8.jpg
+  Original: 12.32 KB
+  JPEG: 8.61 KB
+  WebP: 7.53 KB
+
+Archivo: 9.jpg
+  Original: 7.72 KB
+  JPEG: 5.40 KB
+  WebP: 4.56 KB
+
+------------------------------------------------------------
+TOTAL ORIGINAL: 273.07 KB
+TOTAL OPTIMIZADO: 318.19 KB
+REDUCCIÓN TOTAL: -16.5%

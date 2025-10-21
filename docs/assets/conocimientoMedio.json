@@ -1,0 +1,290 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/1.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cabeza", "correct": true },
+        { "option": "Ojos" },
+        { "option": "Nariz" },
+        { "option": "Boca" }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/2.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cabeza" },
+        { "option": "Ojos" },
+        { "option": "Nariz", "correct": true },
+        { "option": "Boca" }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/3.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cabeza" },
+        { "option": "Ojos", "correct": true },
+        { "option": "Nariz" },
+        { "option": "Boca" }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/4.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cabeza" },
+        { "option": "Ojos" },
+        { "option": "Nariz" },
+        { "option": "Boca", "correct": true }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/5.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello", "correct": true },
+        { "option": "Tronco" },
+        { "option": "Pierna" },
+        { "option": "Brazo" }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/6.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello" },
+        { "option": "Mano", "correct": true },
+        { "option": "Pierna" },
+        { "option": "Brazo" }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/7.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello" },
+        { "option": "Tronco", "correct": true },
+        { "option": "Pierna" },
+        { "option": "Brazo" }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/8.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello" },
+        { "option": "Tronco" },
+        { "option": "Pierna" },
+        { "option": "Brazo", "correct": true }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/9.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello" },
+        { "option": "Tronco" },
+        { "option": "Pierna" },
+        { "option": "Pie", "correct": true }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Qué parte del cuerpo es la que falta en el recuadro rojo?",
+      "image": "assets/images/conocimientoMedio/10.jpg",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Cuello" },
+        { "option": "Tronco" },
+        { "option": "Pierna", "correct": true },
+        { "option": "Brazo" }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Cuál es una de las recomendaciones para cuidar mi cuerpo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Comer sanamente", "correct": true },
+        { "option": "Ver las Guerreras del K-Pop" },
+        { "option": "Tomar jugo de mango" },
+        { "option": "Comer tierra" }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Nombre de las partes del cuerpo",
+      "question": "¿Cuál es una de las recomendaciones para cuidar mi cuerpo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Lavar mis dientes y manos", "correct": true },
+        { "option": "Bailar como las Huntrix" },
+        { "option": "Beber Soda Pop" },
+        { "option": "Bailar como los Saja Boys" }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Plato del bien comer",
+      "question": "¿Para qué sirve el Plato del Bien Comer?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Para enseñarnos a comer bien y estar sanos y fuertes", "correct": true },
+        { "option": "Para jugar en equipo" },
+        { "option": "Para bailar sin cesar" },
+        { "option": "Para hacerle bromas a mis compañeros del salón" }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Plato del bien comer",
+      "question": "¿Qué tipo de alimentos hay en el grupo verde?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Frutas y Verduras", "correct": true },
+        { "option": "Cereales" },
+        { "option": "Leguminosas" },
+        { "option": "Alimentos de Origen Animal" }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Plato del bien comer",
+      "question": "¿Qué tipo de alimentos hay en el grupo amarillo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Frutas y Verduras" },
+        { "option": "Cereales", "correct": true },
+        { "option": "Leguminosas" },
+        { "option": "Alimentos de Origen Animal" }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Plato del bien comer",
+      "question": "¿Qué tipo de alimentos hay en el grupo rojo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Frutas y Verduras" },
+        { "option": "Cereales" },
+        { "option": "Leguminosas y Alimentos de Origen Animal", "correct": true },
+        { "option": "Dulces y Golosinas" }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Plato del bien comer",
+      "question": "¿Cuáles son dos alimentos del grupo amarillo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Zanahoria y Mango" },
+        { "option": "Pan y Tortilla", "correct": true },
+        { "option": "Frijol, Lenteja, Pescado y Huevo" },
+        { "option": "Paleta Payaso y Danonino" }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Plato del bien comer",
+      "question": "¿Cuáles son dos alimentos del grupo verde?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Zanahoria y Mango", "correct": true },
+        { "option": "Pan y Tortilla" },
+        { "option": "Frijol, Lenteja, Pescado y Huevo" },
+        { "option": "Paleta Payaso y Danonino" }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Plato del bien comer",
+      "question": "¿Cuáles son dos alimentos del grupo rojo?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Zanahoria y Mango" },
+        { "option": "Pan y Tortilla" },
+        { "option": "Frijol, Lenteja, Pescado y Huevo", "correct": true },
+        { "option": "Paleta Payaso y Danonino" }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Plato del bien comer",
+      "question": "¿Qué no debemos consumir o consumir muy poco porque es dañino para la salud?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Zanahoria y Mango" },
+        { "option": "Pan y Tortilla" },
+        { "option": "Frijol, Lenteja, Pescado y Huevo" },
+        { "option": "Paleta Payaso, Danonino, Papitas", "correct": true }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Jarra del buen beber",
+      "question": "¿Cuántos vasos de agua potable natural debemos tomar al día?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "6 a 8 vasos", "correct": true },
+        { "option": "0 a 4 vasos" },
+        { "option": "0 a 2 vasos" },
+        { "option": "0 vasos" }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Jarra del buen beber",
+      "question": "¿Cuántos vasos de refrescos y agua de sabor se recomienda beber al día?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "6 a 8 vasos" },
+        { "option": "0 a 4 vasos" },
+        { "option": "0 a 2 vasos" },
+        { "option": "0 vasos", "correct": true }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Jarra del buen beber",
+      "question": "¿Para qué nos sirve conocer la Jarra del buen beber?",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "Para consumir líquidos saludables", "correct": true },
+        { "option": "Para quitarnos la sed" },
+        { "option": "Para que no tengamos tos" },
+        { "option": "Para aprender a preparar leche con chocolate" }
+      ]
+    }
+  ]
+}

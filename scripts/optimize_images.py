@@ -29,7 +29,7 @@ CONFIG = {
     'output_base': '../docs/assets/images',
     
     # Materias a procesar
-    'subjects': ['matematicas', 'lenguajes'],
+    'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio'],
     
     # Calidad de compresión (1-100, recomendado: 70-85)
     'jpeg_quality': 80,
@@ -67,7 +67,7 @@ def resize_image(img, max_width, max_height):
         
         # Usar LANCZOS para mejor calidad de redimensionamiento
         img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
-        print(f"  ↳ Redimensionado: {width}x{height} → {new_width}x{new_height}")
+        print(f"  Redimensionado: {width}x{height} a {new_width}x{new_height}")
     
     return img
 

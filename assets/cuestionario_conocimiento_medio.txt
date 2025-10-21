@@ -1,0 +1,216 @@
+Id: 1
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 1.jpg
+Opciones: Cabeza. _correcta
+Opciones: Ojos.
+Opciones: Nariz.
+Opciones: Boca.
+
+Id: 2
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 2.jpg
+Opciones: Cabeza.
+Opciones: Ojos.
+Opciones: Nariz. _correcta
+Opciones: Boca.
+
+Id: 3
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 3.jpg
+Opciones: Cabeza.
+Opciones: Ojos. _correcta
+Opciones: Nariz.
+Opciones: Boca.
+
+Id: 4
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 4.jpg
+Opciones: Cabeza.
+Opciones: Ojos.
+Opciones: Nariz.
+Opciones: Boca. _correcta
+
+Id: 5
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 5.jpg
+Opciones: Cuello. _correcta
+Opciones: Tronco.
+Opciones: Pierna.
+Opciones: Brazo.
+
+Id: 6
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 6.jpg
+Opciones: Cuello.
+Opciones: Mano. _correcta
+Opciones: Pierna.
+Opciones: Brazo.
+
+Id: 7
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 7.jpg
+Opciones: Cuello.
+Opciones: Tronco. _correcta
+Opciones: Pierna.
+Opciones: Brazo.
+
+Id: 8
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 8.jpg
+Opciones: Cuello.
+Opciones: Tronco.
+Opciones: Pierna.
+Opciones: Brazo. _correcta
+
+Id: 9
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 9.jpg
+Opciones: Cuello.
+Opciones: Tronco.
+Opciones: Pierna.
+Opciones: Pie. _correcta
+
+Id: 10
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Qué parte del cuerpo es la que falta en el recuadro rojo?
+Imagen: 10.jpg
+Opciones: Cuello.
+Opciones: Tronco.
+Opciones: Pierna. _correcta
+Opciones: Brazo.
+
+Id: 11
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Cuál es una de las recomendaciones para cuidar mi cuerpo?
+Opciones: Comer sanamente. _correcta
+Opciones: Ver las Guerreras del K-Pop.
+Opciones: Tomar jugo de mango.
+Opciones: Comer tierra.
+
+Id: 12
+Materia: Conocimiento del medio.
+Categoria: Nombre de las partes del cuerpo.
+Pregunta: ¿Cuál es una de las recomendaciones para cuidar mi cuerpo?
+Opciones: Lavar mis dientes y manos. _correcta
+Opciones: Bailar como las Huntrix.
+Opciones: Beber Soda Pop.
+Opciones: Bailar como los Saja Boys.
+
+Id: 13
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Para qué sirve el Plato del Bien Comer?
+Opciones: Para enseñarnos a comer bien y estar sanos y fuertes. _correcta
+Opciones: Para jugar en equipo.
+Opciones: Para bailar sin cesár.
+Opciones: Para hacerle bromas a mis compañeros del salón.
+
+Id: 14
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Qué tipo de alimentos hay en el grupo verde?
+Opciones: Frutas y Verduras. _correcta
+Opciones: Cereales.
+Opciones: Leguminosas.
+Opciones: Alimentos de Origen Animal.
+
+Id: 15
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Qué tipo de alimentos hay en el grupo amarillo?
+Opciones: Frutas y Verduras.
+Opciones: Cereales. _correcta
+Opciones: Leguminosas.
+Opciones: Alimentos de Origen Animal.
+
+Id: 16
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Qué tipo de alimentos hay en el grupo rojo?
+Opciones: Frutas y Verduras.
+Opciones: Cereales.
+Opciones: Leguminosas y Alimentos de Origen Animal. _correcta
+Opciones: Dulces y Golosinas.
+
+Id: 17
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Cuáles son dos alimentos del grupo amarillo?
+Opciones: Zanahoria y Mango.
+Opciones: Pan y Tortilla. _correcta
+Opciones: Frijol, Lenteja, Pescado y Huevo.
+Opciones: Paleta Payaso y Danonino.
+
+Id: 18
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Cuáles son dos alimentos del grupo verde?
+Opciones: Zanahoria y Mango. _correcta
+Opciones: Pan y Tortilla.
+Opciones: Frijol, Lenteja, Pescado y Huevo.
+Opciones: Paleta Payaso y Danonino.
+
+Id: 19
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Cuáles son dos alimentos del grupo rojo?
+Opciones: Zanahoria y Mango.
+Opciones: Pan y Tortilla.
+Opciones: Frijol, Lenteja, Pescado y Huevo. _correcta
+Opciones: Paleta Payaso y Danonino.
+
+Id: 20
+Materia: Conocimiento del medio.
+Categoria: Plato del bien comer.
+Pregunta: ¿Qué no debemos consumir o consumir muy poco proque es dañino para la salud?
+Opciones: Zanahoria y Mango.
+Opciones: Pan y Tortilla.
+Opciones: Frijol, Lenteja, Pescado y Huevo.
+Opciones: Paleta Payaso, Danonino, Papitas. __correcta
+
+Id: 21
+Materia: Conocimiento del medio.
+Categoria: Jarra del buen beber.
+Pregunta: ¿Cuántos vasos de agua potable natural debemos tomar al día?
+Opciones: 6 a 8 vasos. _correcta
+Opciones: 0 a 4 vasos.
+Opciones: 0 a 2 vasos.
+Opciones: 0 vasos.
+
+Id: 22
+Materia: Conocimiento del medio.
+Categoria: Jarra del buen beber.
+Pregunta: ¿Cuántos vasos de refrescos y agua de sabor se recomienda beber al día?
+Opciones: 6 a 8 vasos.
+Opciones: 0 a 4 vasos.
+Opciones: 0 a 2 vasos.
+Opciones: 0 vasos. _correcta
+
+Id: 23
+Materia: Conocimiento del medio.
+Categoria: Jarra del buen beber.
+Pregunta: ¿Para que nos sirve conocer la Jarra del buen beber?
+Opciones: Para consumir líquidos saludables. _correcta
+Opciones: Para quitarnos la sed.
+Opciones: Para que no tengamos tos.
+Opciones: Para aprender a preparar leche con chocolate.
