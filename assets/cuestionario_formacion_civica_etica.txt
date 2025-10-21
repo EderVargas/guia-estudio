@@ -1,0 +1,114 @@
+Id: 1
+Materia: Formación Cívica y Ética
+Categoria: Las Reglas
+Preguntas: ¿Qué son las reglas?
+Opcion: Indicaciones para no tener accidentes. _correcta
+Opcion: Situaciones para buscar hacer equipo.
+Opcion: Indicaciones para romper cosas.
+Opcion: Indicaciones para molestar a las personas.
+
+Id: 2
+Materia: Formación Cívica y Ética
+Categoria: Las Reglas
+Preguntas:¿Dónde encontramos reglas?
+Opcion: En la casa, la escuela y la calle. _correcta
+Opcion: En los libros.
+Opcion: En las lapiceras.
+Opcion: En el plato del buen comer.
+
+
+Id: 3
+Materia: Formación Cívica y Ética
+Categoria: Las Reglas
+Preguntas: La casa, la escuela y la calle son lugares en los que…
+Opcion: Encontramos las reglas. _correcta
+Opcion: Guardamos nuestros colores.
+Opcion: Gritamos mucho.
+Opcion: Golpeamos a nuestros compañeros.
+
+
+Id: 4
+Materia: Formación Cívica y Ética
+Categoria: Las Reglas
+Preguntas: La niña de la siguiente imagen está…
+Imagen: 4.jpg
+Opcion: Siguiendo las reglas. _correcta
+Opcion: Gritando.
+Opcion: Soñando.
+Opcion: Jugando.
+
+
+Id: 5
+Materia: Formación Cívica y Ética
+Categoria: Riesgos y Accidentes
+Preguntas: ¿Qué es el riesgo?
+Opcion: Ponerme en peligro yo y a los demás. _correcta
+Opcion: Tratar bien a los demás.
+Opcion: Comer frutas y verduras.
+Opcion: Seguir las recomendaciones de la jarra del buen beber.
+
+
+Id: 6
+Materia: Formación Cívica y Ética
+Categoria: Riesgos y Accidentes
+Preguntas: ¿Qué pasa si corremos riesgos?
+Opcion: Nos lastimamos nuestro cuerpo o el de los demás. _correcta
+Opcion: Nos dan dulces.
+Opcion: Somos felices.
+Opcion: Nos da sueño.
+
+
+Id: 7
+Materia: Formación Cívica y Ética
+Categoria: Riesgos y Accidentes
+Preguntas:El niño de la siguiente imagen está cuidando de su cuerpo y no está poniendo en riesgo a nadie.
+Imagen: 7.jpg
+Opciones: Si
+Opciones: No _correcta
+
+Id: 8
+Materia: Formación Cívica y Ética
+Categoria: Respeto
+Preguntas: ¿Qué es el respeto?
+Opcion: Escuchar a los profesores y compañeros. _correcta
+Opcion: Jugar atrapadas.
+Opcion: Masticar chicle.
+Opcion: Soñar.
+
+
+Id: 9
+Materia: Formación Cívica y Ética
+Categoria: Respeto
+Preguntas: Tratar bien a los demás es signo de…
+Opcion: Respeto. _correcta
+Opcion: Hambre.
+Opcion: Sueño.
+Opcion: Sed.
+
+
+Id: 10
+Materia: Formación Cívica y Ética
+Categoria: Respeto
+Preguntas:Cuando seguimos las reglas del aula practicamos el…
+Opcion: Respeto. _correcta
+Opcion: Juego.
+Opcion: Deseo de comprar cosas.
+Opcion: Sentir hambre.
+
+Id: 11
+Materia: Formación Cívica y Ética
+Categoria: Respeto
+Preguntas: El niño de la siguiente imagen está practicando…
+Imagen: 11.jpg
+Opcion: El Respeto. _correcta
+Opcion: La Paz.
+Opcion: El amor.
+Opcion: El hambre.
+
+Id: 12
+Materia: Formación Cívica y Ética
+Categoria: Respeto
+Preguntas: ¿El niño de la siguiente imagen está practicando el Respeto?
+Imagen: 12.jpg
+Opcion: Si
+Opcion: No _correcta
