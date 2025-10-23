@@ -297,6 +297,45 @@ header h1 {
     animation: shake 0.5s ease;
 }
 
+/* Contenedor de dictado con audio */
+.dictation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.audio-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.6);
+}
+
+.audio-button:active {
+    transform: scale(0.95);
+}
+
+.dictation-container .text-answer-input {
+    width: 100%;
+}
+
 /* Botones */
 #buttons-container {
     display: flex;

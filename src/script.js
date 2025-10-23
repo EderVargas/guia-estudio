@@ -29,6 +29,11 @@ const SUBJECTS = {
         title: '🤝 Formación Cívica y Ética',
         jsonFile: 'assets/formacionCivicaEtica.json',
         storagePrefix: 'fce_'
+    },
+    'ingles': {
+        title: '🔊 English - Dictation',
+        jsonFile: 'assets/ingles.json',
+        storagePrefix: 'eng_'
     }
 };
 
@@ -279,6 +284,46 @@ function closeInfoModal() {
 }
 
 /**
+ * Reproducir palabra en inglés usando ResponsiveVoice (mejor calidad)
+ * Con fallback a Web Speech API si ResponsiveVoice no está disponible
+ * @param {string} text - Texto a pronunciar
+ */
+/**
+ * Speaks the given text aloud using either ResponsiveVoice (if available) or the browser's native Web Speech API as a fallback.
+ *
+ * @param {string} text - The text to be spoken aloud.
+ *
+ * @example
+ * speakWord('Hello, world!');
+ *
+ * @remarks
+ * - If ResponsiveVoice is available and supported, it will be used with the following options:
+ *   - Voice: "US English Female"
+ *   - rate: 0.7 (speech speed, where 1 is normal speed)
+ *   - pitch: 1 (normal pitch)
+ *   - volume: 1 (maximum volume for ResponsiveVoice)
+ * - If ResponsiveVoice is not available, the browser's native SpeechSynthesisUtterance is used with:
+ *   - lang: 'en-US'
+ *   - rate: 0.7
+ */
+function speakWord(text) {
+    // Intentar usar ResponsiveVoice (mejor calidad y pronunciación)
+    if (typeof responsiveVoice !== 'undefined' && responsiveVoice.voiceSupport()) {
+        responsiveVoice.speak(text, "US English Female", {
+            rate: 0.7,
+            pitch: 1,
+            volume: 1 // El volumen máximo permitido por ResponsiveVoice es 1
+        });
+    } else {
+        // Fallback a Web Speech API nativa del navegador
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.7;
+        speechSynthesis.speak(utterance);
+    }
+}
+
+/**
  * Mostrar la pregunta actual en pantalla
  */
 function displayQuestion() {
@@ -318,7 +363,54 @@ function displayQuestion() {
     // Determinar tipo de pregunta
     const questionType = currentQuestion.type || 'multiple-choice';
     
-    if (questionType === 'text-input') {
+    if (questionType === 'audio-dictation') {
+        // Crear interfaz para dictado con audio
+        const dictationContainer = document.createElement('div');
+        dictationContainer.className = 'dictation-container';
+        
+        // Botón de audio
+        const audioButton = document.createElement('button');
+        audioButton.type = 'button';
+        audioButton.className = 'audio-button';
+        audioButton.innerHTML = '🔊';
+        audioButton.title = 'Click to hear the word';
+        
+        audioButton.addEventListener('click', () => {
+            speakWord(currentQuestion.audioText);
+        });
+        
+        // Campo de texto para la respuesta
+        const textInput = document.createElement('input');
+        textInput.type = 'text';
+        textInput.id = 'text-answer-input';
+        textInput.className = 'text-answer-input';
+        textInput.placeholder = 'Write the word here...';
+        textInput.maxLength = 50;
+        
+        // Habilitar botón cuando se escriba algo
+        textInput.addEventListener('input', () => {
+            verifyBtn.disabled = textInput.value.trim().length === 0;
+            selectedAnswer = textInput.value.trim();
+        });
+        
+        // Permitir Enter para verificar
+        textInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !verifyBtn.disabled) {
+                verifyAnswer();
+            }
+        });
+        
+        dictationContainer.appendChild(audioButton);
+        dictationContainer.appendChild(textInput);
+        answersContainer.appendChild(dictationContainer);
+        
+        // Auto-focus en el input y reproducir palabra al inicio
+        setTimeout(() => {
+            textInput.focus();
+            speakWord(currentQuestion.audioText);
+        }, 100);
+        
+    } else if (questionType === 'text-input') {
         // Crear campo de texto para respuesta
         const inputContainer = document.createElement('div');
         inputContainer.className = 'text-input-container';
@@ -407,8 +499,8 @@ function verifyAnswer() {
     const questionType = currentQuestion.type || 'multiple-choice';
     let isCorrect = false;
     
-    if (questionType === 'text-input') {
-        // Verificar respuesta de texto
+    if (questionType === 'audio-dictation' || questionType === 'text-input') {
+        // Verificar respuesta de texto o dictado
         const textInput = document.getElementById('text-answer-input');
         const userAnswer = textInput.value.trim().toUpperCase()
             .normalize('NFD')
