@@ -4,15 +4,19 @@ Una aplicación web interactiva diseñada para crear y presentar cuestionarios e
 
 ## 🌟 Características
 
-- ✅ Sistema inteligente de selección de preguntas (10 por cuestionario)
+- ✅ Sistema multi-materia con 6 asignaturas diferentes
+- 🎯 Sistema inteligente de selección de preguntas (10 por cuestionario)
 - 🎨 Diseño colorido y atractivo con colores pastel
 - 🎉 Efectos de celebración con confeti y sonidos
 - 📱 Totalmente responsivo (computadoras, tablets y móviles)
-- 🔄 Seguimiento de progreso con sessionStorage
+- 🔄 Seguimiento de progreso con sessionStorage independiente por materia
+- 🔄 Limpieza automática de sesión al cambiar de materia
 - 💡 Repriorización de preguntas incorrectas
 - 📊 Estadísticas de progreso en modal informativo
 - 🖼️ Soporte para imágenes opcionales en preguntas
 - ⚡ Sistema de optimización automática de imágenes
+- 🔊 Dictado en inglés con pronunciación mejorada (ResponsiveVoice)
+- 📝 Soporte para cuatro tipos de preguntas: opción múltiple, texto libre, texto exacto y audio-dictado
 
 ## 🚀 Demo en vivo
 
@@ -23,14 +27,20 @@ Una aplicación web interactiva diseñada para crear y presentar cuestionarios e
 ```
 guia-estudio/
 ├── docs/                          # 🌐 PÚBLICO (GitHub Pages)
-│   ├── index.html                 # Página principal
+│   ├── index.html                 # Menú de selección de materias
+│   ├── quiz.html                  # Página del cuestionario
 │   ├── styles.css                 # Estilos del proyecto
 │   ├── script.min.js              # JavaScript minificado (producción)
 │   └── assets/
-│       ├── lenguajes.json         # Preguntas de lenguaje
-│       ├── matematicas.json       # Preguntas de matemáticas
-│       ├── images/                # Imágenes optimizadas
-│       └── sounds/                # Efectos de sonido
+│       ├── lenguajes.json         # 📚 Preguntas de lenguaje
+│       ├── matematicas.json       # 🔢 Preguntas de matemáticas
+│       ├── conocimientoMedio.json # 🌍 Preguntas de ciencias naturales
+│       ├── formacionCivicaEtica.json # 🤝 Preguntas de ética y civismo
+│       ├── ingles.json            # 🔊 Palabras para dictado en inglés
+│       └── images/                # Imágenes optimizadas por materia
+│           ├── matematicas/
+│           ├── conocimientoMedio/
+│           └── formacionCivicaEtica/
 │
 ├── src/                           # 📝 Código fuente
 │   └── script.js                  # JavaScript con comentarios
@@ -157,9 +167,22 @@ git push origin main
 # GitHub Pages se actualiza automáticamente en 1-2 minutos
 ```
 
+## 📚 Materias Disponibles
+
+El sistema incluye **6 materias diferentes**:
+
+1. 🔢 **Matemáticas** - Números, sumas, conteo (69 preguntas)
+2. 📚 **Lenguajes** - Vocales, letras, palabras
+3. 🌍 **Conocimiento del Medio** - Cuerpo humano, nutrición, salud (23 preguntas)
+4. 🤝 **Formación Cívica y Ética** - Reglas, respeto, valores (12 preguntas)
+5. 🔊 **English - Dictation** - Dictado de palabras en inglés con audio (10 palabras)
+6. 📝 **English Exam** - Lectura, gramática, escritura (55 preguntas)
+
+Cada materia tiene su propio progreso independiente que se guarda en `sessionStorage`.
+
 ## 📝 Formato del archivo JSON
 
-El sistema soporta **dos tipos de preguntas**:
+El sistema soporta **cuatro tipos de preguntas**:
 
 ### 1️⃣ Preguntas de Opción Múltiple
 
@@ -171,7 +194,7 @@ El sistema soporta **dos tipos de preguntas**:
       "category": "Categoría de la pregunta",
       "question": "¿Tu pregunta aquí?",
       "type": "multiple-choice",
-      "image": "assets/images/imagen.webp",
+      "image": "assets/images/matematicas/imagen.webp",
       "answers": [
         { "option": "Respuesta correcta", "correct": true },
         { "option": "Respuesta incorrecta 1" },
@@ -199,12 +222,30 @@ El sistema soporta **dos tipos de preguntas**:
 }
 ```
 
+### 3️⃣ Preguntas de Audio-Dictado (Inglés)
+
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Dictation",
+      "type": "audio-dictation",
+      "audioText": "animals",
+      "question": "Listen and write the word",
+      "correctAnswer": "animals"
+    }
+  ]
+}
+```
+
 ### Reglas importantes:
 
 - Cada pregunta debe tener un `id` único
 - **Opción múltiple**: Solo una respuesta debe tener `"correct": true`
-- **Texto libre**: La respuesta se valida sin importar mayúsculas/minúsculas
-- El campo `image` es opcional
+- **Texto libre**: La respuesta se valida sin importar mayúsculas/minúsculas/acentos
+- **Audio-dictado**: Usa ResponsiveVoice para pronunciación en inglés de alta calidad
+- El campo `image` es opcional (organizado por carpetas de materias)
 - El campo `type` por defecto es `"multiple-choice"`
 
 ## 🎨 Personalización

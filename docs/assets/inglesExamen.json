@@ -1,0 +1,528 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/1.jpg",
+			"answers": [
+				{ "option": "Person." },
+				{ "option": "Thing." },
+				{ "option": "Animal.", "correct": true },
+				{ "option": "Place." }
+			]
+		},
+		{
+			"id": 2,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/1.jpg",
+			"correctAnswer": "Cats"
+		},
+		{
+			"id": 3,
+			"category": "Reading Comprehension",
+			"question": "Complete the word.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/1.jpg",
+			"correctAnswer": "Cat"
+		},
+		{
+			"id": 4,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/2.jpg",
+			"answers": [
+				{ "option": "Person." },
+				{ "option": "Thing." },
+				{ "option": "Animal." },
+				{ "option": "Place.", "correct": true }
+			]
+		},
+		{
+			"id": 5,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/2.jpg",
+			"correctAnswer": "Schools"
+		},
+		{
+			"id": 6,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/3.jpg",
+			"answers": [
+				{ "option": "Person.", "correct": true },
+				{ "option": "Thing." },
+				{ "option": "Animal." },
+				{ "option": "Place." }
+			]
+		},
+		{
+			"id": 7,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/3.jpg",
+			"correctAnswer": "Teachers"
+		},
+		{
+			"id": 8,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/4.jpg",
+			"answers": [
+				{ "option": "Person." },
+				{ "option": "Thing.", "correct": true },
+				{ "option": "Animal." },
+				{ "option": "Place." }
+			]
+		},
+		{
+			"id": 9,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/4.jpg",
+			"correctAnswer": "Toys"
+		},
+		{
+			"id": 10,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/5.jpg",
+			"answers": [
+				{ "option": "Person." },
+				{ "option": "Thing." },
+				{ "option": "Animal.", "correct": true },
+				{ "option": "Place." }
+			]
+		},
+		{
+			"id": 11,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/5.jpg",
+			"correctAnswer": "Dogs"
+		},
+		{
+			"id": 12,
+			"category": "Reading Comprehension",
+			"question": "Write if the noun is a person, thing, animal, or place.",
+			"image": "assets/images/inglesExamen/6.jpg",
+			"answers": [
+				{ "option": "Person." },
+				{ "option": "Thing.", "correct": true },
+				{ "option": "Animal." },
+				{ "option": "Place." }
+			]
+		},
+		{
+			"id": 13,
+			"category": "Reading Comprehension",
+			"question": "Write the plural form.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/6.jpg",
+			"correctAnswer": "Apples"
+		},
+		{
+			"id": 14,
+			"category": "Reading Comprehension",
+			"question": "Complete the word.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/7.jpg",
+			"correctAnswer": "Bed"
+		},
+		{
+			"id": 15,
+			"category": "Reading Comprehension",
+			"question": "Complete the word.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/8.jpg",
+			"correctAnswer": "Fox"
+		},
+		{
+			"id": 16,
+			"category": "Reading Comprehension",
+			"question": "Complete the word.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/9.jpg",
+			"correctAnswer": "Pig"
+		},
+		{
+			"id": 17,
+			"category": "Reading Comprehension",
+			"question": "Complete the word.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/10.jpg",
+			"correctAnswer": "Sun"
+		},
+		{
+			"id": 18,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/11.jpg",
+			"answers": [
+				{ "option": "My umbrella is blue and white.", "correct": true },
+				{ "option": "My umbrella is pink and orange." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 19,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/12.jpg",
+			"answers": [
+				{ "option": "My umbrella is blue and white." },
+				{ "option": "The flower is purple and yellow." },
+				{ "option": "The little frog is green.", "correct": true },
+				{ "option": "The little frog is purple." }
+			]
+		},
+		{
+			"id": 20,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/13.jpg",
+			"answers": [
+				{ "option": "My umbrella is blue and white." },
+				{ "option": "The flower is purple and yellow." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow.", "correct": true }
+			]
+		},
+		{
+			"id": 21,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/14.jpg",
+			"answers": [
+				{ "option": "I see a big, yellow sun.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 22,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/15.jpg",
+			"answers": [
+				{ "option": "The bug is red and black.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 23,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/16.jpg",
+			"answers": [
+				{ "option": "The butterfly is orange and red.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 24,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/17.jpg",
+			"answers": [
+				{ "option": "My caterpillar is orange and brown.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 25,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/18.jpg",
+			"answers": [
+				{ "option": "I have a green and purple kite.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 26,
+			"category": "Reading Comprehension",
+			"question": "What sentence identify the next image?",
+			"image": "assets/images/inglesExamen/19.jpg",
+			"answers": [
+				{ "option": "Can you see the black and yellow bee.", "correct": true },
+				{ "option": "I see a big, blue sky." },
+				{ "option": "The little frog is green." },
+				{ "option": "The flower is red and yellow." }
+			]
+		},
+		{
+			"id": 27,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Subject, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/20.jpg",
+			"correctAnswer": "The dog"
+		},
+		{
+			"id": 28,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Predicate, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/20.jpg",
+			"correctAnswer": "runs fast"
+		},
+		{
+			"id": 29,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Subject, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/21.jpg",
+			"correctAnswer": "Anna"
+		},
+		{
+			"id": 30,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Predicate, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/21.jpg",
+			"correctAnswer": "is reading a book"
+		},
+		{
+			"id": 31,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Subject, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/22.jpg",
+			"correctAnswer": "They"
+		},
+		{
+			"id": 32,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Predicate, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/22.jpg",
+			"correctAnswer": "play in the park"
+		},
+		{
+			"id": 33,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Subject, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/23.jpg",
+			"correctAnswer": "My mom"
+		},
+		{
+			"id": 34,
+			"category": "Subject and Predicate",
+			"question": "Identify and write the Predicate, in the next sentence:",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/23.jpg",
+			"correctAnswer": "cooks dinner"
+		},
+		{
+			"id": 35,
+			"category": "Capitalization and Punctuation",
+			"question": "Write the sentence correctly by adding the missing letters and periods.",
+			"type": "text-input-exact",
+			"image": "assets/images/inglesExamen/24.jpg",
+			"correctAnswer": "The dog is brown."
+		},
+		{
+			"id": 36,
+			"category": "Capitalization and Punctuation",
+			"question": "Write the sentence correctly by adding the missing letters and periods.",
+			"type": "text-input-exact",
+			"image": "assets/images/inglesExamen/25.jpg",
+			"correctAnswer": "He can run."
+		},
+		{
+			"id": 37,
+			"category": "Capitalization and Punctuation",
+			"question": "Write the sentence correctly by adding the missing letters and periods.",
+			"type": "text-input-exact",
+			"image": "assets/images/inglesExamen/26.jpg",
+			"correctAnswer": "We go to the park."
+		},
+		{
+			"id": 38,
+			"category": "Capitalization and Punctuation",
+			"question": "Write the sentence correctly by adding the missing letters and periods.",
+			"type": "text-input-exact",
+			"image": "assets/images/inglesExamen/27.jpg",
+			"correctAnswer": "She has a dog."
+		},
+		{
+			"id": 39,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/28.jpg",
+			"answers": [
+				{ "option": "Danger.", "correct": true },
+				{ "option": "Safe." },
+				{ "option": "Pull." },
+				{ "option": "Push." }
+			]
+		},
+		{
+			"id": 40,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/29.jpg",
+			"answers": [
+				{ "option": "Danger." },
+				{ "option": "Safe.", "correct": true },
+				{ "option": "Pull." },
+				{ "option": "Push." }
+			]
+		},
+		{
+			"id": 41,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/30.jpg",
+			"answers": [
+				{ "option": "Danger." },
+				{ "option": "Safe." },
+				{ "option": "Pull.", "correct": true },
+				{ "option": "Push." }
+			]
+		},
+		{
+			"id": 42,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/31.jpg",
+			"answers": [
+				{ "option": "Danger." },
+				{ "option": "Safe." },
+				{ "option": "Pull." },
+				{ "option": "Push.", "correct": true }
+			]
+		},
+		{
+			"id": 43,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/32.jpg",
+			"answers": [
+				{ "option": "Danger." },
+				{ "option": "Safe." },
+				{ "option": "Pull." },
+				{ "option": "Sick.", "correct": true }
+			]
+		},
+		{
+			"id": 44,
+			"category": "Use of English/Writing",
+			"question": "Identify the next image.",
+			"image": "assets/images/inglesExamen/33.jpg",
+			"answers": [
+				{ "option": "Danger." },
+				{ "option": "Safe." },
+				{ "option": "Pull." },
+				{ "option": "Germs.", "correct": true }
+			]
+		},
+		{
+			"id": 45,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/34.jpg",
+			"correctAnswer": "help"
+		},
+		{
+			"id": 46,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/35.jpg",
+			"correctAnswer": "paramedic"
+		},
+		{
+			"id": 47,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/36.jpg",
+			"correctAnswer": "habits"
+		},
+		{
+			"id": 48,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/37.jpg",
+			"correctAnswer": "rules"
+		},
+		{
+			"id": 49,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/38.jpg",
+			"correctAnswer": "firefighter"
+		},
+		{
+			"id": 50,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/39.jpg",
+			"correctAnswer": "unsafe"
+		},
+		{
+			"id": 51,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/40.jpg",
+			"correctAnswer": "fire drill"
+		},
+		{
+			"id": 52,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/41.jpg",
+			"correctAnswer": "sling"
+		},
+		{
+			"id": 53,
+			"category": "Use of English/Writing",
+			"question": "Identify and write correctly.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/42.jpg",
+			"correctAnswer": "emergency"
+		},
+		{
+			"id": 54,
+			"category": "Use of English/Writing",
+			"question": "Change the word order to convert the statements into questions.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/43.jpg",
+			"correctAnswer": "Is the Wolf gray?"
+		},
+		{
+			"id": 55,
+			"category": "Use of English/Writing",
+			"question": "Change the word order to convert the statements into questions.",
+			"type": "text-input",
+			"image": "assets/images/inglesExamen/44.jpg",
+			"correctAnswer": "Is Grandma in bed?"
+		}
+	]
+}

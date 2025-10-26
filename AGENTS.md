@@ -22,19 +22,22 @@ Esta lógica asegura que el usuario repase lo que falló y avance hasta cubrir t
 
 ## Propósito del proyecto
 
-Este proyecto es una aplicación web simple para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde un archivo JSON externo. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.
+Este proyecto es una aplicación web multi-materia para crear y presentar cuestionarios interactivos para niños y niñas de 6 años. Utiliza HTML, CSS y JavaScript, y carga las preguntas desde archivos JSON externos. El objetivo es ofrecer una experiencia lúdica y educativa, con efectos visuales y sonoros para motivar a los usuarios.
 
 **Características principales:**
 
+- **Sistema multi-materia**: 6 asignaturas diferentes (Matemáticas, Lenguajes, Conocimiento del Medio, Formación Cívica y Ética, English - Dictation, English Exam)
 - Sistema de selección inteligente de preguntas (10 por cuestionario)
 - Distribución proporcional por categorías
-- Seguimiento de progreso con sessionStorage (se limpia al cerrar la pestaña)
+- **Seguimiento de progreso independiente por materia** con sessionStorage (se limpia al cerrar la pestaña)
+- **Limpieza automática de sesión al cambiar de materia**
 - Repriorización de preguntas incorrectas
 - Estadísticas de progreso general en modal informativo
 - Interfaz intuitiva con efectos visuales y sonoros
-- Enlace para limpiar la sesión manualmente
+- **Cuatro tipos de preguntas**: opción múltiple, texto libre, texto exacto, audio-dictado
 - **Soporte para imágenes opcionales en preguntas**
 - **Sistema de optimización automática de imágenes**
+- **Dictado en inglés con audio mejorado (ResponsiveVoice)**
 
 
 
@@ -392,4 +395,175 @@ Para más detalles, consulta:
 
 - Python 3.7+
 - Pillow (PIL): `pip install Pillow`
+
+## Sistema Multi-Materia
+
+El proyecto ahora soporta múltiples materias con progreso independiente:
+
+### Materias Disponibles
+
+1. **🔢 Matemáticas** (`matematicas.json`)
+   - 69 preguntas sobre números, sumas, conteo
+   - Incluye 30 imágenes optimizadas
+   - Categorías: Conteo, Números Ascendentes/Descendentes, Escritura, Antecesor/Sucesor, Sumas
+
+2. **📚 Lenguajes** (`lenguajes.json`)
+   - Preguntas sobre vocales, letras y palabras
+   - Sin imágenes
+
+3. **🌍 Conocimiento del Medio** (`conocimientoMedio.json`)
+   - 23 preguntas sobre cuerpo humano, nutrición y salud
+   - 10 imágenes optimizadas
+   - Categorías: Partes del cuerpo, Plato del bien comer, Jarra del buen beber
+
+4. **🤝 Formación Cívica y Ética** (`formacionCivicaEtica.json`)
+   - 12 preguntas sobre reglas, respeto y valores
+   - 4 imágenes optimizadas
+   - Categorías: Las Reglas, Riesgos y Accidentes, Respeto
+
+5. **🔊 English - Dictation** (`ingles.json`)
+   - 10 palabras en inglés para dictado
+   - Sin imágenes, usa audio con ResponsiveVoice
+   - Palabras: protect, plants, animals, humans, living, nonliving, habitat, cycle, grow, travel
+
+6. **📝 English Exam** (`inglesExamen.json`)
+   - 55 preguntas sobre lectura, gramática y escritura en inglés
+   - 44 imágenes optimizadas
+   - Categorías: Reading Comprehension, Subject and Predicate, Capitalization and Punctuation, Use of English/Writing
+   - Usa validación exacta (`text-input-exact`) para ejercicios de capitalización y puntuación
+
+### Arquitectura del Sistema
+
+- **Menú de Selección**: `index.html` muestra tarjetas para cada materia
+- **Página de Cuestionario**: `quiz.html` carga dinámicamente según parámetro URL (`?subject=matematicas`)
+- **Configuración Centralizada**: Objeto `SUBJECTS` en `script.js` define todas las materias
+- **Almacenamiento Independiente**: Cada materia usa su propio prefijo en sessionStorage
+  - `math_` para Matemáticas
+  - `lang_` para Lenguajes
+  - `cm_` para Conocimiento del Medio
+  - `fce_` para Formación Cívica y Ética
+  - `eng_` para English - Dictation
+  - `engex_` para English Exam
+
+### Limpieza Automática de Sesión
+
+El sistema detecta automáticamente cuando el usuario cambia de materia y limpia la sesión anterior:
+
+```javascript
+const LAST_SUBJECT_KEY = 'lastSubject';
+const lastSubject = storage.getItem(LAST_SUBJECT_KEY);
+
+if (lastSubject && lastSubject !== selectedSubject) {
+    // Limpiar la sesión de la materia actual
+    storage.removeItem(STORAGE_KEYS.ANSWERED_QUESTIONS);
+    storage.removeItem(STORAGE_KEYS.INCORRECT_QUESTIONS);
+}
+
+storage.setItem(LAST_SUBJECT_KEY, selectedSubject);
+```
+
+Esto previene que las preguntas respondidas de una materia afecten el progreso de otra.
+
+## Sistema de Audio para Dictado en Inglés
+
+### ResponsiveVoice Integration
+
+Para mejorar la calidad de pronunciación en inglés, se implementó **ResponsiveVoice**:
+
+```javascript
+function speakWord(text) {
+    if (typeof responsiveVoice !== 'undefined' && responsiveVoice.voiceSupport()) {
+        responsiveVoice.speak(text, "US English Female", {
+            rate: 0.8,
+            pitch: 1,
+            volume: 1
+        });
+    } else {
+        // Fallback a Web Speech API nativa
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.7;
+        speechSynthesis.speak(utterance);
+    }
+}
+```
+
+### Ventajas de ResponsiveVoice
+
+- ✅ **Pronunciación precisa**: Corrige problemas como "animals" → "anamals"
+- ✅ **Voz natural de alta calidad**: US English Female
+- ✅ **Fallback inteligente**: Usa Web Speech API si ResponsiveVoice no está disponible
+- ✅ **Configuración ajustable**: rate, pitch, volume personalizables
+- ✅ **Biblioteca open-source**: Gratuita para uso educativo (100k caracteres/día)
+
+### Tipo de Pregunta: audio-dictation
+
+```json
+{
+  "id": 1,
+  "category": "Dictation",
+  "type": "audio-dictation",
+  "audioText": "animals",
+  "question": "Listen and write the word",
+  "correctAnswer": "animals"
+}
+```
+
+### Tipo de Pregunta: text-input-exact
+
+```json
+{
+  "id": 35,
+  "category": "Capitalization and Punctuation",
+  "type": "text-input-exact",
+  "image": "35.jpg",
+  "question": "Copy the sentence using correct capitalization and punctuation.",
+  "correctAnswer": "I can use a shovel to dig a hole."
+}
+```
+
+**Nota importante:** En `text-input-exact`, el usuario debe escribir la respuesta exactamente como aparece en `correctAnswer`, incluyendo mayúsculas, minúsculas y puntuación. No se aplica ninguna normalización.
+
+- Se muestra un botón de bocina grande (🔊)
+- La palabra se pronuncia automáticamente al cargar la pregunta
+- El estudiante puede repetir el audio haciendo clic en el botón
+- La respuesta se valida sin importar mayúsculas/minúsculas/acentos
+
+## Tipos de Preguntas Soportados
+
+### 1. Opción Múltiple (`multiple-choice`)
+
+Comportamiento por defecto. Muestra 4 opciones donde solo una es correcta.
+
+### 2. Texto Libre (`text-input`)
+
+Permite al usuario escribir su respuesta. Validación insensible a mayúsculas, acentos y puntuación. Ideal para respuestas flexibles donde el formato exacto no importa.
+
+### 3. Texto Exacto (`text-input-exact`)
+
+Validación estricta que requiere coincidencia exacta con la respuesta correcta, incluyendo mayúsculas, minúsculas y puntuación. Usado para ejercicios de capitalización, gramática y ortografía donde el formato es importante.
+
+**Diferencias con `text-input`:**
+- ✅ **text-input**: `"hola"` = `"HOLA"` = `"Hola!"` (flexible)
+- ❌ **text-input-exact**: `"Hello."` ≠ `"hello"` ≠ `"Hello"` (exacto)
+
+### 4. Audio-Dictado (`audio-dictation`)
+
+Reproduce una palabra en inglés y el usuario debe escribirla. Usa ResponsiveVoice para audio de alta calidad. Validación flexible (insensible a mayúsculas).
+
+## Optimización de Imágenes por Materia
+
+El script `optimize_images.py` procesa carpetas separadas por materia:
+
+```python
+'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen']
+```
+
+Estructura:
+- Entrada: `assets/images/originales/{materia}/`
+- Salida: `docs/assets/images/{materia}/`
+
+Cada materia mantiene sus imágenes organizadas en carpetas independientes para mejor mantenimiento.
+
+**Nota:** La materia `ingles` (dictation) no tiene carpeta de imágenes porque sus preguntas son solo de audio.
 

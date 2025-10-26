@@ -34,6 +34,11 @@ const SUBJECTS = {
         title: '🔊 English - Dictation',
         jsonFile: 'assets/ingles.json',
         storagePrefix: 'eng_'
+    },
+    'inglesExamen': {
+        title: '📝 English Exam',
+        jsonFile: 'assets/inglesExamen.json',
+        storagePrefix: 'engex_'
     }
 };
 
@@ -410,8 +415,8 @@ function displayQuestion() {
             speakWord(currentQuestion.audioText);
         }, 100);
         
-    } else if (questionType === 'text-input') {
-        // Crear campo de texto para respuesta
+    } else if (questionType === 'text-input' || questionType === 'text-input-exact') {
+        // Crear campo de texto para respuesta (normal o exacta)
         const inputContainer = document.createElement('div');
         inputContainer.className = 'text-input-container';
         
@@ -419,8 +424,15 @@ function displayQuestion() {
         textInput.type = 'text';
         textInput.id = 'text-answer-input';
         textInput.className = 'text-answer-input';
-        textInput.placeholder = 'Escribe tu respuesta aquí...';
-        textInput.maxLength = 50;
+        
+        // Placeholder específico para validación exacta
+        if (questionType === 'text-input-exact') {
+            textInput.placeholder = 'Write exactly (case and punctuation matter)...';
+            textInput.maxLength = 100;
+        } else {
+            textInput.placeholder = 'Escribe tu respuesta aquí...';
+            textInput.maxLength = 50;
+        }
         
         // Habilitar botón cuando se escriba algo
         textInput.addEventListener('input', () => {
@@ -499,8 +511,34 @@ function verifyAnswer() {
     const questionType = currentQuestion.type || 'multiple-choice';
     let isCorrect = false;
     
-    if (questionType === 'audio-dictation' || questionType === 'text-input') {
-        // Verificar respuesta de texto o dictado
+    if (questionType === 'text-input-exact') {
+        // Verificar respuesta de texto con validación EXACTA (mayúsculas, minúsculas, puntuación)
+        const textInput = document.getElementById('text-answer-input');
+        const userAnswer = textInput.value.trim();
+        const correctAnswer = currentQuestion.correctAnswer.trim();
+        
+        isCorrect = userAnswer === correctAnswer;
+        
+        // Deshabilitar input
+        textInput.disabled = true;
+        textInput.classList.add(isCorrect ? 'correct-input' : 'incorrect-input');
+        
+        if (isCorrect) {
+            feedback.textContent = '¡Excelente! 🎉 ¡Respuesta correcta!';
+            feedback.className = 'correct';
+            score++;
+            scoreDisplay.textContent = score;
+            
+            launchConfetti();
+            playSuccessSound();
+        } else {
+            feedback.textContent = `❌ Respuesta incorrecta. La respuesta correcta es: ${currentQuestion.correctAnswer}`;
+            feedback.className = 'incorrect';
+            playErrorSound();
+        }
+        
+    } else if (questionType === 'audio-dictation' || questionType === 'text-input') {
+        // Verificar respuesta de texto o dictado (sin importar mayúsculas/minúsculas/acentos)
         const textInput = document.getElementById('text-answer-input');
         const userAnswer = textInput.value.trim().toUpperCase()
             .normalize('NFD')
