@@ -84,7 +84,49 @@
         }
 
         .subject-card.ingles {
-            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff4757 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-card.ingles.halloween-theme {
+            background: linear-gradient(135deg, #2c2c54 0%, #40407a 50%, #706fd3 100%);
+            box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+        }
+
+        .subject-card.ingles.halloween-theme:hover {
+            background: linear-gradient(135deg, #40407a 0%, #706fd3 50%, #ff6348 100%);
+            box-shadow: 0 15px 30px rgba(255, 140, 0, 0.6);
+        }
+
+        .subject-card.ingles.halloween-theme::before {
+            content: '🕷️';
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 1.5em;
+            opacity: 0.7;
+            animation: spider-swing 3s ease-in-out infinite;
+        }
+
+        .subject-card.ingles.halloween-theme::after {
+            content: '🦇';
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+            font-size: 1.2em;
+            opacity: 0.6;
+            animation: bat-fly 4s ease-in-out infinite;
+        }
+
+        @keyframes spider-swing {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(5px) rotate(5deg); }
+        }
+
+        @keyframes bat-fly {
+            0%, 100% { transform: translateX(0px); }
+            50% { transform: translateX(8px); }
         }
 
         .subject-card.inglesExamen {
@@ -159,10 +201,16 @@
                 <div class="subject-description">Reglas, respeto y valores</div>
             </a>
 
-            <a href="quiz.html?subject=ingles" class="subject-card ingles">
+            <!-- <a href="quiz.html?subject=ingles" class="subject-card ingles">
                 <span class="subject-icon">🔊</span>
                 <div class="subject-title">English - Dictation</div>
                 <div class="subject-description">Listen and write words</div>
+            </a> -->
+
+            <a href="quiz.html?subject=ingles" class="subject-card ingles halloween-theme">
+                <span class="subject-icon">🎃</span>
+                <div class="subject-title">Halloween Dictation</div>
+                <div class="subject-description">Spooky words to spell! 👻</div>
             </a>
 
             <a href="quiz.html?subject=inglesExamen" class="subject-card inglesExamen">

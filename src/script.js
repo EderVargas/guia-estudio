@@ -32,7 +32,7 @@ const SUBJECTS = {
     },
     'ingles': {
         title: '🔊 English - Dictation',
-        jsonFile: 'assets/ingles.json',
+        jsonFile: 'assets/inglesDictation.json',
         storagePrefix: 'eng_'
     },
     'inglesExamen': {
@@ -368,8 +368,8 @@ function displayQuestion() {
     // Determinar tipo de pregunta
     const questionType = currentQuestion.type || 'multiple-choice';
     
-    if (questionType === 'audio-dictation') {
-        // Crear interfaz para dictado con audio
+    if (questionType === 'audio-dictation' || questionType === 'audio-dictation-exact') {
+        // Crear interfaz para dictado con audio (flexible o exacto)
         const dictationContainer = document.createElement('div');
         dictationContainer.className = 'dictation-container';
         
@@ -389,8 +389,15 @@ function displayQuestion() {
         textInput.type = 'text';
         textInput.id = 'text-answer-input';
         textInput.className = 'text-answer-input';
-        textInput.placeholder = 'Write the word here...';
-        textInput.maxLength = 50;
+        
+        // Placeholder específico según tipo de validación
+        if (questionType === 'audio-dictation-exact') {
+            textInput.placeholder = 'Write exactly (case matters)...';
+            textInput.maxLength = 50;
+        } else {
+            textInput.placeholder = 'Write the word here...';
+            textInput.maxLength = 50;
+        }
         
         // Habilitar botón cuando se escriba algo
         textInput.addEventListener('input', () => {
@@ -416,7 +423,7 @@ function displayQuestion() {
         }, 100);
         
     } else if (questionType === 'text-input' || questionType === 'text-input-exact') {
-        // Crear campo de texto para respuesta (normal o exacta)
+        // Crear campo de texto para respuesta (normal o exacta) SIN audio
         const inputContainer = document.createElement('div');
         inputContainer.className = 'text-input-container';
         
@@ -511,7 +518,7 @@ function verifyAnswer() {
     const questionType = currentQuestion.type || 'multiple-choice';
     let isCorrect = false;
     
-    if (questionType === 'text-input-exact') {
+    if (questionType === 'text-input-exact' || questionType === 'audio-dictation-exact') {
         // Verificar respuesta de texto con validación EXACTA (mayúsculas, minúsculas, puntuación)
         const textInput = document.getElementById('text-answer-input');
         const userAnswer = textInput.value.trim();

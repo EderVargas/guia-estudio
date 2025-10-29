@@ -1,0 +1,84 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "Halloween Words",
+			"type": "audio-dictation-exact",
+			"audioText": "Halloween",
+			"question": "Listen and write the word (capitalization matters)",
+			"correctAnswer": "Halloween"
+		},
+		{
+			"id": 2,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "ghost",
+			"question": "Listen and write the word",
+			"correctAnswer": "ghost"
+		},
+		{
+			"id": 3,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "witch",
+			"question": "Listen and write the word",
+			"correctAnswer": "witch"
+		},
+		{
+			"id": 4,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "spider",
+			"question": "Listen and write the word",
+			"correctAnswer": "spider"
+		},
+		{
+			"id": 5,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "spooky",
+			"question": "Listen and write the word",
+			"correctAnswer": "spooky"
+		},
+		{
+			"id": 6,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "pumpkin",
+			"question": "Listen and write the word",
+			"correctAnswer": "pumpkin"
+		},
+		{
+			"id": 7,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "black cat",
+			"question": "Listen and write the words",
+			"correctAnswer": "black cat"
+		},
+		{
+			"id": 8,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "costume",
+			"question": "Listen and write the word",
+			"correctAnswer": "costume"
+		},
+		{
+			"id": 9,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "candy",
+			"question": "Listen and write the word",
+			"correctAnswer": "candy"
+		},
+		{
+			"id": 10,
+			"category": "Halloween Words",
+			"type": "audio-dictation",
+			"audioText": "bat",
+			"question": "Listen and write the word",
+			"correctAnswer": "bat"
+		}
+	]
+}

@@ -34,7 +34,7 @@ Este proyecto es una aplicación web multi-materia para crear y presentar cuesti
 - Repriorización de preguntas incorrectas
 - Estadísticas de progreso general en modal informativo
 - Interfaz intuitiva con efectos visuales y sonoros
-- **Cuatro tipos de preguntas**: opción múltiple, texto libre, texto exacto, audio-dictado
+- **Cuatro tipos de preguntas**: opción múltiple, texto libre, texto exacto, audio-dictado, audio-dictado exacto
 - **Soporte para imágenes opcionales en preguntas**
 - **Sistema de optimización automática de imágenes**
 - **Dictado en inglés con audio mejorado (ResponsiveVoice)**
@@ -421,10 +421,11 @@ El proyecto ahora soporta múltiples materias con progreso independiente:
    - 4 imágenes optimizadas
    - Categorías: Las Reglas, Riesgos y Accidentes, Respeto
 
-5. **🔊 English - Dictation** (`ingles.json`)
-   - 10 palabras en inglés para dictado
+5. **🔊 English - Dictation** (`inglesDictation.json`)
+   - 10 palabras de Halloween para dictado
    - Sin imágenes, usa audio con ResponsiveVoice
-   - Palabras: protect, plants, animals, humans, living, nonliving, habitat, cycle, grow, travel
+   - Palabras: Halloween (con validación exacta), ghost, witch, spider, spooky, pumpkin, black cat, costume, candy, bot
+   - Mezcla audio-dictation (flexible) y audio-dictation-exact (para "Halloween" con mayúscula)
 
 6. **📝 English Exam** (`inglesExamen.json`)
    - 55 preguntas sobre lectura, gramática y escritura en inglés
@@ -522,7 +523,20 @@ function speakWord(text) {
 }
 ```
 
-**Nota importante:** En `text-input-exact`, el usuario debe escribir la respuesta exactamente como aparece en `correctAnswer`, incluyendo mayúsculas, minúsculas y puntuación. No se aplica ninguna normalización.
+### Tipo de Pregunta: audio-dictation-exact
+
+```json
+{
+  "id": 1,
+  "category": "Halloween Words",
+  "type": "audio-dictation-exact",
+  "audioText": "Halloween",
+  "question": "Listen and write the word (capitalization matters)",
+  "correctAnswer": "Halloween"
+}
+```
+
+**Nota importante:** En `audio-dictation-exact`, el usuario debe escribir la respuesta exactamente como aparece en `correctAnswer`, incluyendo mayúsculas, minúsculas y puntuación. Se reproduce audio automáticamente pero la validación es exacta.
 
 - Se muestra un botón de bocina grande (🔊)
 - La palabra se pronuncia automáticamente al cargar la pregunta
@@ -550,6 +564,10 @@ Validación estricta que requiere coincidencia exacta con la respuesta correcta,
 ### 4. Audio-Dictado (`audio-dictation`)
 
 Reproduce una palabra en inglés y el usuario debe escribirla. Usa ResponsiveVoice para audio de alta calidad. Validación flexible (insensible a mayúsculas).
+
+### 5. Audio-Dictado Exacto (`audio-dictation-exact`)
+
+Similar a audio-dictation pero con validación estricta que requiere coincidencia exacta con la respuesta correcta, incluyendo mayúsculas, minúsculas y puntuación. Usado para palabras específicas donde el formato es importante (ej: "Halloween").
 
 ## Optimización de Imágenes por Materia
 
