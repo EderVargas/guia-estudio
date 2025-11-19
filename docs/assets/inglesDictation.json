@@ -2,83 +2,83 @@
 	"data": [
 		{
 			"id": 1,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation-exact",
-			"audioText": "Halloween",
-			"question": "Listen and write the word (capitalization matters)",
-			"correctAnswer": "Halloween"
+			"audioText": "Thanksgiving Day",
+			"question": "Listen and write the words (capitalization matters)",
+			"correctAnswer": "Thanksgiving Day"
 		},
 		{
 			"id": 2,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "ghost",
+			"audioText": "turkey",
 			"question": "Listen and write the word",
-			"correctAnswer": "ghost"
+			"correctAnswer": "turkey"
 		},
 		{
 			"id": 3,
-			"category": "Halloween Words",
-			"type": "audio-dictation",
-			"audioText": "witch",
-			"question": "Listen and write the word",
-			"correctAnswer": "witch"
+			"category": "Thanksgiving Words",
+			"type": "audio-dictation-exact",
+			"audioText": "Pilgrim",
+			"question": "Listen and write the word (capitalization matters)",
+			"correctAnswer": "Pilgrim"
 		},
 		{
 			"id": 4,
-			"category": "Halloween Words",
-			"type": "audio-dictation",
-			"audioText": "spider",
-			"question": "Listen and write the word",
-			"correctAnswer": "spider"
+			"category": "Thanksgiving Words",
+			"type": "audio-dictation-exact",
+			"audioText": "Native American",
+			"question": "Listen and write the words (capitalization matters)",
+			"correctAnswer": "Native American"
 		},
 		{
 			"id": 5,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "spooky",
+			"audioText": "corn",
 			"question": "Listen and write the word",
-			"correctAnswer": "spooky"
+			"correctAnswer": "corn"
 		},
 		{
 			"id": 6,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "pumpkin",
-			"question": "Listen and write the word",
-			"correctAnswer": "pumpkin"
+			"audioText": "pumpkin pie",
+			"question": "Listen and write the words",
+			"correctAnswer": "pumpkin pie"
 		},
 		{
 			"id": 7,
-			"category": "Halloween Words",
-			"type": "audio-dictation",
-			"audioText": "black cat",
-			"question": "Listen and write the words",
-			"correctAnswer": "black cat"
+			"category": "Thanksgiving Words",
+			"type": "audio-dictation-exact",
+			"audioText": "Mayflower",
+			"question": "Listen and write the word (capitalization matters)",
+			"correctAnswer": "Mayflower"
 		},
 		{
 			"id": 8,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "costume",
+			"audioText": "feast",
 			"question": "Listen and write the word",
-			"correctAnswer": "costume"
+			"correctAnswer": "feast"
 		},
 		{
 			"id": 9,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "candy",
+			"audioText": "scarecrow",
 			"question": "Listen and write the word",
-			"correctAnswer": "candy"
+			"correctAnswer": "scarecrow"
 		},
 		{
 			"id": 10,
-			"category": "Halloween Words",
+			"category": "Thanksgiving Words",
 			"type": "audio-dictation",
-			"audioText": "bat",
+			"audioText": "cornucopia",
 			"question": "Listen and write the word",
-			"correctAnswer": "bat"
+			"correctAnswer": "cornucopia"
 		}
 	]
 }

@@ -31,7 +31,7 @@ const SUBJECTS = {
         storagePrefix: 'fce_'
     },
     'ingles': {
-        title: '🔊 English - Dictation',
+        title: '🦃 Thanksgiving Dictation',
         jsonFile: 'assets/inglesDictation.json',
         storagePrefix: 'eng_'
     },

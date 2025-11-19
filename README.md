@@ -175,7 +175,7 @@ El sistema incluye **6 materias diferentes**:
 2. 📚 **Lenguajes** - Vocales, letras, palabras
 3. 🌍 **Conocimiento del Medio** - Cuerpo humano, nutrición, salud (23 preguntas)
 4. 🤝 **Formación Cívica y Ética** - Reglas, respeto, valores (12 preguntas)
-5. 🔊 **English - Dictation** - Dictado de palabras de Halloween con audio (10 palabras)
+5. 🦃 **Thanksgiving Dictation** - Dictado de palabras de Thanksgiving con audio (10 palabras)
 6. 📝 **English Exam** - Lectura, gramática, escritura (55 preguntas)
 
 Cada materia tiene su propio progreso independiente que se guarda en `sessionStorage`.

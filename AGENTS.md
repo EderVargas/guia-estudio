@@ -421,11 +421,11 @@ El proyecto ahora soporta múltiples materias con progreso independiente:
    - 4 imágenes optimizadas
    - Categorías: Las Reglas, Riesgos y Accidentes, Respeto
 
-5. **🔊 English - Dictation** (`inglesDictation.json`)
-   - 10 palabras de Halloween para dictado
+5. **🦃 Thanksgiving Dictation** (`inglesDictation.json`)
+   - 10 palabras de Thanksgiving para dictado
    - Sin imágenes, usa audio con ResponsiveVoice
-   - Palabras: Halloween (con validación exacta), ghost, witch, spider, spooky, pumpkin, black cat, costume, candy, bot
-   - Mezcla audio-dictation (flexible) y audio-dictation-exact (para "Halloween" con mayúscula)
+   - Palabras: Thanksgiving Day (exacta), turkey, Pilgrim (exacta), Native American (exacta), corn, pumpkin pie, Mayflower (exacta), feast, scarecrow, cornucopia
+   - Mezcla audio-dictation (flexible) y audio-dictation-exact (para palabras con mayúsculas)
 
 6. **📝 English Exam** (`inglesExamen.json`)
    - 55 preguntas sobre lectura, gramática y escritura en inglés

@@ -89,44 +89,44 @@
             overflow: hidden;
         }
 
-        .subject-card.ingles.halloween-theme {
-            background: linear-gradient(135deg, #2c2c54 0%, #40407a 50%, #706fd3 100%);
-            box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+        .subject-card.ingles.thanksgiving-theme {
+            background: linear-gradient(135deg, #d4a574 0%, #e8ac5d 50%, #f4a460 100%);
+            box-shadow: 0 5px 15px rgba(212, 165, 116, 0.4);
         }
 
-        .subject-card.ingles.halloween-theme:hover {
-            background: linear-gradient(135deg, #40407a 0%, #706fd3 50%, #ff6348 100%);
-            box-shadow: 0 15px 30px rgba(255, 140, 0, 0.6);
+        .subject-card.ingles.thanksgiving-theme:hover {
+            background: linear-gradient(135deg, #f4a460 0%, #ff8c42 50%, #d2691e 100%);
+            box-shadow: 0 15px 30px rgba(212, 165, 116, 0.6);
         }
 
-        .subject-card.ingles.halloween-theme::before {
-            content: '🕷️';
+        .subject-card.ingles.thanksgiving-theme::before {
+            content: '🌽';
             position: absolute;
             top: 10px;
             right: 15px;
             font-size: 1.5em;
             opacity: 0.7;
-            animation: spider-swing 3s ease-in-out infinite;
+            animation: corn-sway 3s ease-in-out infinite;
         }
 
-        .subject-card.ingles.halloween-theme::after {
-            content: '🦇';
+        .subject-card.ingles.thanksgiving-theme::after {
+            content: '🍂';
             position: absolute;
             bottom: 10px;
             left: 15px;
             font-size: 1.2em;
             opacity: 0.6;
-            animation: bat-fly 4s ease-in-out infinite;
+            animation: leaf-fall 4s ease-in-out infinite;
         }
 
-        @keyframes spider-swing {
+        @keyframes corn-sway {
+            0%, 100% { transform: rotate(-3deg); }
+            50% { transform: rotate(3deg); }
+        }
+
+        @keyframes leaf-fall {
             0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(5px) rotate(5deg); }
-        }
-
-        @keyframes bat-fly {
-            0%, 100% { transform: translateX(0px); }
-            50% { transform: translateX(8px); }
+            50% { transform: translateY(5px) rotate(10deg); }
         }
 
         .subject-card.inglesExamen {
@@ -177,7 +177,7 @@
         <p class="subtitle">Selecciona la materia que quieres practicar</p>
 
         <div class="subjects-grid">
-            <a href="quiz.html?subject=matematicas" class="subject-card matematicas">
+            <!-- <a href="quiz.html?subject=matematicas" class="subject-card matematicas">
                 <span class="subject-icon">🔢</span>
                 <div class="subject-title">Matemáticas</div>
                 <div class="subject-description">Números, sumas y conteo</div>
@@ -201,22 +201,29 @@
                 <div class="subject-description">Reglas, respeto y valores</div>
             </a>
 
-            <!-- <a href="quiz.html?subject=ingles" class="subject-card ingles">
+            <a href="quiz.html?subject=ingles" class="subject-card ingles">
                 <span class="subject-icon">🔊</span>
                 <div class="subject-title">English - Dictation</div>
                 <div class="subject-description">Listen and write words</div>
-            </a> -->
-
-            <a href="quiz.html?subject=ingles" class="subject-card ingles halloween-theme">
-                <span class="subject-icon">🎃</span>
-                <div class="subject-title">Halloween Dictation</div>
-                <div class="subject-description">Spooky words to spell! 👻</div>
             </a>
+
+
 
             <a href="quiz.html?subject=inglesExamen" class="subject-card inglesExamen">
                 <span class="subject-icon">📝</span>
                 <div class="subject-title">English Exam</div>
                 <div class="subject-description">Reading, grammar, and writing</div>
+            </a> 
+
+            <a href="quiz.html?subject=ingles" class="subject-card ingles halloween-theme">
+                <span class="subject-icon">🎃</span>
+                <div class="subject-title">Halloween Dictation</div>
+                <div class="subject-description">Spooky words to spell! 👻</div>
+            </a>-->
+            <a href="quiz.html?subject=ingles" class="subject-card ingles thanksgiving-theme">
+                <span class="subject-icon">🦃</span>
+                <div class="subject-title">Thanksgiving Dictation</div>
+                <div class="subject-description">Words of gratitude! 🍂</div>
             </a>
         </div>
 
