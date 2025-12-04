@@ -2,83 +2,83 @@
 	"data": [
 		{
 			"id": 1,
-			"category": "Thanksgiving Words",
-			"type": "audio-dictation-exact",
-			"audioText": "Thanksgiving Day",
-			"question": "Listen and write the words (capitalization matters)",
-			"correctAnswer": "Thanksgiving Day"
+			"category": "Challenge words 3",
+			"type": "audio-dictation",
+			"audioText": "technology",
+			"question": "Listen and write the word",
+			"correctAnswer": "technology"
 		},
 		{
 			"id": 2,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "turkey",
+			"audioText": "electricity",
 			"question": "Listen and write the word",
-			"correctAnswer": "turkey"
+			"correctAnswer": "electricity"
 		},
 		{
 			"id": 3,
-			"category": "Thanksgiving Words",
-			"type": "audio-dictation-exact",
-			"audioText": "Pilgrim",
-			"question": "Listen and write the word (capitalization matters)",
-			"correctAnswer": "Pilgrim"
+			"category": "Challenge words 3",
+			"type": "audio-dictation",
+			"audioText": "day",
+			"question": "Listen and write the word",
+			"correctAnswer": "day"
 		},
 		{
 			"id": 4,
-			"category": "Thanksgiving Words",
-			"type": "audio-dictation-exact",
-			"audioText": "Native American",
-			"question": "Listen and write the words (capitalization matters)",
-			"correctAnswer": "Native American"
+			"category": "Challenge words 3",
+			"type": "audio-dictation",
+			"audioText": "night",
+			"question": "Listen and write the word",
+			"correctAnswer": "night"
 		},
 		{
 			"id": 5,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "corn",
+			"audioText": "weather",
 			"question": "Listen and write the word",
-			"correctAnswer": "corn"
+			"correctAnswer": "weather"
 		},
 		{
 			"id": 6,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "pumpkin pie",
-			"question": "Listen and write the words",
-			"correctAnswer": "pumpkin pie"
+			"audioText": "wind",
+			"question": "Listen and write the word",
+			"correctAnswer": "wind"
 		},
 		{
 			"id": 7,
-			"category": "Thanksgiving Words",
-			"type": "audio-dictation-exact",
-			"audioText": "Mayflower",
-			"question": "Listen and write the word (capitalization matters)",
-			"correctAnswer": "Mayflower"
+			"category": "Challenge words 3",
+			"type": "audio-dictation",
+			"audioText": "rain",
+			"question": "Listen and write the word",
+			"correctAnswer": "rain"
 		},
 		{
 			"id": 8,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "feast",
+			"audioText": "clouds",
 			"question": "Listen and write the word",
-			"correctAnswer": "feast"
+			"correctAnswer": "clouds"
 		},
 		{
 			"id": 9,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "scarecrow",
+			"audioText": "stars",
 			"question": "Listen and write the word",
-			"correctAnswer": "scarecrow"
+			"correctAnswer": "stars"
 		},
 		{
 			"id": 10,
-			"category": "Thanksgiving Words",
+			"category": "Challenge words 3",
 			"type": "audio-dictation",
-			"audioText": "cornucopia",
+			"audioText": "planets",
 			"question": "Listen and write the word",
-			"correctAnswer": "cornucopia"
+			"correctAnswer": "planets"
 		}
 	]
 }

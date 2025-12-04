@@ -31,7 +31,7 @@ const SUBJECTS = {
         storagePrefix: 'fce_'
     },
     'ingles': {
-        title: '🦃 Thanksgiving Dictation',
+        title: '🔊 English Dictation',
         jsonFile: 'assets/inglesDictation.json',
         storagePrefix: 'eng_'
     },
@@ -389,6 +389,9 @@ function displayQuestion() {
         textInput.type = 'text';
         textInput.id = 'text-answer-input';
         textInput.className = 'text-answer-input';
+        textInput.autocapitalize = 'off';
+        textInput.autocorrect = 'off';
+        textInput.spellcheck = false;
         
         // Placeholder específico según tipo de validación
         if (questionType === 'audio-dictation-exact') {
@@ -431,6 +434,9 @@ function displayQuestion() {
         textInput.type = 'text';
         textInput.id = 'text-answer-input';
         textInput.className = 'text-answer-input';
+        textInput.autocapitalize = 'off';
+        textInput.autocorrect = 'off';
+        textInput.spellcheck = false;
         
         // Placeholder específico para validación exacta
         if (questionType === 'text-input-exact') {
