@@ -1,0 +1,123 @@
+============================================================
+REPORTE DE OPTIMIZACIÓN DE IMÁGENES
+============================================================
+
+Archivo: 1.jpg
+  Original: 8.00 KB
+  JPEG: 4.43 KB
+  WebP: 2.23 KB
+
+Archivo: 10.jpg
+  Original: 62.47 KB
+  JPEG: 16.92 KB
+  WebP: 11.72 KB
+
+Archivo: 11.jpg
+  Original: 9.90 KB
+  JPEG: 5.81 KB
+  WebP: 3.22 KB
+
+Archivo: 12.jpg
+  Original: 10.12 KB
+  JPEG: 7.35 KB
+  WebP: 5.32 KB
+
+Archivo: 13.jpg
+  Original: 10.86 KB
+  JPEG: 7.92 KB
+  WebP: 6.64 KB
+
+Archivo: 14.jpg
+  Original: 85.48 KB
+  JPEG: 63.43 KB
+  WebP: 68.68 KB
+
+Archivo: 15.jpg
+  Original: 28.59 KB
+  JPEG: 20.40 KB
+  WebP: 15.33 KB
+
+Archivo: 16.jpg
+  Original: 22.06 KB
+  JPEG: 16.02 KB
+  WebP: 11.08 KB
+
+Archivo: 2.jpg
+  Original: 7.17 KB
+  JPEG: 3.77 KB
+  WebP: 1.92 KB
+
+Archivo: 3.jpg
+  Original: 7.50 KB
+  JPEG: 3.99 KB
+  WebP: 2.08 KB
+
+Archivo: 30.jpg
+  Original: 21.83 KB
+  JPEG: 15.75 KB
+  WebP: 11.33 KB
+
+Archivo: 31.jpg
+  Original: 13.01 KB
+  JPEG: 9.34 KB
+  WebP: 6.39 KB
+
+Archivo: 32.jpg
+  Original: 32.84 KB
+  JPEG: 23.64 KB
+  WebP: 15.49 KB
+
+Archivo: 33.jpg
+  Original: 36.32 KB
+  JPEG: 26.10 KB
+  WebP: 16.96 KB
+
+Archivo: 34.jpg
+  Original: 22.75 KB
+  JPEG: 16.33 KB
+  WebP: 11.12 KB
+
+Archivo: 35.jpg
+  Original: 55.17 KB
+  JPEG: 24.80 KB
+  WebP: 16.92 KB
+
+Archivo: 36.jpg
+  Original: 68.53 KB
+  JPEG: 27.56 KB
+  WebP: 19.13 KB
+
+Archivo: 4.jpg
+  Original: 7.88 KB
+  JPEG: 4.27 KB
+  WebP: 2.36 KB
+
+Archivo: 5.jpg
+  Original: 7.27 KB
+  JPEG: 3.87 KB
+  WebP: 2.10 KB
+
+Archivo: 6.jpg
+  Original: 9.25 KB
+  JPEG: 5.32 KB
+  WebP: 2.88 KB
+
+Archivo: 7.jpg
+  Original: 6.03 KB
+  JPEG: 3.04 KB
+  WebP: 1.59 KB
+
+Archivo: 8.jpg
+  Original: 7.48 KB
+  JPEG: 4.05 KB
+  WebP: 2.04 KB
+
+Archivo: 9.jpg
+  Original: 8.37 KB
+  JPEG: 4.64 KB
+  WebP: 2.56 KB
+
+------------------------------------------------------------
+TOTAL ORIGINAL: 548.86 KB
+TOTAL OPTIMIZADO: 557.85 KB
+REDUCCIÓN TOTAL: -1.6%

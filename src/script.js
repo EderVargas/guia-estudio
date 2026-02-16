@@ -39,6 +39,11 @@ const SUBJECTS = {
         title: '📝 English Exam',
         jsonFile: 'assets/inglesExamen.json',
         storagePrefix: 'engex_'
+    },
+    'inglesExamen2doTrimestre': {
+        title: '📝 English Exam 2do Trimestre',
+        jsonFile: 'assets/inglesExamen2doTrimestre.json',
+        storagePrefix: 'engex2_'
     }
 };
 
@@ -341,7 +346,13 @@ function displayQuestion() {
     const currentQuestion = currentQuizQuestions[currentQuestionIndex];
     
     // Actualizar texto de la pregunta con categoría
-    questionText.innerHTML = `<span class="category-tag">Categoría: ${currentQuestion.category}</span><br>${currentQuestion.question}`;
+    // questionText.innerHTML = `<span class="category-tag">Categoría: ${currentQuestion.category}</span><br>${currentQuestion.question}`;
+
+    if (currentQuestion.subcategory) {
+        questionText.innerHTML = `<span class="category-tag">Categoría: ${currentQuestion.category} <br> Subcategoría: ${currentQuestion.subcategory}</span><br>${currentQuestion.question}`;
+    } else {
+        questionText.innerHTML = `<span class="category-tag">Categoría: ${currentQuestion.category}</span><br>${currentQuestion.question}`;
+    }
     
     // Actualizar número de pregunta
     currentQuestionDisplay.textContent = currentQuestionIndex + 1;

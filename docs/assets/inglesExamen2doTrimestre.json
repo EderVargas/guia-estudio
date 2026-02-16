@@ -1,0 +1,374 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/1.jpg",
+      "correctAnswer": "mother"
+    },
+    {
+      "id": 2,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/2.jpg",
+      "correctAnswer": "father"
+    },
+    {
+      "id": 3,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/3.jpg",
+      "correctAnswer": "brother"
+    },
+    {
+      "id": 4,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/4.jpg",
+      "correctAnswer": "sister"
+    },
+    {
+      "id": 5,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/5.jpg",
+      "correctAnswer": "uncle"
+    },
+    {
+      "id": 6,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/6.jpg",
+      "correctAnswer": "aunt"
+    },
+    {
+      "id": 7,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/7.jpg",
+      "correctAnswer": "grandmother"
+    },
+    {
+      "id": 8,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/8.jpg",
+      "correctAnswer": "grandfather"
+    },
+    {
+      "id": 9,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/9.jpg",
+      "correctAnswer": "cousin"
+    },
+    {
+      "id": 10,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/10.jpg",
+      "correctAnswer": "family"
+    },
+    {
+      "id": 11,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/11.jpg",
+      "correctAnswer": "grandparents"
+    },
+    {
+      "id": 12,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/12.jpg",
+      "correctAnswer": "unique"
+    },
+    {
+      "id": 13,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/13.jpg",
+      "correctAnswer": "role"
+    },
+    {
+      "id": 14,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/14.jpg",
+      "correctAnswer": "fossil"
+    },
+    {
+      "id": 15,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/15.jpg",
+      "correctAnswer": "paleontologist"
+    },
+    {
+      "id": 16,
+      "category": "Use of English / Writing",
+      "subcategory": "Vocabulary 'MY FAMILY'",
+      "question": "Write the correct option.",
+      "type": "text-input",
+      "image": "assets/images/inglesExamen2doTrimestre/16.jpg",
+      "correctAnswer": "dinosaur"
+    },
+    {
+      "id": 17,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "I _____ watching a movie.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was", "correct": true },
+        { "option": "were" }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "We _____ playing tennis.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was" },
+        { "option": "were", "correct": true }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "She _____ crying.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was", "correct": true },
+        { "option": "were" }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "He _____ watching the football match.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was", "correct": true },
+        { "option": "were" }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "They _____ eating ice cream.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was" },
+        { "option": "were", "correct": true }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "My dog _____ playing in the mud.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was", "correct": true },
+        { "option": "were" }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "You _____ singing.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was" },
+        { "option": "were", "correct": true }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "I _____ running very fast.",
+      "type": "multiple-choice",
+      "answers": [
+        { "option": "was", "correct": true },
+        { "option": "were" }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "I ____ in the park.",
+      "type": "text-input",
+      "correctAnswer": "was"
+    },
+    {
+      "id": 26,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "We ____ playing soccer.",
+      "type": "text-input",
+      "correctAnswer": "were"
+    },
+    {
+      "id": 27,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "My dog ____ drinking water.",
+      "type": "text-input",
+      "correctAnswer": "was"
+    },
+    {
+      "id": 28,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "They ____ at school.",
+      "type": "text-input",
+      "correctAnswer": "were"
+    },
+    {
+      "id": 29,
+      "category": "Use of English / Writing",
+      "subcategory": "Use of Was and Were",
+      "question": "My teacher ____ in the classroom.",
+      "type": "text-input",
+      "correctAnswer": "was"
+    },
+    {
+      "id": 30,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "Hi! I ____ a movie at the cinema.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/30.jpg",
+      "answers": [
+        { "option": "watched", "correct": true },
+        { "option": "helped" },
+        { "option": "talked" },
+        { "option": "walked" }
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "First, I ____ my grandma in the garden.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/31.jpg",
+      "answers": [
+        { "option": "watched" },
+        { "option": "helped", "correct": true },
+        { "option": "talked" },
+        { "option": "walked" }
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "Then, I ____ to my grandpa about the things I want to do next week.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/32.jpg",
+      "answers": [
+        { "option": "watched" },
+        { "option": "helped" },
+        { "option": "talked", "correct": true },
+        { "option": "walked" }
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "Finaly, I ____ to the park to play with my dog.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/33.jpg",
+      "answers": [
+        { "option": "watched" },
+        { "option": "helped" },
+        { "option": "talked" },
+        { "option": "walked", "correct": true }
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "Oh, I remember! I ____ to walk outside, but it was raining.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/34.jpg",
+      "answers": [
+        { "option": "wanted", "correct": true },
+        { "option": "played" },
+        { "option": "listened" },
+        { "option": "walked" }
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "I ____ video games with Anyu.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/35.jpg",
+      "answers": [
+        { "option": "wanted" },
+        { "option": "played", "correct": true },
+        { "option": "listened" },
+        { "option": "walked" }
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Use of English / Writing",
+      "subcategory": "Verbs",
+      "question": "Then ____ to some music.",
+      "type": "multiple-choice",
+      "image": "assets/images/inglesExamen2doTrimestre/36.jpg",
+      "answers": [
+        { "option": "wanted" },
+        { "option": "played" },
+        { "option": "listened", "correct": true },
+        { "option": "walked" }
+      ]
+    }
+  ]
+}

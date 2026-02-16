@@ -358,6 +358,7 @@ Para agregar más preguntas, edita el archivo `assets/lenguajes.json` siguiendo 
 
 El proyecto incluye un script de Python para optimizar imágenes automáticamente antes de usarlas en los cuestionarios.
 
+
 ### Características del optimizador
 
 - **Redimensionamiento automático**: Ajusta imágenes grandes al tamaño ideal para web (600x400px)
@@ -367,21 +368,36 @@ El proyecto incluye un script de Python para optimizar imágenes automáticament
 - **Procesamiento en lote**: Optimiza múltiples imágenes de una vez
 - **Reporte detallado**: Genera estadísticas de ahorro de espacio
 
-### Uso rápido
+### Uso rápido y estándar de trabajo
 
-1. Coloca las imágenes originales en: `assets/images/originales/`
-2. Ejecuta: `python optimize_images.py`
-3. Las imágenes optimizadas se guardan en: `assets/images/`
-4. Revisa el reporte en: `assets/images/_optimization_report.txt`
 
-### Configuración disponible
+**Siempre que agregues o modifiques preguntas, sigue estos pasos antes de probar en local o subir cambios:**
 
-Puedes personalizar en `optimize_images.py`:
+#### 1. Minificar el JavaScript
 
-- **Calidad de compresión**: JPG (80), WebP (85), PNG (90)
-- **Tamaño máximo**: 600x400 píxeles (ajustable)
-- **Conversión a WebP**: Activado por defecto
-- **Mantener originales**: Genera tanto WebP como formato original
+- Ejecuta: `python scripts/build.py minify`
+- Esto genera/actualiza el archivo minificado en `docs/script.min.js` a partir de `src/script.js`.
+
+#### 2. Optimizar imágenes (estándar)
+
+- Coloca las imágenes originales en la carpeta correspondiente dentro de `assets/images/originales/{materia}/` (por ejemplo, `inglesExamen2T/`).
+- Ejecuta: `python scripts/build.py optimize`
+- Esto optimiza todas las imágenes de todas las materias configuradas en el script y genera las versiones optimizadas en `docs/assets/images/{materia}/`.
+- Si necesitas optimizar solo una materia personalizada y el script lo permite, puedes usar: `python scripts/optimize_images.py --subject inglesExamen2T`
+
+#### 3. Instalar dependencias para optimización de imágenes
+
+- Asegúrate de tener Pillow instalado: `pip install Pillow`
+
+#### 4. Verifica estructura y reportes
+
+- Usa: `python scripts/build.py check` para validar la estructura del proyecto.
+- Revisa los reportes de optimización en cada carpeta de imágenes optimizadas.
+
+#### 5. Documentación y buenas prácticas
+
+- Documenta en el commit o en el README si agregas una materia/carpeta nueva para imágenes.
+- Mantén el estándar de carpetas: originales en `assets/images/originales/{materia}/`, optimizadas en `docs/assets/images/{materia}/`.
 
 ### Documentación completa
 
