@@ -1,20 +1,14 @@
 {
   "data": [
-    { "id": 1, "category": "My Family", "type": "audio-dictation", "audioText": "Mother", "question": "Listen and write the word", "correctAnswer": "Mother" },
-    { "id": 2, "category": "My Family", "type": "audio-dictation", "audioText": "Father", "question": "Listen and write the word", "correctAnswer": "Father" },
-    { "id": 3, "category": "My Family", "type": "audio-dictation", "audioText": "Brother", "question": "Listen and write the word", "correctAnswer": "Brother" },
-    { "id": 4, "category": "My Family", "type": "audio-dictation", "audioText": "Sister", "question": "Listen and write the word", "correctAnswer": "Sister" },
-    { "id": 5, "category": "My Family", "type": "audio-dictation", "audioText": "Uncle", "question": "Listen and write the word", "correctAnswer": "Uncle" },
-    { "id": 6, "category": "My Family", "type": "audio-dictation", "audioText": "Aunt", "question": "Listen and write the word", "correctAnswer": "Aunt" },
-    { "id": 7, "category": "My Family", "type": "audio-dictation", "audioText": "Grandmother", "question": "Listen and write the word", "correctAnswer": "Grandmother" },
-    { "id": 8, "category": "My Family", "type": "audio-dictation", "audioText": "Grandfather", "question": "Listen and write the word", "correctAnswer": "Grandfather" },
-    { "id": 9, "category": "My Family", "type": "audio-dictation", "audioText": "Cousin", "question": "Listen and write the word", "correctAnswer": "Cousin" },
-    { "id": 10, "category": "My Family", "type": "audio-dictation", "audioText": "Family", "question": "Listen and write the word", "correctAnswer": "Family" },
-    { "id": 11, "category": "My Family", "type": "audio-dictation", "audioText": "Grandparents", "question": "Listen and write the word", "correctAnswer": "Grandparents" },
-    { "id": 12, "category": "My Family", "type": "audio-dictation", "audioText": "Unique", "question": "Listen and write the word", "correctAnswer": "Unique" },
-    { "id": 13, "category": "My Family", "type": "audio-dictation", "audioText": "Role", "question": "Listen and write the word", "correctAnswer": "Role" },
-    { "id": 14, "category": "My Family", "type": "audio-dictation", "audioText": "Fossil", "question": "Listen and write the word", "correctAnswer": "Fossil" },
-    { "id": 15, "category": "My Family", "type": "audio-dictation", "audioText": "Paleontologist", "question": "Listen and write the word", "correctAnswer": "Paleontologist" },
-    { "id": 16, "category": "My Family", "type": "audio-dictation", "audioText": "Dinosaur", "question": "Listen and write the word", "correctAnswer": "Dinosaur" }
+    { "id": 1, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Fix", "question": "Listen and write the word", "correctAnswer": "Fix" },
+    { "id": 2, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Toy", "question": "Listen and write the word", "correctAnswer": "Toy" },
+    { "id": 3, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Clean", "question": "Listen and write the word", "correctAnswer": "Clean" },
+    { "id": 4, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Donate", "question": "Listen and write the word", "correctAnswer": "Donate" },
+    { "id": 5, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Clothing", "question": "Listen and write the word", "correctAnswer": "Clothing" },
+    { "id": 6, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Shelter", "question": "Listen and write the word", "correctAnswer": "Shelter" },
+    { "id": 7, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Poor", "question": "Listen and write the word", "correctAnswer": "Poor" },
+    { "id": 8, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Food", "question": "Listen and write the word", "correctAnswer": "Food" },
+    { "id": 9, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Money", "question": "Listen and write the word", "correctAnswer": "Money" },
+    { "id": 10, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Water", "question": "Listen and write the word", "correctAnswer": "Water" },
   ]
 }
