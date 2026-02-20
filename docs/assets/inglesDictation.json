@@ -9,6 +9,6 @@
     { "id": 7, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Poor", "question": "Listen and write the word", "correctAnswer": "Poor" },
     { "id": 8, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Food", "question": "Listen and write the word", "correctAnswer": "Food" },
     { "id": 9, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Money", "question": "Listen and write the word", "correctAnswer": "Money" },
-    { "id": 10, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Water", "question": "Listen and write the word", "correctAnswer": "Water" },
+    { "id": 10, "category": "Challenge Words 5", "type": "audio-dictation", "audioText": "Water", "question": "Listen and write the word", "correctAnswer": "Water" }
   ]
 }
