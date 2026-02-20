@@ -1,0 +1,349 @@
+Id:1
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: Son las palabras que nombran todo lo que nos rodea.
+Opcion 1: Sustantivos. _correcta
+Opcion 2: Sustantivos propios.
+Opcion 3: Sustantivos comunes.
+Opcion 4: Sílabas.
+
+Id:2
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos comunes.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: Son las palabras que nombran personas, animales, cosas o lugares y siempre se escriben con minúscula.
+Opcion 1: Sustantivos.
+Opcion 2: Sustantivos propios.
+Opcion 3: Sustantivos comunes. _correcta
+Opcion 4: Sílabas.
+
+Id:3
+Materia: Español
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos propios.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: Son nombres de personas y lugares y siempre se escriben con la primera letra en mayúscula.
+Opcion 1: Sustantivos.
+Opcion 2: Sustantivos propios. _correcta
+Opcion 3: Sustantivos comunes.
+Opcion 4: Sílabas.
+
+Id:4
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos comunes.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: ¿Cuáles son sustantivos comunes de personas?
+Opcion 1: mamá, niña, abuelo y astronauta. _correcta
+Opcion 2: pintura, ventana y planta.
+Opcion 3: huerto, parque y ciudad.
+
+Id:5
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos propios.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: ¿Cuáles son sustantivos propios?
+Opcion 1: mamá, niña, abuelo y astronauta.
+Opcion 2: José, Amelia, Morelos y Chihuahua. _correcta
+Opcion 3: huerto, parque y ciudad.
+
+Id:6
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta:Ejemplo de concordancia de genero y número "Masculino - Singular".
+Opcion 1: El teléfono. _correcta
+Opcion 2: Las casas.
+Opción 3: La manzana.
+Opcion 4: Los zapatos.
+
+Id:7
+Materia: Español.
+Categoria: Sustantivos Propios y Sustantivos Comunes.
+Subcategoria: Sustantivos.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta:Ejemplo de concordancia de genero y número "Femenino - Plural".
+Opcion 1: El teléfono.
+Opcion 2: Las casas. _correcta
+Opción 3: La manzana.
+Opcion 4: Los zapatos.
+
+Id:8
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: Es el sonido que se forma cuando se junta una consonante con una vocal.
+Opcion 1: Sustantivos.
+Opcion 2: Sustantivos propios.
+Opcion 3: Sílabas tónicas.
+Opcion 4: Sílabas. _correcta
+
+Id:9
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas.
+Instruccion: Responde correctamente.
+Pregunta: ¿Cuántas sílabas tiene la palabra "bocadillo"?
+Respuesta: 4
+
+Id:10
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas.
+Instruccion: Responde correctamente.
+Pregunta: ¿Cuántas sílabas tiene la palabra "sol"?
+Respuesta: 1
+
+Id:11
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas.
+Instruccion: Responde correctamente.
+Pregunta: ¿Cuántas sílabas tiene la palabra "cabeza"?
+Respuesta: 3
+
+Id:12
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas.
+Instruccion: Responde correctamente.
+Pregunta: ¿Cuántas sílabas tiene la palabra "mango"?
+Respuesta: 2
+
+Id:13
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas tónicas.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: Son las que se pronuncian con mayor intensidad o fuerza de voz, pueden llevar acento.
+Opcion 1: Sustantivos.
+Opcion 2: Sustantivos propios.
+Opcion 3: Sílabas tónicas. _correcta
+Opcion 4: Sílabas.
+
+Id:14
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas tónicas.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: ¿Cuál es la sílaba tónica en la palabra ma-ri-po-sa?
+Opcion 1: ma
+Opcion 2: ri
+Opcion 3: po _correcta
+Opcion 4: sa
+
+Id:15
+Materia: Español.
+Categoria: La sílaba.
+Subcategoria: Sílabas tónicas.
+Instruccion: Selecciona la respuesta correcta.
+Pregunta: ¿Cuál es la sílaba tónica en la palabra cam-pa-na?
+Opcion 1: cam
+Opcion 2: pa _correcta
+Opcion 3: na
+
+Id:16
+Materia: Español.
+Categoria: El instructivo.
+Subcategoria: Instructivo.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es un texto que sirve para explicar como realizar una acción. Tiene pasos claros y ordenados y puede tener imagenes para ilustrarlos.
+Opcion 1: El instructivo. _correcta
+Opcion 2: El cuento.
+Opcion 3: Los trabalenguas.
+Opcion 4: Los Adjetivos Calificativos.
+
+Id:17
+Materia: Español.
+Categoria: El instructivo.
+Subcategoria: Instructivo.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Ejemplo de un instructivo
+Opcion 1: Como hacer un perrito de origami. _correcta
+Opcion 2: Cuento de caperucita roja y el lobo feroz.
+Opcion 3: Chiqui nota.
+
+Id: 18
+Materia: Español.
+Categoria: Cuento.
+Subcategoria: Definición.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Describe una historia con personajes, escenarios y tiene una trama.
+Opcion 1: El instructivo.
+Opcion 2: El cuento. _correcta
+Opcion 3: Los trabalenguas.
+Opcion 4: Los Adjetivos Calificativos.
+
+Id: 19
+Materia: Español.
+Categoria: Cuento.
+Subcategoria: Partes del cuento.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuáles son las partes del cuento?
+Opcion 1: Emisor, Mensaje y Receptor.
+Opcion 2: Inicio, Nudo y Desenlace. _correcta
+Opcion 3: Aspectos Físicos, Personalidad y Escenario.
+Opcion 4: Femeninos y Masculinos.
+
+Id: 20
+Materia: Español.
+Categoria: Cuento.
+Subcategoria: Partes del cuento.
+Instruccion: Selecciona la opción correcta.
+Pregunta: En el cuento, es la parte donde se menciona cuándo y dónde ocurren los hechos y se presenta a los personajes.
+Opcion 1: Nudo.
+Opcion 2: Inicio. _correcta
+Opcion 3: Desenlace.
+
+Id: 21
+Materia: Español.
+Categoria: Cuento.
+Subcategoria: Partes del cuento.
+Instruccion: Selecciona la opción correcta.
+Pregunta: En el cuento, es la parte donde se presenta el problema o donde ocurre lo más emocionante.
+Opcion 1: Nudo. _correcta
+Opcion 2: Inicio.
+Opcion 3: Desenlace.
+
+Id: 22
+Materia: Español.
+Categoria: Cuento.
+Subcategoria: Partes del cuento.
+Instruccion: Selecciona la opción correcta.
+Pregunta: En el cuento, es el final de la narración.
+Opcion 1: Nudo.
+Opcion 2: Inicio.
+Opcion 3: Desenlace. _correcta
+
+Id:23
+Materia: Español.
+Categoria: Medios de comunicación.
+Subcategoria: Concepto.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Sirven para informar lo que ocurre en el mundo o entre nosotros. 
+Opcion 1: Medios de Comunicación. _correcta
+Opcion 2: Elementos de la comunicación.
+Opcion 3: Los Mensajes.
+Opcion 4: Los Trabalenguas.
+
+Id:24
+Materia: Español.
+Categoria: Medios de comunicación.
+Subcategoria: Ejemplos.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son ejemplos de medios de comunicación. 
+Opcion 1: Radio, televisor, internet y periódico. _correcta
+Opcion 2: El cuento.
+Opcion 3: Las sílabas.
+Opcion 4: Los Trabalenguas.
+
+Id:25
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Elementos.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuáles son los elementos de la comunicación?
+Opcion 1: Emisor, Mensaje y Receptor. _correcta
+Opcion 2: Inicio, Nudo y Desenlace.
+Opcion 3: Aspectos Físicos, Personalidad y Escenario.
+Opcion 4: Femeninos y Masculinos.
+
+Id:26
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Elementos.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es quien envía el mensaje.
+Opcion 1: Emisor. _correcta
+Opcion 2: Mensaje.
+Opcion 3: Receptor. 
+
+Id:27
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Elementos.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es la idea que se expresó.
+Opcion 1: Emisor.
+Opcion 2: Mensaje.  _correcta
+Opcion 3: Receptor.
+
+Id:28
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Elementos.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es quien escucha y responde.
+Opcion 1: Emisor.
+Opcion 2: Mensaje.
+Opcion 3: Receptor.  _correcta
+
+Id:29
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Los mensajes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son textos cortos que nos ayudan a comunicarnos con los demás.
+Opcion 1: Carta.
+Opcion 2: Mensaje.  _correcta
+Opcion 3: Periódico.
+Opcion 4: Trabalenguas.
+
+Id:30
+Materia: Español.
+Categoria: Los elementos de la comunicación.
+Subcategoria: Los mensajes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Las partes del mensaje son:
+Opcion 1: Emisor, Mensaje y Receptor.
+Opcion 2: Inicio, Nudo y Desenlace.
+Opcion 3: Saludo, Cuerpo y Despedida.  _correcta
+
+Id:31
+Materia: Español.
+Categoria: Los trabalenguas.
+Subcategoria: Concepto.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es un juego de palabras que nos ayudan a mejorar nuestra habla y posee rimas.
+Opcion 1: Trabalenguas. _correcta
+Opcion 2: Mensaje.
+Opcion 3: Adivinanza.
+Opcion 4: Adjetivos Calificativos.
+
+Id: 32
+Materia: Español.
+Categoria: Las adivinanzas.
+Subcategoria: Concepto.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son juegos de palabras escritas en versos que riman y describen algo a alguien.
+Opcion 1: Trabalenguas.
+Opcion 2: Mensaje.
+Opcion 3: Adivinanza. _correcta
+Opcion 4: Adjetivos Calificativos.
+
+Id: 33
+Materia: Español.
+Categoria: Las adivinanzas.
+Subcategoria: Contenido.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Que partes integran una adivinanza?
+Opcion 1: Emisor, Mensaje y Receptor.
+Opcion 2: Inicio, Nudo y Desenlace.
+Opcion 3: Rimas, adjetivos calificativos y calambur. _correcta
+
+Id:34
+Materia: Español.
+Categoria: Adjetivos Calificativos.
+Subcategoria: Concepto.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son palabras que describen cualidades o rasgos de personajes.
+Opcion 1: Trabalenguas.
+Opcion 2: Mensaje.
+Opcion 3: Adivinanza.
+Opcion 4: Adjetivos Calificativos. _correcta

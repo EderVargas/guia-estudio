@@ -1,0 +1,350 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "Son las palabras que nombran todo lo que nos rodea.",
+			"answers": [
+				{ "option": "Sustantivos.", "correct": true },
+				{ "option": "Sustantivos propios." },
+				{ "option": "Sustantivos comunes." },
+				{ "option": "Sílabas." }
+			]
+		},
+		{
+			"id": 2,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "Son las palabras que nombran personas, animales, cosas o lugares y siempre se escriben con minúscula.",
+			"answers": [
+				{ "option": "Sustantivos." },
+				{ "option": "Sustantivos propios." },
+				{ "option": "Sustantivos comunes.", "correct": true },
+				{ "option": "Sílabas." }
+			]
+		},
+		{
+			"id": 3,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "Son nombres de personas y lugares y siempre se escriben con la primera letra en mayúscula.",
+			"answers": [
+				{ "option": "Sustantivos." },
+				{ "option": "Sustantivos propios.", "correct": true },
+				{ "option": "Sustantivos comunes." },
+				{ "option": "Sílabas." }
+			]
+		},
+		{
+			"id": 4,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "¿Cuáles son sustantivos comunes de personas?",
+			"answers": [
+				{ "option": "mamá, niña, abuelo y astronauta.", "correct": true },
+				{ "option": "pintura, ventana y planta." },
+				{ "option": "huerto, parque y ciudad." }
+			]
+		},
+		{
+			"id": 5,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "¿Cuáles son sustantivos propios?",
+			"answers": [
+				{ "option": "mamá, niña, abuelo y astronauta." },
+				{ "option": "José, Amelia, Morelos y Chihuahua.", "correct": true },
+				{ "option": "huerto, parque y ciudad." }
+			]
+		},
+		{
+			"id": 6,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "Ejemplo de concordancia de género y número \"Masculino - Singular\".",
+			"answers": [
+				{ "option": "El teléfono.", "correct": true },
+				{ "option": "Las casas." },
+				{ "option": "La manzana." },
+				{ "option": "Los zapatos." }
+			]
+		},
+		{
+			"id": 7,
+			"category": "Sustantivos Propios y Sustantivos Comunes",
+			"question": "Ejemplo de concordancia de género y número \"Femenino - Plural\".",
+			"answers": [
+				{ "option": "El teléfono." },
+				{ "option": "Las casas.", "correct": true },
+				{ "option": "La manzana." },
+				{ "option": "Los zapatos." }
+			]
+		},
+		{
+			"id": 8,
+			"category": "La sílaba",
+			"question": "Es el sonido que se forma cuando se junta una consonante con una vocal.",
+			"answers": [
+				{ "option": "Sustantivos." },
+				{ "option": "Sustantivos propios." },
+				{ "option": "Sílabas tónicas." },
+				{ "option": "Sílabas.", "correct": true }
+			]
+		},
+		{
+			"id": 9,
+			"category": "La sílaba",
+			"question": "¿Cuántas sílabas tiene la palabra \"bocadillo\"?",
+			"type": "text-input",
+			"correctAnswer": "4"
+		},
+		{
+			"id": 10,
+			"category": "La sílaba",
+			"question": "¿Cuántas sílabas tiene la palabra \"sol\"?",
+			"type": "text-input",
+			"correctAnswer": "1"
+		},
+		{
+			"id": 11,
+			"category": "La sílaba",
+			"question": "¿Cuántas sílabas tiene la palabra \"cabeza\"?",
+			"type": "text-input",
+			"correctAnswer": "3"
+		},
+		{
+			"id": 12,
+			"category": "La sílaba",
+			"question": "¿Cuántas sílabas tiene la palabra \"mango\"?",
+			"type": "text-input",
+			"correctAnswer": "2"
+		},
+		{
+			"id": 13,
+			"category": "La sílaba",
+			"question": "Son las que se pronuncian con mayor intensidad o fuerza de voz, pueden llevar acento.",
+			"answers": [
+				{ "option": "Sustantivos." },
+				{ "option": "Sustantivos propios." },
+				{ "option": "Sílabas tónicas.", "correct": true },
+				{ "option": "Sílabas." }
+			]
+		},
+		{
+			"id": 14,
+			"category": "La sílaba",
+			"question": "¿Cuál es la sílaba tónica en la palabra ma-ri-po-sa?",
+			"answers": [
+				{ "option": "ma" },
+				{ "option": "ri" },
+				{ "option": "po", "correct": true },
+				{ "option": "sa" }
+			]
+		},
+		{
+			"id": 15,
+			"category": "La sílaba",
+			"question": "¿Cuál es la sílaba tónica en la palabra cam-pa-na?",
+			"answers": [
+				{ "option": "cam" },
+				{ "option": "pa", "correct": true },
+				{ "option": "na" }
+			]
+		},
+		{
+			"id": 16,
+			"category": "El instructivo",
+			"question": "Es un texto que sirve para explicar cómo realizar una acción. Tiene pasos claros y ordenados y puede tener imágenes para ilustrarlos.",
+			"answers": [
+				{ "option": "El instructivo.", "correct": true },
+				{ "option": "El cuento." },
+				{ "option": "Los trabalenguas." },
+				{ "option": "Los Adjetivos Calificativos." }
+			]
+		},
+		{
+			"id": 17,
+			"category": "El instructivo",
+			"question": "Ejemplo de un instructivo.",
+			"answers": [
+				{ "option": "Cómo hacer un perrito de origami.", "correct": true },
+				{ "option": "Cuento de caperucita roja y el lobo feroz." },
+				{ "option": "Chiqui nota." }
+			]
+		},
+		{
+			"id": 18,
+			"category": "Cuento",
+			"question": "Describe una historia con personajes, escenarios y tiene una trama.",
+			"answers": [
+				{ "option": "El instructivo." },
+				{ "option": "El cuento.", "correct": true },
+				{ "option": "Los trabalenguas." },
+				{ "option": "Los Adjetivos Calificativos." }
+			]
+		},
+		{
+			"id": 19,
+			"category": "Cuento",
+			"question": "¿Cuáles son las partes del cuento?",
+			"answers": [
+				{ "option": "Emisor, Mensaje y Receptor." },
+				{ "option": "Inicio, Nudo y Desenlace.", "correct": true },
+				{ "option": "Aspectos Físicos, Personalidad y Escenario." },
+				{ "option": "Femeninos y Masculinos." }
+			]
+		},
+		{
+			"id": 20,
+			"category": "Cuento",
+			"question": "En el cuento, es la parte donde se menciona cuándo y dónde ocurren los hechos y se presenta a los personajes.",
+			"answers": [
+				{ "option": "Nudo." },
+				{ "option": "Inicio.", "correct": true },
+				{ "option": "Desenlace." }
+			]
+		},
+		{
+			"id": 21,
+			"category": "Cuento",
+			"question": "En el cuento, es la parte donde se presenta el problema o donde ocurre lo más emocionante.",
+			"answers": [
+				{ "option": "Nudo.", "correct": true },
+				{ "option": "Inicio." },
+				{ "option": "Desenlace." }
+			]
+		},
+		{
+			"id": 22,
+			"category": "Cuento",
+			"question": "En el cuento, es el final de la narración.",
+			"answers": [
+				{ "option": "Nudo." },
+				{ "option": "Inicio." },
+				{ "option": "Desenlace.", "correct": true }
+			]
+		},
+		{
+			"id": 23,
+			"category": "Medios de comunicación",
+			"question": "Sirven para informar lo que ocurre en el mundo o entre nosotros.",
+			"answers": [
+				{ "option": "Medios de Comunicación.", "correct": true },
+				{ "option": "Elementos de la comunicación." },
+				{ "option": "Los Mensajes." },
+				{ "option": "Los Trabalenguas." }
+			]
+		},
+		{
+			"id": 24,
+			"category": "Medios de comunicación",
+			"question": "Son ejemplos de medios de comunicación.",
+			"answers": [
+				{ "option": "Radio, televisor, internet y periódico.", "correct": true },
+				{ "option": "El cuento." },
+				{ "option": "Las sílabas." },
+				{ "option": "Los Trabalenguas." }
+			]
+		},
+		{
+			"id": 25,
+			"category": "Los elementos de la comunicación",
+			"question": "¿Cuáles son los elementos de la comunicación?",
+			"answers": [
+				{ "option": "Emisor, Mensaje y Receptor.", "correct": true },
+				{ "option": "Inicio, Nudo y Desenlace." },
+				{ "option": "Aspectos Físicos, Personalidad y Escenario." },
+				{ "option": "Femeninos y Masculinos." }
+			]
+		},
+		{
+			"id": 26,
+			"category": "Los elementos de la comunicación",
+			"question": "Es quien envía el mensaje.",
+			"answers": [
+				{ "option": "Emisor.", "correct": true },
+				{ "option": "Mensaje." },
+				{ "option": "Receptor." }
+			]
+		},
+		{
+			"id": 27,
+			"category": "Los elementos de la comunicación",
+			"question": "Es la idea que se expresó.",
+			"answers": [
+				{ "option": "Emisor." },
+				{ "option": "Mensaje.", "correct": true },
+				{ "option": "Receptor." }
+			]
+		},
+		{
+			"id": 28,
+			"category": "Los elementos de la comunicación",
+			"question": "Es quien escucha y responde.",
+			"answers": [
+				{ "option": "Emisor." },
+				{ "option": "Mensaje." },
+				{ "option": "Receptor.", "correct": true }
+			]
+		},
+		{
+			"id": 29,
+			"category": "Los elementos de la comunicación",
+			"question": "Son textos cortos que nos ayudan a comunicarnos con los demás.",
+			"answers": [
+				{ "option": "Carta." },
+				{ "option": "Mensaje.", "correct": true },
+				{ "option": "Periódico." },
+				{ "option": "Trabalenguas." }
+			]
+		},
+		{
+			"id": 30,
+			"category": "Los elementos de la comunicación",
+			"question": "Las partes del mensaje son:",
+			"answers": [
+				{ "option": "Emisor, Mensaje y Receptor." },
+				{ "option": "Inicio, Nudo y Desenlace." },
+				{ "option": "Saludo, Cuerpo y Despedida.", "correct": true }
+			]
+		},
+		{
+			"id": 31,
+			"category": "Los trabalenguas",
+			"question": "Es un juego de palabras que nos ayudan a mejorar nuestra habla y posee rimas.",
+			"answers": [
+				{ "option": "Trabalenguas.", "correct": true },
+				{ "option": "Mensaje." },
+				{ "option": "Adivinanza." },
+				{ "option": "Adjetivos Calificativos." }
+			]
+		},
+		{
+			"id": 32,
+			"category": "Las adivinanzas",
+			"question": "Son juegos de palabras escritas en versos que riman y describen algo a alguien.",
+			"answers": [
+				{ "option": "Trabalenguas." },
+				{ "option": "Mensaje." },
+				{ "option": "Adivinanza.", "correct": true },
+				{ "option": "Adjetivos Calificativos." }
+			]
+		},
+		{
+			"id": 33,
+			"category": "Las adivinanzas",
+			"question": "¿Qué partes integran una adivinanza?",
+			"answers": [
+				{ "option": "Emisor, Mensaje y Receptor." },
+				{ "option": "Inicio, Nudo y Desenlace." },
+				{ "option": "Rimas, adjetivos calificativos y calambur.", "correct": true }
+			]
+		},
+		{
+			"id": 34,
+			"category": "Adjetivos Calificativos",
+			"question": "Son palabras que describen cualidades o rasgos de personajes.",
+			"answers": [
+				{ "option": "Trabalenguas." },
+				{ "option": "Mensaje." },
+				{ "option": "Adivinanza." },
+				{ "option": "Adjetivos Calificativos.", "correct": true }
+			]
+		}
+	]
+}

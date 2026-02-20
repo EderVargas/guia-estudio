@@ -44,6 +44,11 @@ const SUBJECTS = {
         title: '📝 English Exam 2do Trimestre',
         jsonFile: 'assets/inglesExamen2doTrimestre.json',
         storagePrefix: 'engex2_'
+    },
+    'lenguajes2doTrimestre': {
+        title: '📚 Lenguajes 2do Trimestre',
+        jsonFile: 'assets/lenguajes2doTrimestre.json',
+        storagePrefix: 'lang2_'
     }
 };
 
