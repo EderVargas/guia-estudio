@@ -380,10 +380,15 @@ El proyecto incluye un script de Python para optimizar imágenes automáticament
 
 #### 2. Optimizar imágenes (estándar)
 
-- Coloca las imágenes originales en la carpeta correspondiente dentro de `assets/images/originales/{materia}/` (por ejemplo, `inglesExamen2T/`).
+> ⚠️ **PASO OBLIGATORIO al agregar una materia nueva con imágenes:** Antes de ejecutar optimize, debes agregar el nombre exacto de la carpeta al array `'subjects'` en `scripts/optimize_images.py` (línea ~27):
+> ```python
+> 'subjects': ['matematicas', ..., 'tuNuevaMateria'],
+> ```
+> Si no se agrega, el script ignorará esa materia y las imágenes NO se optimizarán.
+
+- Coloca las imágenes originales en la carpeta correspondiente dentro de `assets/images/originales/{materia}/` (usando el mismo nombre que pusiste en `subjects`).
 - Ejecuta: `python scripts/build.py optimize`
 - Esto optimiza todas las imágenes de todas las materias configuradas en el script y genera las versiones optimizadas en `docs/assets/images/{materia}/`.
-- Si necesitas optimizar solo una materia personalizada y el script lo permite, puedes usar: `python scripts/optimize_images.py --subject inglesExamen2T`
 
 #### 3. Instalar dependencias para optimización de imágenes
 
@@ -587,10 +592,12 @@ Similar a audio-dictation pero con validación estricta que requiere coincidenci
 
 ## Optimización de Imágenes por Materia
 
-El script `optimize_images.py` procesa carpetas separadas por materia:
+El script `optimize_images.py` procesa carpetas separadas por materia.
+
+> ⚠️ **Al agregar una materia nueva con imágenes, SIEMPRE actualizar el array `subjects` en `scripts/optimize_images.py`** (CONFIG, línea ~27). De lo contrario, esa materia será ignorada aunque las imágenes existan en la carpeta.
 
 ```python
-'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen']
+'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen', 'inglesExamen2doTrimestre', 'matematicas2doTrimestre'],
 ```
 
 Estructura:

@@ -49,6 +49,11 @@ const SUBJECTS = {
         title: '📚 Lenguajes 2do Trimestre',
         jsonFile: 'assets/lenguajes2doTrimestre.json',
         storagePrefix: 'lang2_'
+    },
+    'matematicas2doTrimestre': {
+        title: '🔢 Matemáticas 2do Trimestre',
+        jsonFile: 'assets/matematicas2doTrimestre.json',
+        storagePrefix: 'mat2_'
     }
 };
 

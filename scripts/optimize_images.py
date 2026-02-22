@@ -22,14 +22,18 @@ import os
 import sys
 from pathlib import Path
 
+# Raíz del proyecto, siempre relativa a este script (funciona desde cualquier directorio)
+_SCRIPT_DIR = Path(__file__).parent
+_PROJECT_ROOT = _SCRIPT_DIR.parent
+
 # ========== CONFIGURACIÓN ==========
 CONFIG = {
-    # Carpetas (rutas desde la raíz del proyecto)
-    'input_base': '../assets/images/originales',
-    'output_base': '../docs/assets/images',
+    # Carpetas (rutas absolutas derivadas de la ubicación del script)
+    'input_base': str(_PROJECT_ROOT / 'assets' / 'images' / 'originales'),
+    'output_base': str(_PROJECT_ROOT / 'docs' / 'assets' / 'images'),
     
     # Materias a procesar
-    'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen', 'inglesExamen2doTrimestre'],
+    'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen', 'inglesExamen2doTrimestre', 'matematicas2doTrimestre'],
     
     # Calidad de compresión (1-100, recomendado: 70-85)
     'jpeg_quality': 80,

@@ -1,0 +1,590 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 2-4-6-8-__-12-14-__-18-__-22",
+			"answers": [
+				{ "option": "10, 16 y 20", "correct": true },
+				{ "option": "10, 14 y 18" },
+				{ "option": "8, 16 y 20" },
+				{ "option": "10, 16 y 24" }
+			]
+		},
+		{
+			"id": 2,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 24-26-__-__-32-34-__-__-40-42",
+			"answers": [
+				{ "option": "28, 30, 36 y 38", "correct": true },
+				{ "option": "29, 29, 36 y 37" },
+				{ "option": "25, 28, 36 y 38" },
+				{ "option": "28, 30, 36 y 37" }
+			]
+		},
+		{
+			"id": 3,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 30-__-__-__-__-40",
+			"answers": [
+				{ "option": "32, 34, 36 y 38", "correct": true },
+				{ "option": "31, 32, 33 y 34" },
+				{ "option": "32, 33, 36 y 37" },
+				{ "option": "32, 34, 37 y 38" }
+			]
+		},
+		{
+			"id": 4,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 22-__-18-__-14-12-__-8-6-4-2",
+			"answers": [
+				{ "option": "20, 16 y 10", "correct": true },
+				{ "option": "18, 14 y 10" },
+				{ "option": "20, 16 y 8" },
+				{ "option": "24, 16 y 10" }
+			]
+		},
+		{
+			"id": 5,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 42-40-__-__-34-32-__-__-26-24",
+			"answers": [
+				{ "option": "28, 30, 36 y 38", "correct": true },
+				{ "option": "29, 29, 36 y 37" },
+				{ "option": "25, 28, 36 y 38" },
+				{ "option": "28, 30, 36 y 37" }
+			]
+		},
+		{
+			"id": 6,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 40-__-__-__-__-30",
+			"answers": [
+				{ "option": "38, 36, 34 y 32", "correct": true },
+				{ "option": "34, 33, 32 y 31" },
+				{ "option": "37, 36, 35 y 34" },
+				{ "option": "38, 37, 32 y 31" }
+			]
+		},
+		{
+			"id": 7,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 3-6-9-__-15-18-__-24-__-30",
+			"answers": [
+				{ "option": "12, 21 y 27", "correct": true },
+				{ "option": "12, 13 y 15" },
+				{ "option": "10, 11 y 12" },
+				{ "option": "10, 16 y 24" }
+			]
+		},
+		{
+			"id": 8,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 33-36-39-__-45-48-__-54-__-60",
+			"answers": [
+				{ "option": "42, 51 y 57", "correct": true },
+				{ "option": "42, 43 y 45" },
+				{ "option": "30, 31 y 32" },
+				{ "option": "40, 36 y 34" }
+			]
+		},
+		{
+			"id": 9,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 60-63-__-__-72-75-__-81",
+			"answers": [
+				{ "option": "66, 69 y 78", "correct": true },
+				{ "option": "42, 63 y 75" },
+				{ "option": "30, 31 y 32" },
+				{ "option": "40, 36 y 34" }
+			]
+		},
+		{
+			"id": 10,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 48-45-__-39-__-__-30-__-24",
+			"answers": [
+				{ "option": "42, 36, 33 y 27", "correct": true },
+				{ "option": "12, 13, 14 y 15" },
+				{ "option": "10, 11, 12 y 13" },
+				{ "option": "10, 16, 15 y 24" }
+			]
+		},
+		{
+			"id": 11,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 70-__-64-__-58-__-52-49",
+			"answers": [
+				{ "option": "67, 61 y 55", "correct": true },
+				{ "option": "68, 62 y 56" },
+				{ "option": "30, 31 y 32" },
+				{ "option": "70, 66 y 64" }
+			]
+		},
+		{
+			"id": 12,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 30-27-__-21-__-__-12-9-__-3",
+			"answers": [
+				{ "option": "24, 18, 15 y 6", "correct": true },
+				{ "option": "12, 13, 14 y 15" },
+				{ "option": "10, 11, 12 y 13" },
+				{ "option": "10, 16, 15 y 24" }
+			]
+		},
+		{
+			"id": 13,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 4-8-__-16-__-__-28-32-__-40",
+			"answers": [
+				{ "option": "12, 20, 24 y 36", "correct": true },
+				{ "option": "9, 10, 11 y 15" },
+				{ "option": "12, 16, 20 y 24" },
+				{ "option": "12, 20, 21 y 36" }
+			]
+		},
+		{
+			"id": 14,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 40-44-__-__-__-60-64-68-72-__-80",
+			"answers": [
+				{ "option": "48, 52, 56 y 76", "correct": true },
+				{ "option": "45, 46, 47 y 48" },
+				{ "option": "42, 44, 46 y 78" },
+				{ "option": "48, 52, 56 y 57" }
+			]
+		},
+		{
+			"id": 15,
+			"category": "Series numéricas",
+			"question": "Completa la serie ascendente 16-20-__-__-__-36-40-__",
+			"answers": [
+				{ "option": "24, 28, 32 y 44", "correct": true },
+				{ "option": "45, 46, 47 y 48" },
+				{ "option": "42, 44, 46 y 78" },
+				{ "option": "48, 52, 56 y 57" }
+			]
+		},
+		{
+			"id": 16,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 40-36-32-__-__-__-16-12-__",
+			"answers": [
+				{ "option": "28, 24, 20 y 8", "correct": true },
+				{ "option": "45, 46, 47 y 48" },
+				{ "option": "42, 44, 46 y 78" },
+				{ "option": "48, 52, 56 y 57" }
+			]
+		},
+		{
+			"id": 17,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente __-24-20-__-__-__-4",
+			"answers": [
+				{ "option": "28, 16, 12 y 8", "correct": true },
+				{ "option": "45, 46, 47 y 48" },
+				{ "option": "42, 44, 46 y 78" },
+				{ "option": "48, 52, 56 y 57" }
+			]
+		},
+		{
+			"id": 18,
+			"category": "Series numéricas",
+			"question": "Completa la serie descendente 80-__-__-68-64-60-__-__",
+			"answers": [
+				{ "option": "76, 72, 56 y 52", "correct": true },
+				{ "option": "45, 46, 47 y 48" },
+				{ "option": "42, 44, 46 y 78" },
+				{ "option": "48, 52, 56 y 57" }
+			]
+		},
+		{
+			"id": 19,
+			"category": "Sumas y restas",
+			"question": "¿Qué suma da como resultado 15?",
+			"answers": [
+				{ "option": "10+5", "correct": true },
+				{ "option": "20+3" },
+				{ "option": "12+2" }
+			]
+		},
+		{
+			"id": 20,
+			"category": "Sumas y restas",
+			"question": "¿Qué suma da como resultado 18?",
+			"answers": [
+				{ "option": "9+5" },
+				{ "option": "15+3", "correct": true },
+				{ "option": "17+2" }
+			]
+		},
+		{
+			"id": 21,
+			"category": "Sumas y restas",
+			"question": "¿Qué suma da como resultado 25?",
+			"answers": [
+				{ "option": "11+6+8", "correct": true },
+				{ "option": "15+3+2" },
+				{ "option": "17+2+8" }
+			]
+		},
+		{
+			"id": 22,
+			"category": "Sumas y restas",
+			"question": "¿Qué resta da como resultado 12?",
+			"answers": [
+				{ "option": "20-8", "correct": true },
+				{ "option": "26-4" },
+				{ "option": "19-9" }
+			]
+		},
+		{
+			"id": 23,
+			"category": "Sumas y restas",
+			"question": "¿Qué resta da como resultado 17?",
+			"answers": [
+				{ "option": "25-8", "correct": true },
+				{ "option": "26-4" },
+				{ "option": "19-9" }
+			]
+		},
+		{
+			"id": 24,
+			"category": "Sumas y restas",
+			"question": "¿Qué resta da como resultado 8?",
+			"answers": [
+				{ "option": "26-10-8", "correct": true },
+				{ "option": "15-3-2" },
+				{ "option": "17-2-8" }
+			]
+		},
+		{
+			"id": 25,
+			"category": "Unidades y Decenas",
+			"question": "¿Si sumas las siguientes unidades y decenas qué número obtienes?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/25.jpg",
+			"correctAnswer": "24"
+		},
+		{
+			"id": 26,
+			"category": "Unidades y Decenas",
+			"question": "¿Si sumas las siguientes unidades y decenas qué número obtienes?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/26.jpg",
+			"correctAnswer": "31"
+		},
+		{
+			"id": 27,
+			"category": "Unidades y Decenas",
+			"question": "¿Si sumas las siguientes unidades y decenas qué número obtienes?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/27.jpg",
+			"correctAnswer": "19"
+		},
+		{
+			"id": 28,
+			"category": "Series",
+			"question": "Son las series de números que van incrementando o aumentando.",
+			"answers": [
+				{ "option": "Series ascendentes.", "correct": true },
+				{ "option": "Series descendentes." },
+				{ "option": "Series numéricas." },
+				{ "option": "Unidades y decenas." }
+			]
+		},
+		{
+			"id": 29,
+			"category": "Series",
+			"question": "Son series de números ascendentes.",
+			"answers": [
+				{ "option": "4-8-12-16-20-24", "correct": true },
+				{ "option": "30-27-24-21-18-15" },
+				{ "option": "5-10-9-7-11-18" }
+			]
+		},
+		{
+			"id": 30,
+			"category": "Series",
+			"question": "Son las series de números que van disminuyendo o hacia abajo.",
+			"answers": [
+				{ "option": "Series ascendentes." },
+				{ "option": "Series descendentes.", "correct": true },
+				{ "option": "Series numéricas." },
+				{ "option": "Unidades y decenas." }
+			]
+		},
+		{
+			"id": 31,
+			"category": "Series",
+			"question": "Son series de números descendentes.",
+			"answers": [
+				{ "option": "4-8-12-16-20-24" },
+				{ "option": "30-27-24-21-18-15", "correct": true },
+				{ "option": "5-10-9-7-11-18" }
+			]
+		},
+		{
+			"id": 32,
+			"category": "Unidades y Decenas",
+			"question": "Su valor es 1.",
+			"answers": [
+				{ "option": "Decenas." },
+				{ "option": "Unidades.", "correct": true },
+				{ "option": "Centenas." },
+				{ "option": "Millar." }
+			]
+		},
+		{
+			"id": 33,
+			"category": "Unidades y Decenas",
+			"question": "Su valor es 10.",
+			"answers": [
+				{ "option": "Decenas.", "correct": true },
+				{ "option": "Unidades." },
+				{ "option": "Centenas." },
+				{ "option": "Millar." }
+			]
+		},
+		{
+			"id": 34,
+			"category": "Longitud",
+			"question": "Es la distancia que hay entre dos puntos.",
+			"answers": [
+				{ "option": "Longitud.", "correct": true },
+				{ "option": "Unidades." },
+				{ "option": "Balanza." },
+				{ "option": "Metros." }
+			]
+		},
+		{
+			"id": 35,
+			"category": "Longitud",
+			"question": "Escribe el orden correcto del árbol de menor longitud a mayor longitud, separa los números por comas.",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/35.jpg",
+			"correctAnswer": "2,4,1,3,5"
+		},
+		{
+			"id": 36,
+			"category": "Longitud",
+			"question": "Escribe el orden correcto del girasol de mayor longitud a menor longitud, separa los números por comas.",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/36.jpg",
+			"correctAnswer": "2,4,5,3,1"
+		},
+		{
+			"id": 37,
+			"category": "Longitud",
+			"question": "¿En qué unidades de medida se mide la longitud?",
+			"answers": [
+				{ "option": "Centímetros, metros o kilómetros.", "correct": true },
+				{ "option": "Unidades y Decenas." },
+				{ "option": "Balanza." },
+				{ "option": "Kilogramos." }
+			]
+		},
+		{
+			"id": 38,
+			"category": "Longitud",
+			"question": "¿Qué instrumento utilizamos para medir la longitud?",
+			"answers": [
+				{ "option": "Regla.", "correct": true },
+				{ "option": "Unidades y Decenas." },
+				{ "option": "Balanza." },
+				{ "option": "Kilogramos." }
+			]
+		},
+		{
+			"id": 39,
+			"category": "Geometría",
+			"question": "¿Cómo está conformado un objeto con caras planas?",
+			"answers": [
+				{ "option": "Líneas rectas.", "correct": true },
+				{ "option": "Líneas curvas." },
+				{ "option": "Con colores." },
+				{ "option": "Con figuras llamativas." }
+			]
+		},
+		{
+			"id": 40,
+			"category": "Geometría",
+			"question": "¿Un objeto con caras planas puede rodar?",
+			"answers": [
+				{ "option": "No.", "correct": true },
+				{ "option": "Sí." },
+				{ "option": "A veces." }
+			]
+		},
+		{
+			"id": 41,
+			"category": "Geometría",
+			"question": "¿Cómo está conformado un objeto con caras curvas?",
+			"answers": [
+				{ "option": "Líneas rectas." },
+				{ "option": "Líneas curvas.", "correct": true },
+				{ "option": "Con colores." },
+				{ "option": "Con figuras llamativas." }
+			]
+		},
+		{
+			"id": 42,
+			"category": "Geometría",
+			"question": "¿Un objeto con caras curvas puede rodar?",
+			"answers": [
+				{ "option": "No." },
+				{ "option": "Sí.", "correct": true },
+				{ "option": "A veces." }
+			]
+		},
+		{
+			"id": 43,
+			"category": "Geometría",
+			"question": "¿Qué grupo de objetos tiene las caras planas?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/43y44.jpg",
+			"correctAnswer": "A"
+		},
+		{
+			"id": 44,
+			"category": "Geometría",
+			"question": "¿Qué grupo de objetos tiene las caras curvas?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/43y44.jpg",
+			"correctAnswer": "B"
+		},
+		{
+			"id": 45,
+			"category": "La balanza",
+			"question": "¿Qué instrumento utilizamos para conocer qué objeto tiene mayor masa o peso y cuál menor masa o peso?",
+			"answers": [
+				{ "option": "Regla." },
+				{ "option": "Unidades y Decenas." },
+				{ "option": "Balanza.", "correct": true },
+				{ "option": "Kilogramos." }
+			]
+		},
+		{
+			"id": 46,
+			"category": "La balanza",
+			"question": "¿Qué objeto pesa más, los \"audífonos\" o la \"computadora\"?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/46.jpg",
+			"correctAnswer": "computadora"
+		},
+		{
+			"id": 47,
+			"category": "La balanza",
+			"question": "¿Qué objeto pesa menos, la \"piña\" o el \"plátano\"?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/47.jpg",
+			"correctAnswer": "plátano"
+		},
+		{
+			"id": 48,
+			"category": "Mayor que, menor que, igual que",
+			"question": "Selecciona la opción que representa la imagen.",
+			"image": "assets/images/matematicas2doTrimestre/48.jpg",
+			"answers": [
+				{ "option": "10>5", "correct": true },
+				{ "option": "5<8" },
+				{ "option": "6=6" }
+			]
+		},
+		{
+			"id": 49,
+			"category": "Mayor que, menor que, igual que",
+			"question": "Selecciona la opción que representa la imagen.",
+			"image": "assets/images/matematicas2doTrimestre/49.jpg",
+			"answers": [
+				{ "option": "10>5" },
+				{ "option": "5<8", "correct": true },
+				{ "option": "6=6" }
+			]
+		},
+		{
+			"id": 50,
+			"category": "Mayor que, menor que, igual que",
+			"question": "Selecciona la opción que representa la imagen.",
+			"image": "assets/images/matematicas2doTrimestre/50.jpg",
+			"answers": [
+				{ "option": "10>5" },
+				{ "option": "5<8" },
+				{ "option": "6=6", "correct": true }
+			]
+		},
+		{
+			"id": 51,
+			"category": "Geometría",
+			"question": "¿Cuál figura tiene 3 lados?",
+			"image": "assets/images/matematicas2doTrimestre/51.jpg",
+			"answers": [
+				{ "option": "1" },
+				{ "option": "2" },
+				{ "option": "3", "correct": true }
+			]
+		},
+		{
+			"id": 52,
+			"category": "Geometría",
+			"question": "¿Cuál figura no tiene vértices?",
+			"image": "assets/images/matematicas2doTrimestre/52.jpg",
+			"answers": [
+				{ "option": "1" },
+				{ "option": "2", "correct": true },
+				{ "option": "3" }
+			]
+		},
+		{
+			"id": 53,
+			"category": "Geometría",
+			"question": "¿Cuál figura tiene 5 vértices?",
+			"image": "assets/images/matematicas2doTrimestre/53.jpg",
+			"answers": [
+				{ "option": "1" },
+				{ "option": "2" },
+				{ "option": "3", "correct": true }
+			]
+		},
+		{
+			"id": 54,
+			"category": "Sumas y restas",
+			"question": "¿Cuántas canciones tiene Anyu en total?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/54.jpg",
+			"correctAnswer": "90"
+		},
+		{
+			"id": 55,
+			"category": "Sumas y restas",
+			"question": "Realiza la suma.",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/55.jpg",
+			"correctAnswer": "30"
+		},
+		{
+			"id": 56,
+			"category": "Sumas y restas",
+			"question": "Realiza la suma.",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/56.jpg",
+			"correctAnswer": "50"
+		},
+		{
+			"id": 57,
+			"category": "Sumas y restas",
+			"question": "Seis niños del salón querían jugar a las atrapadas en el recreo, pero 1 se lastimó el pie y tuvo que sentarse. ¿Cuántos niños podrán jugar?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/57.jpg",
+			"correctAnswer": "5"
+		},
+		{
+			"id": 58,
+			"category": "Sumas y restas",
+			"question": "En el salón hay 10 niños, pero hoy no asistieron tres. ¿Cuántos alumnos asistieron el día de hoy?",
+			"type": "text-input",
+			"image": "assets/images/matematicas2doTrimestre/55.jpg",
+			"correctAnswer": "7"
+		}
+	]
+}
