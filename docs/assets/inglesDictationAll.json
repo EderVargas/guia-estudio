@@ -556,6 +556,93 @@
       ]
     },
     {
+      "id": "christmas-vocabulary",
+      "name": "Christmas vocabulary",
+      "date": "2025-12-15",
+      "data": [
+        {
+          "id": 1,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation-exact",
+          "audioText": "Santa Claus",
+          "question": "Listen and write the word",
+          "correctAnswer": "Santa Claus"
+        },
+        {
+          "id": 2,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "elf",
+          "question": "Listen and write the word",
+          "correctAnswer": "elf"
+        },
+        {
+          "id": 3,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "snowman",
+          "question": "Listen and write the word",
+          "correctAnswer": "snowman"
+        },
+        {
+          "id": 4,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "sleigh",
+          "question": "Listen and write the word",
+          "correctAnswer": "sleigh"
+        },
+        {
+          "id": 5,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "reindeer",
+          "question": "Listen and write the word",
+          "correctAnswer": "reindeer"
+        },
+        {
+          "id": 6,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "snowflake",
+          "question": "Listen and write the word",
+          "correctAnswer": "snowflake"
+        },
+        {
+          "id": 7,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "bells",
+          "question": "Listen and write the word",
+          "correctAnswer": "bells"
+        },
+        {
+          "id": 8,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "stocking",
+          "question": "Listen and write the word",
+          "correctAnswer": "stocking"
+        },
+        {
+          "id": 9,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "Christmas tree",
+          "question": "Listen and write the word",
+          "correctAnswer": "Christmas tree"
+        },
+        {
+          "id": 10,
+          "category": "Christmas vocabulary",
+          "type": "audio-dictation",
+          "audioText": "candycane",
+          "question": "Listen and write the word",
+          "correctAnswer": "candycane"
+        }
+      ]
+    },
+    {
       "id": "my-family - Challenge Words 4",
       "name": "My Family - Challenge Words 4",
       "date": "2026-01-13",
