@@ -1,0 +1,1075 @@
+{
+  "categories": [
+    {
+      "id": "challenge-words-1",
+      "name": "Challenge Words 1",
+      "date": "2025-09-09",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "danger",
+          "question": "Listen and write the word",
+          "correctAnswer": "danger"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "safe",
+          "question": "Listen and write the word",
+          "correctAnswer": "safe"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "unsafe",
+          "question": "Listen and write the word",
+          "correctAnswer": "unsafe"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "fire drill",
+          "question": "Listen and write the word",
+          "correctAnswer": "fire drill"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "emergency",
+          "question": "Listen and write the word",
+          "correctAnswer": "emergency"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "help",
+          "question": "Listen and write the word",
+          "correctAnswer": "help"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "push",
+          "question": "Listen and write the word",
+          "correctAnswer": "push"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "pull",
+          "question": "Listen and write the word",
+          "correctAnswer": "pull"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "sling",
+          "question": "Listen and write the word",
+          "correctAnswer": "sling"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "germs",
+          "question": "Listen and write the word",
+          "correctAnswer": "germs"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "paramedic",
+          "question": "Listen and write the word",
+          "correctAnswer": "paramedic"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "firefighter",
+          "question": "Listen and write the word",
+          "correctAnswer": "firefighter"
+        },
+        {
+          "id": 13,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "sick",
+          "question": "Listen and write the word",
+          "correctAnswer": "sick"
+        },
+        {
+          "id": 14,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "rules",
+          "question": "Listen and write the word",
+          "correctAnswer": "rules"
+        },
+        {
+          "id": 15,
+          "category": "Challenge Words 1",
+          "type": "audio-dictation",
+          "audioText": "habits",
+          "question": "Listen and write the word",
+          "correctAnswer": "habits"
+        }
+      ]
+    },
+    {
+      "id": "challenge-words-2",
+      "name": "Challenge Words 2",
+      "date": "2025-10-14",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "protect",
+          "question": "Listen and write the word",
+          "correctAnswer": "protect"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "plants",
+          "question": "Listen and write the word",
+          "correctAnswer": "plants"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "animals",
+          "question": "Listen and write the words",
+          "correctAnswer": "animals"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "living",
+          "question": "Listen and write the word",
+          "correctAnswer": "living"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "nonliving",
+          "question": "Listen and write the word",
+          "correctAnswer": "nonliving"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "habitat",
+          "question": "Listen and write the word",
+          "correctAnswer": "habitat"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "need",
+          "question": "Listen and write the word",
+          "correctAnswer": "need"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "humans",
+          "question": "Listen and write the word",
+          "correctAnswer": "humans"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "cycle",
+          "question": "Listen and write the word",
+          "correctAnswer": "cycle"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "pesticides",
+          "question": "Listen and write the word",
+          "correctAnswer": "pesticides"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "grow",
+          "question": "Listen and write the word",
+          "correctAnswer": "grow"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "responsibility",
+          "question": "Listen and write the word",
+          "correctAnswer": "responsibility"
+        },
+        {
+          "id": 13,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "travel",
+          "question": "Listen and write the word",
+          "correctAnswer": "travel"
+        },
+        {
+          "id": 14,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "indoor",
+          "question": "Listen and write the word",
+          "correctAnswer": "indoor"
+        },
+        {
+          "id": 15,
+          "category": "Challenge Words 2",
+          "type": "audio-dictation",
+          "audioText": "outdoor",
+          "question": "Listen and write the word",
+          "correctAnswer": "outdoor"
+        }
+      ]
+    },
+    {
+      "id": "halloween-words",
+      "name": "Halloween Words",
+      "date": "2025-10-31",
+      "data": [
+        {
+          "id": 1,
+          "category": "Halloween Words",
+          "type": "audio-dictation-exact",
+          "audioText": "Halloween",
+          "question": "Listen and write the word (capitalization matters)",
+          "correctAnswer": "Halloween"
+        },
+        {
+          "id": 2,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "ghost",
+          "question": "Listen and write the word",
+          "correctAnswer": "ghost"
+        },
+        {
+          "id": 3,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "witch",
+          "question": "Listen and write the word",
+          "correctAnswer": "witch"
+        },
+        {
+          "id": 4,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "spider",
+          "question": "Listen and write the word",
+          "correctAnswer": "spider"
+        },
+        {
+          "id": 5,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "spooky",
+          "question": "Listen and write the word",
+          "correctAnswer": "spooky"
+        },
+        {
+          "id": 6,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "pumpkin",
+          "question": "Listen and write the word",
+          "correctAnswer": "pumpkin"
+        },
+        {
+          "id": 7,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "black cat",
+          "question": "Listen and write the words",
+          "correctAnswer": "black cat"
+        },
+        {
+          "id": 8,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "costume",
+          "question": "Listen and write the word",
+          "correctAnswer": "costume"
+        },
+        {
+          "id": 9,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "candy",
+          "question": "Listen and write the word",
+          "correctAnswer": "candy"
+        },
+        {
+          "id": 10,
+          "category": "Halloween Words",
+          "type": "audio-dictation",
+          "audioText": "bat",
+          "question": "Listen and write the word",
+          "correctAnswer": "bat"
+        }
+      ]
+    },
+    {
+      "id": "thanksgiving-words",
+      "name": "Thanksgiving Words",
+      "date": "2025-11-18",
+      "data": [
+        {
+          "id": 1,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation-exact",
+          "audioText": "Thanksgiving Day",
+          "question": "Listen and write the words (capitalization matters)",
+          "correctAnswer": "Thanksgiving Day"
+        },
+        {
+          "id": 2,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "turkey",
+          "question": "Listen and write the word",
+          "correctAnswer": "turkey"
+        },
+        {
+          "id": 3,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation-exact",
+          "audioText": "Pilgrim",
+          "question": "Listen and write the word (capitalization matters)",
+          "correctAnswer": "Pilgrim"
+        },
+        {
+          "id": 4,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation-exact",
+          "audioText": "Native American",
+          "question": "Listen and write the words (capitalization matters)",
+          "correctAnswer": "Native American"
+        },
+        {
+          "id": 5,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "corn",
+          "question": "Listen and write the word",
+          "correctAnswer": "corn"
+        },
+        {
+          "id": 6,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "pumpkin pie",
+          "question": "Listen and write the words",
+          "correctAnswer": "pumpkin pie"
+        },
+        {
+          "id": 7,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation-exact",
+          "audioText": "Mayflower",
+          "question": "Listen and write the word (capitalization matters)",
+          "correctAnswer": "Mayflower"
+        },
+        {
+          "id": 8,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "feast",
+          "question": "Listen and write the word",
+          "correctAnswer": "feast"
+        },
+        {
+          "id": 9,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "scarecrow",
+          "question": "Listen and write the word",
+          "correctAnswer": "scarecrow"
+        },
+        {
+          "id": 10,
+          "category": "Thanksgiving Words",
+          "type": "audio-dictation",
+          "audioText": "cornucopia",
+          "question": "Listen and write the word",
+          "correctAnswer": "cornucopia"
+        }
+      ]
+    },
+    {
+      "id": "challenge-words-3",
+      "name": "Challenge words 3",
+      "date": "2025-12-03",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "technology",
+          "question": "Listen and write the word",
+          "correctAnswer": "technology"
+        },
+        {
+          "id": 2,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "electricity",
+          "question": "Listen and write the word",
+          "correctAnswer": "electricity"
+        },
+        {
+          "id": 3,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "light bulb",
+          "question": "Listen and write the word",
+          "correctAnswer": "light bulb"
+        },
+        {
+          "id": 4,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "day",
+          "question": "Listen and write the word",
+          "correctAnswer": "day"
+        },
+        {
+          "id": 5,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "night",
+          "question": "Listen and write the word",
+          "correctAnswer": "night"
+        },
+        {
+          "id": 6,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "weather",
+          "question": "Listen and write the word",
+          "correctAnswer": "weather"
+        },
+        {
+          "id": 7,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "wind",
+          "question": "Listen and write the word",
+          "correctAnswer": "wind"
+        },
+        {
+          "id": 8,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "rain",
+          "question": "Listen and write the word",
+          "correctAnswer": "rain"
+        },
+        {
+          "id": 9,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "water",
+          "question": "Listen and write the word",
+          "correctAnswer": "water"
+        },
+        {
+          "id": 10,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "clouds",
+          "question": "Listen and write the word",
+          "correctAnswer": "clouds"
+        },
+        {
+          "id": 11,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "stars",
+          "question": "Listen and write the word",
+          "correctAnswer": "stars"
+        },
+        {
+          "id": 12,
+          "category": "Challenge words 3",
+          "type": "audio-dictation-exact",
+          "audioText": "Moon",
+          "question": "Listen and write the word",
+          "correctAnswer": "Moon"
+        },
+        {
+          "id": 13,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "planets",
+          "question": "Listen and write the word",
+          "correctAnswer": "planets"
+        },
+        {
+          "id": 14,
+          "category": "Challenge words 3",
+          "type": "audio-dictation-exact",
+          "audioText": "Sun",
+          "question": "Listen and write the word",
+          "correctAnswer": "Sun"
+        },
+        {
+          "id": 15,
+          "category": "Challenge words 3",
+          "type": "audio-dictation",
+          "audioText": "solar",
+          "question": "Listen and write the word",
+          "correctAnswer": "solar"
+        }
+      ]
+    },
+    {
+      "id": "my-family - Challenge Words 4",
+      "name": "My Family - Challenge Words 4",
+      "date": "2026-01-13",
+      "data": [
+        {
+          "id": 1,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "mother",
+          "question": "Listen and write the word",
+          "correctAnswer": "mother"
+        },
+        {
+          "id": 2,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "father",
+          "question": "Listen and write the word",
+          "correctAnswer": "father"
+        },
+        {
+          "id": 3,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "brother",
+          "question": "Listen and write the word",
+          "correctAnswer": "brother"
+        },
+        {
+          "id": 4,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "sister",
+          "question": "Listen and write the word",
+          "correctAnswer": "sister"
+        },
+        {
+          "id": 5,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "uncle",
+          "question": "Listen and write the word",
+          "correctAnswer": "uncle"
+        },
+        {
+          "id": 6,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "aunt",
+          "question": "Listen and write the word",
+          "correctAnswer": "aunt"
+        },
+        {
+          "id": 7,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "grandmother",
+          "question": "Listen and write the word",
+          "correctAnswer": "grandmother"
+        },
+        {
+          "id": 8,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "grandfather",
+          "question": "Listen and write the word",
+          "correctAnswer": "grandfather"
+        },
+        {
+          "id": 9,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "cousin",
+          "question": "Listen and write the word",
+          "correctAnswer": "cousin"
+        },
+        {
+          "id": 10,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "family",
+          "question": "Listen and write the word",
+          "correctAnswer": "family"
+        },
+        {
+          "id": 11,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Mother",
+          "question": "Listen and write the word",
+          "correctAnswer": "Mother"
+        },
+        {
+          "id": 12,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Father",
+          "question": "Listen and write the word",
+          "correctAnswer": "Father"
+        },
+        {
+          "id": 13,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Brother",
+          "question": "Listen and write the word",
+          "correctAnswer": "Brother"
+        },
+        {
+          "id": 14,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Sister",
+          "question": "Listen and write the word",
+          "correctAnswer": "Sister"
+        },
+        {
+          "id": 15,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Uncle",
+          "question": "Listen and write the word",
+          "correctAnswer": "Uncle"
+        },
+        {
+          "id": 16,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Aunt",
+          "question": "Listen and write the word",
+          "correctAnswer": "Aunt"
+        },
+        {
+          "id": 17,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Grandmother",
+          "question": "Listen and write the word",
+          "correctAnswer": "Grandmother"
+        },
+        {
+          "id": 18,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Grandfather",
+          "question": "Listen and write the word",
+          "correctAnswer": "Grandfather"
+        },
+        {
+          "id": 19,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Cousin",
+          "question": "Listen and write the word",
+          "correctAnswer": "Cousin"
+        },
+        {
+          "id": 20,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Family",
+          "question": "Listen and write the word",
+          "correctAnswer": "Family"
+        },
+        {
+          "id": 21,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Grandparents",
+          "question": "Listen and write the word",
+          "correctAnswer": "Grandparents"
+        },
+        {
+          "id": 22,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Unique",
+          "question": "Listen and write the word",
+          "correctAnswer": "Unique"
+        },
+        {
+          "id": 23,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Role",
+          "question": "Listen and write the word",
+          "correctAnswer": "Role"
+        },
+        {
+          "id": 24,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Fossil",
+          "question": "Listen and write the word",
+          "correctAnswer": "Fossil"
+        },
+        {
+          "id": 25,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Paleontologist",
+          "question": "Listen and write the word",
+          "correctAnswer": "Paleontologist"
+        },
+        {
+          "id": 26,
+          "category": "My Family - Challenge Words 4",
+          "type": "audio-dictation",
+          "audioText": "Dinosaur",
+          "question": "Listen and write the word",
+          "correctAnswer": "Dinosaur"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-long-i",
+      "name": "Vocabulary - Long i",
+      "date": "2026-01-26",
+      "data": [
+        {
+          "id": 1,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "my",
+          "question": "Listen and write the word",
+          "correctAnswer": "my"
+        },
+        {
+          "id": 2,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "why",
+          "question": "Listen and write the word",
+          "correctAnswer": "why"
+        },
+        {
+          "id": 3,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "dry",
+          "question": "Listen and write the word",
+          "correctAnswer": "dry"
+        },
+        {
+          "id": 4,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "night",
+          "question": "Listen and write the word",
+          "correctAnswer": "night"
+        },
+        {
+          "id": 5,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "light",
+          "question": "Listen and write the word",
+          "correctAnswer": "light"
+        },
+        {
+          "id": 6,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "right",
+          "question": "Listen and write the word",
+          "correctAnswer": "right"
+        },
+        {
+          "id": 7,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "bright",
+          "question": "Listen and write the word",
+          "correctAnswer": "bright"
+        },
+        {
+          "id": 8,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "lie",
+          "question": "Listen and write the word",
+          "correctAnswer": "lie"
+        },
+        {
+          "id": 9,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "pie",
+          "question": "Listen and write the word",
+          "correctAnswer": "pie"
+        },
+        {
+          "id": 10,
+          "category": "Vocabulary - Long i",
+          "type": "audio-dictation",
+          "audioText": "flies",
+          "question": "Listen and write the word",
+          "correctAnswer": "flies"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary-valentines",
+      "name": "Vocabulary Valentine's Day",
+      "date": "2026-02-09",
+      "data": [
+        {
+          "id": 1,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation-exact",
+          "audioText": "Valentine's Day",
+          "question": "Listen and write the word",
+          "correctAnswer": "Valentine's Day"
+        },
+        {
+          "id": 2,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "friendship",
+          "question": "Listen and write the word",
+          "correctAnswer": "friendship"
+        },
+        {
+          "id": 3,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "box of chocolates",
+          "question": "Listen and write the word",
+          "correctAnswer": "box of chocolates"
+        },
+        {
+          "id": 4,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "balloons",
+          "question": "Listen and write the word",
+          "correctAnswer": "balloons"
+        },
+        {
+          "id": 5,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "cupid",
+          "question": "Listen and write the word",
+          "correctAnswer": "cupid"
+        },
+        {
+          "id": 6,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "kiss",
+          "question": "Listen and write the word",
+          "correctAnswer": "kiss"
+        },
+        {
+          "id": 7,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "hug",
+          "question": "Listen and write the word",
+          "correctAnswer": "hug"
+        },
+        {
+          "id": 8,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "friends",
+          "question": "Listen and write the word",
+          "correctAnswer": "friends"
+        },
+        {
+          "id": 9,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "card",
+          "question": "Listen and write the word",
+          "correctAnswer": "card"
+        },
+        {
+          "id": 10,
+          "category": "Vocabulary Valentine's Day",
+          "type": "audio-dictation",
+          "audioText": "heart",
+          "question": "Listen and write the word",
+          "correctAnswer": "heart"
+        }
+      ]
+    },
+    {
+      "id": "challenge-words-5",
+      "name": "Challenge Words 5",
+      "date": "2026-02-16",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "fix",
+          "question": "Listen and write the word",
+          "correctAnswer": "fix"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "toy",
+          "question": "Listen and write the word",
+          "correctAnswer": "toy"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "clean",
+          "question": "Listen and write the word",
+          "correctAnswer": "clean"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "donate",
+          "question": "Listen and write the word",
+          "correctAnswer": "donate"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "clothing",
+          "question": "Listen and write the word",
+          "correctAnswer": "clothing"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "needs",
+          "question": "Listen and write the word",
+          "correctAnswer": "needs"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "wants",
+          "question": "Listen and write the word",
+          "correctAnswer": "wants"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "shelter",
+          "question": "Listen and write the word",
+          "correctAnswer": "shelter"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "poor",
+          "question": "Listen and write the word",
+          "correctAnswer": "poor"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "food",
+          "question": "Listen and write the word",
+          "correctAnswer": "food"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "money",
+          "question": "Listen and write the word",
+          "correctAnswer": "money"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "water",
+          "question": "Listen and write the word",
+          "correctAnswer": "water"
+        },
+        {
+          "id": 13,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "help",
+          "question": "Listen and write the word",
+          "correctAnswer": "help"
+        },
+        {
+          "id": 14,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "buy",
+          "question": "Listen and write the word",
+          "correctAnswer": "buy"
+        },
+        {
+          "id": 15,
+          "category": "Challenge Words 5",
+          "type": "audio-dictation",
+          "audioText": "travel",
+          "question": "Listen and write the word",
+          "correctAnswer": "travel"
+        }
+      ]
+    }
+  ]
+}

@@ -32,7 +32,7 @@ const SUBJECTS = {
     },
     'ingles': {
         title: '🔊 English Dictation',
-        jsonFile: 'assets/inglesDictation.json',
+        categoriesFile: 'assets/inglesDictationAll.json',
         storagePrefix: 'eng_'
     },
     'inglesExamen': {
@@ -62,10 +62,19 @@ const currentSubject = SUBJECTS[selectedSubject];
 
 // Constantes
 const QUESTIONS_PER_QUIZ = 10;
+// Mutable para poder actualizar el prefijo al elegir categoría de dictado
 const STORAGE_KEYS = {
     ANSWERED_QUESTIONS: currentSubject.storagePrefix + 'answeredQuestions',
     INCORRECT_QUESTIONS: currentSubject.storagePrefix + 'incorrectQuestions'
 };
+
+/**
+ * Actualiza las claves de almacenamiento con un prefijo dado
+ */
+function updateStorageKeys(prefix) {
+    STORAGE_KEYS.ANSWERED_QUESTIONS = prefix + 'answeredQuestions';
+    STORAGE_KEYS.INCORRECT_QUESTIONS = prefix + 'incorrectQuestions';
+}
 
 // Usar sessionStorage en lugar de localStorage
 const storage = sessionStorage;
@@ -231,6 +240,15 @@ async function loadQuestions() {
         if (titleElement) {
             titleElement.textContent = currentSubject.title;
         }
+
+        // Si la materia tiene múltiples categorías, mostrar el selector primero
+        if (currentSubject.categoriesFile) {
+            const response = await fetch(currentSubject.categoriesFile);
+            const data = await response.json();
+            data.categories.sort((a, b) => b.date.localeCompare(a.date)); // Ordenar categorías por fecha descendente
+            showCategorySelector(data.categories);
+            return;
+        }
         
         // Cargar el JSON correspondiente a la materia
         const response = await fetch(currentSubject.jsonFile);
@@ -248,6 +266,61 @@ async function loadQuestions() {
         console.error('Error al cargar las preguntas:', error);
         questionText.textContent = 'Error al cargar las preguntas. Por favor, recarga la página.';
     }
+}
+
+/**
+ * Muestra la pantalla de selección de categoría para materias con múltiples dictados
+ */
+function showCategorySelector(categories) {
+    const selectorEl = document.getElementById('category-selector');
+    const cardsEl = document.getElementById('category-cards');
+    const progressEl = document.getElementById('progress');
+
+    // Ocultar el quiz y la barra de progreso
+    quizContainer.style.display = 'none';
+    if (progressEl) progressEl.style.display = 'none';
+
+    // Construir las tarjetas de categoría
+    cardsEl.innerHTML = '';
+    categories.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'category-card';
+        btn.innerHTML =
+            '<span class="cat-icon">🔊</span>' +
+            '<span class="cat-name">' + cat.name + '</span>' +
+            '<span class="cat-count">' + cat.data.length + ' palabras</span>' +
+            '<span class="cat-count"> Fecha: ' + cat.date + '</span>';
+        btn.addEventListener('click', () => loadCategoryQuestions(cat));
+        cardsEl.appendChild(btn);
+    });
+
+    selectorEl.style.display = 'block';
+}
+
+/**
+ * Carga las preguntas de la categoría elegida y arranca el cuestionario
+ */
+function loadCategoryQuestions(category) {
+    // Actualizar claves de sesión para esta categoría específica
+    updateStorageKeys(currentSubject.storagePrefix + category.id + '_');
+
+    // Cargar preguntas de la categoría
+    allQuestionsData = category.data;
+
+    // Actualizar título
+    const titleElement = document.getElementById('quiz-title');
+    if (titleElement) titleElement.textContent = '🔊 ' + category.name;
+
+    // Ocultar selector, mostrar quiz y barra de progreso
+    document.getElementById('category-selector').style.display = 'none';
+    const progressEl = document.getElementById('progress');
+    if (progressEl) progressEl.style.display = '';
+    quizContainer.style.display = 'block';
+
+    // Arrancar el cuestionario
+    currentQuizQuestions = selectQuestions();
+    totalQuestionsDisplay.textContent = currentQuizQuestions.length;
+    displayQuestion();
 }
 
 /**
