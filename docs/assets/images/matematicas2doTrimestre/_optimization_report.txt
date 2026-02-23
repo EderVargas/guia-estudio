@@ -3,16 +3,31 @@ REPORTE DE OPTIMIZACIÓN DE IMÁGENES
 ============================================================
 
 Archivo: 25.jpg
+  Original: 11.98 KB
+  JPEG: 7.98 KB
+  WebP: 2.69 KB
+
+Archivo: 25_.jpg
   Original: 15.24 KB
   JPEG: 9.89 KB
   WebP: 4.41 KB
 
 Archivo: 26.jpg
+  Original: 12.49 KB
+  JPEG: 8.14 KB
+  WebP: 2.96 KB
+
+Archivo: 26_.jpg
   Original: 15.81 KB
   JPEG: 10.07 KB
   WebP: 4.58 KB
 
 Archivo: 27.jpg
+  Original: 9.25 KB
+  JPEG: 6.50 KB
+  WebP: 2.72 KB
+
+Archivo: 27_.jpg
   Original: 11.39 KB
   JPEG: 7.65 KB
   WebP: 4.06 KB
@@ -98,6 +113,6 @@ Archivo: 58.jpg
   WebP: 19.00 KB
 
 ------------------------------------------------------------
-TOTAL ORIGINAL: 833.06 KB
-TOTAL OPTIMIZADO: 512.58 KB
-REDUCCIÓN TOTAL: 38.5%
+TOTAL ORIGINAL: 866.79 KB
+TOTAL OPTIMIZADO: 543.56 KB
+REDUCCIÓN TOTAL: 37.3%
