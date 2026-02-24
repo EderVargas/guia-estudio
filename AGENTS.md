@@ -608,3 +608,58 @@ Cada materia mantiene sus imágenes organizadas en carpetas independientes para 
 
 **Nota:** La materia `ingles` (dictation) no tiene carpeta de imágenes porque sus preguntas son solo de audio.
 
+## Conversión de Guías (.txt) a JSON
+
+El script `scripts/gen_cm2t_json.py` convierte cualquier guía de estudio en formato `.txt` al JSON del sistema de cuestionarios.
+
+### Uso
+
+```bash
+python scripts/gen_cm2t_json.py <ruta/archivo.txt> <nombre_materia>
+```
+
+**Ejemplos:**
+```bash
+python scripts/gen_cm2t_json.py assets/GuiaExamenConocimientoDelMedioSegundoTrimestre.txt conocimientoMedio2doTrimestre
+python scripts/gen_cm2t_json.py assets/GuiaMatematicas3erTrimestre.txt matematicas3erTrimestre
+```
+
+- El JSON se guarda automáticamente en `docs/assets/<nombre_materia>.json`
+- Las imágenes se referencian como `assets/images/<nombre_materia>/<imagen>`
+
+### Formato requerido del .txt
+
+```
+Id:1
+Materia: Nombre de la materia.
+Categoria: Nombre de la categoría.
+Pregunta: Texto de la pregunta.
+Imágen: 1.jpg          ← opcional
+Opcion 1: Respuesta correcta _correcta
+Opcion 2: Respuesta incorrecta
+Opcion 3: Respuesta incorrecta
+Opcion 4: Respuesta incorrecta
+```
+
+**Reglas del formato:**
+- El campo `_correcta` al final de una opción la marca como respuesta correcta.
+- `Imágen:` es opcional; si se incluye, la pregunta usará imagen.
+- El número de opciones es flexible (mínimo 2, sin límite).
+- Los campos `Instruccion:` y `Subcategoria:` se ignoran (no se usan en el JSON).
+
+### Pasos completos al agregar una materia nueva desde .txt
+
+1. Colocar el `.txt` en `assets/`
+2. Ejecutar el conversor:
+   ```bash
+   .venv\Scripts\python.exe scripts/gen_cm2t_json.py assets/MiGuia.txt miMateria
+   ```
+3. Agregar la materia en `src/script.js` (objeto `SUBJECTS`)
+4. Agregar la tarjeta en `docs/index.html`
+5. Si hay imágenes: colocar originales en `assets/images/originales/miMateria/` y agregar `'miMateria'` al array `subjects` en `scripts/optimize_images.py`
+6. Minificar y optimizar:
+   ```bash
+   .venv\Scripts\python.exe scripts/build.py minify
+   .venv\Scripts\python.exe scripts/build.py optimize
+   ```
+

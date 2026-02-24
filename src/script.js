@@ -54,6 +54,11 @@ const SUBJECTS = {
         title: '🔢 Matemáticas 2do Trimestre',
         jsonFile: 'assets/matematicas2doTrimestre.json',
         storagePrefix: 'mat2_'
+    },
+    'conocimientoMedio2doTrimestre': {
+        title: '🌍 Conocimiento del Medio 2do Trimestre',
+        jsonFile: 'assets/conocimientoMedio2doTrimestre.json',
+        storagePrefix: 'cm2_'
     }
 };
 

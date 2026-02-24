@@ -1,0 +1,320 @@
+Id:
+Materia: .
+Categoria: .
+Subcategoria: .
+Instruccion: Selecciona la opción correcta.
+Instruccion: Responde correctamente.
+Pregunta:
+Respuesta:
+Opcion 1: _correcta
+Opcion 2:
+Opcion 3:
+Opcion 4:
+
+Id:1
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son elementos que están a mi alrededor y los necesitamos para vivir.
+Opcion 1: Elementos de la naturaleza. _correcta
+Opcion 2: La tecnología.
+Opcion 3: La familia.
+Opcion 4: El día y la noche.
+
+Id:2
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayuda el fuego?.
+Opcion 1: Nos dá calor. _correcta
+Opcion 2: Nos dá oxígeno.
+Opcion 3: Nos hidrata.
+Opcion 4: Nos dán alimentos y ropa.
+Opcion 5: Nos dá alimento.
+Opcion 6: Nos dá luz y calor.
+
+Id:3
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayuda el aire?.
+Opcion 1: Nos dá calor.
+Opcion 2: Nos dá oxígeno. _correcta
+Opcion 3: Nos hidrata.
+Opcion 4: Nos dán alimentos y ropa.
+Opcion 5: Nos dá alimento.
+Opcion 6: Nos dá luz y calor.
+
+Id:4
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayuda el agua?.
+Opcion 1: Nos dá calor.
+Opcion 2: Nos dá oxígeno.
+Opcion 3: Nos hidrata. _correcta
+Opcion 4: Nos dán alimentos y ropa.
+Opcion 5: Nos dá alimento.
+Opcion 6: Nos dá luz y calor.
+
+Id:5
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayudan los animales?.
+Opcion 1: Nos dá calor.
+Opcion 2: Nos dá oxígeno.
+Opcion 3: Nos hidrata.
+Opcion 4: Nos dán alimentos y ropa. _correcta
+Opcion 5: Nos dá alimento.
+Opcion 6: Nos dá luz y calor.
+
+Id:6
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayuda la tierra?.
+Opcion 1: Nos dá calor.
+Opcion 2: Nos dá oxígeno.
+Opcion 3: Nos hidrata.
+Opcion 4: Nos dán alimentos y ropa.
+Opcion 5: Nos dá alimento. _correcta
+Opcion 6: Nos dá luz y calor.
+
+Id:7
+Materia: Conocimiento del medio.
+Categoria: Elementos de la naturaleza.
+Instruccion: Selecciona la opción correcta.
+Pregunta: De los elementos que necesitamos para vivir, ¿en qué nos ayuda el sol?.
+Opcion 1: Nos dá calor.
+Opcion 2: Nos dá oxígeno.
+Opcion 3: Nos hidrata.
+Opcion 4: Nos dán alimentos y ropa.
+Opcion 5: Nos dá alimento.
+Opcion 6: Nos dá luz y calor. _correcta
+
+Id:8
+Materia: Conocimiento del medio.
+Categoria: Necesidades básicas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es todo lo que necesitamos los seres vivos para vivir (alimento, agua, aire, hogar, seguridad, ropa, educació, descanso, salud y sol).
+Opcion 1: Elementos de la naturaleza.
+Opcion 2: Necesidades básicas. _correcta
+Opcion 3: La familia.
+Opcion 4: El día y la noche.
+
+Id:9
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son seres vivos que se caracterizan por generar su propio alimento y no desplazarse, ya que viven fijas en el suelo.
+Opcion 1: Elementos de la naturaleza.
+Opcion 2: Necesidades básicas.
+Opcion 3: Las plantas. _correcta
+Opcion 4: El día y la noche.
+
+Id:10
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Dan oxígeno, alimento, medicinas, algodón y madera.
+Opcion 1: Elementos de la naturaleza.
+Opcion 2: Necesidades básicas.
+Opcion 3: Las plantas _correcta
+Opcion 4: El día y la noche.
+
+Id:11
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es el anclaje y absorción de agua y nutrientes. 
+Imágen: 11.jpg
+Opcion 1: Raíz. _correcta
+Opcion 2: Tallo.
+Opcion 3: Flores.
+Opcion 4: Hojas.
+Opción 5: Fruto.
+
+Id:12
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es el soporte y transporte de agua y nutrientes. 
+Imágen: 12.jpg
+Opcion 1: Raíz.
+Opcion 2: Tallo. _correcta
+Opcion 3: Flores.
+Opcion 4: Hojas.
+Opción 5: Fruto.
+
+Id:13
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son los organos reproductivos, se forman frutos. 
+Imágen: 13.jpg
+Opcion 1: Raíz.
+Opcion 2: Tallo.
+Opcion 3: Flores. _correcta
+Opcion 4: Hojas.
+Opción 5: Fruto.
+
+Id:14
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es donde ocurre la fotosíntesis.
+Imágen: 14.jpg
+Opcion 1: Raíz.
+Opcion 2: Tallo.
+Opcion 3: Flores.
+Opcion 4: Hojas. _correcta
+Opción 5: Fruto.
+
+Id:15
+Materia: Conocimiento del medio.
+Categoria: Las plantas.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Contiene la semilla.
+Imágen: 15.jpg
+Opcion 1: Raíz.
+Opcion 2: Tallo.
+Opcion 3: Flores.
+Opcion 4: Hojas.
+Opción 5: Fruto. _correcta
+
+Id:16
+Materia: Conocimiento del medio.
+Categoria: La tecnología.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Ayuda a resolver problemas y crear herramientas para aprender, comunicarnos, viajar, entretener y facilitarnos la vida.
+Opcion 1: La tecnología. _correcta
+Opcion 2: La familia.
+Opcion 3: Los animales.
+Opcion 4: Las plantas.
+
+Id:17
+Materia: Conocimiento del medio.
+Categoria: La tecnología.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son lugares donde ves la tecnología. (refrigerador, horno, licuadora, tellevisión, juguetes, semáforo, autos, iPad, proyector)
+Opcion 1: Si. _correcta
+Opcion 2: No
+
+Id:18
+Materia: Conocimiento del medio.
+Categoria: La familia.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son las personas con las que vivimos.
+Opcion 1: Familia. _correcta
+Opcion 2: Comunidad.
+Opcion 3: Amigos.
+Opcion 4: Sociedad.
+
+Id:19
+Materia: Conocimiento del medio.
+Categoria: La familia.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Pueden ser de diferentes tipos, biparentales, monoparentales, adoptivas o sin hijos.
+Opcion 1: Familias. _correcta
+Opcion 2: Tipos de personas.
+Opcion 3: Amigos.
+Opcion 4: Sociedad.
+
+Id:20
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son seres vivos que brindan compañía y alimento. 
+Opcion 1: Animales. _correcta
+Opcion 2: Seres vivos.
+Opcion 3: Amigos.
+Opcion 4: Sociedad.
+
+Id:21
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el agua. 
+Opcion 1: Acuáticos. _correcta
+Opcion 2: Terrestres.
+Opcion 3: Aéreos.
+
+Id:22
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el suelo. 
+Opcion 1: Acuáticos.
+Opcion 2: Terrestres. _correcta
+Opcion 3: Aéreos.
+
+Id:23
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el aire. 
+Opcion 1: Acuáticos.
+Opcion 2: Terrestres.
+Opcion 3: Aéreos. _correcta
+
+Id:24
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el aire. 
+Opcion 1: Tiburón, Delfín y Estrella de Mar.
+Opcion 2: Elefante, Tigre y León.
+Opcion 3: Pájaro, Águila y Colibrí. _correcta
+
+Id:25
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el suelo. 
+Opcion 1: Tiburón, Delfín y Estrella de Mar.
+Opcion 2: Elefante, Tigre y León. _correcta
+Opcion 3: Pájaro, Águila y Colibrí.
+
+Id:26
+Materia: Conocimiento del medio.
+Categoria: Los animales.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Son animales que habitan en el agua. 
+Opcion 1: Tiburón, Delfín y Estrella de Mar. _correcta
+Opcion 2: Elefante, Tigre y León.
+Opcion 3: Pájaro, Águila y Colibrí.
+
+Id:27
+Materia: Conocimiento del medio.
+Categoria: El día y la noche.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es más grande que el planeta Tierra. 
+Opcion 1: Sol. _correcta
+Opcion 2: Luna.
+
+Id:28
+Materia: Conocimiento del medio.
+Categoria: El día y la noche.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Es más pequeña que el planeta Tierra. 
+Opcion 1: Sol.
+Opcion 2: Luna. _correcta
+
+Id:29
+Materia: Conocimiento del medio.
+Categoria: El día y la noche.
+Instruccion: Selecciona la opción correcta.
+Pregunta: Emite luz y calor. 
+Opcion 1: Sol. _correcta
+Opcion 2: Luna.
+
+Id:30
+Materia: Conocimiento del medio.
+Categoria: El día y la noche.
+Instruccion: Selecciona la opción correcta.
+Pregunta: No tiene luz propia, se ve diferente a lo largo del mes. 
+Opcion 1: Sol.
+Opcion 2: Luna. _correcta
+
+

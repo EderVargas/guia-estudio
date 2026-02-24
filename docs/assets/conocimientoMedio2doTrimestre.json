@@ -1,0 +1,612 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Elementos de la naturaleza",
+      "question": "Son elementos que están a mi alrededor y los necesitamos para vivir.",
+      "answers": [
+        {
+          "option": "Elementos de la naturaleza.",
+          "correct": true
+        },
+        {
+          "option": "La tecnología."
+        },
+        {
+          "option": "La familia."
+        },
+        {
+          "option": "El día y la noche."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayuda el fuego?.",
+      "answers": [
+        {
+          "option": "Nos dá calor.",
+          "correct": true
+        },
+        {
+          "option": "Nos dá oxígeno."
+        },
+        {
+          "option": "Nos hidrata."
+        },
+        {
+          "option": "Nos dán alimentos y ropa."
+        },
+        {
+          "option": "Nos dá alimento."
+        },
+        {
+          "option": "Nos dá luz y calor."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayuda el aire?.",
+      "answers": [
+        {
+          "option": "Nos dá calor."
+        },
+        {
+          "option": "Nos dá oxígeno.",
+          "correct": true
+        },
+        {
+          "option": "Nos hidrata."
+        },
+        {
+          "option": "Nos dán alimentos y ropa."
+        },
+        {
+          "option": "Nos dá alimento."
+        },
+        {
+          "option": "Nos dá luz y calor."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayuda el agua?.",
+      "answers": [
+        {
+          "option": "Nos dá calor."
+        },
+        {
+          "option": "Nos dá oxígeno."
+        },
+        {
+          "option": "Nos hidrata.",
+          "correct": true
+        },
+        {
+          "option": "Nos dán alimentos y ropa."
+        },
+        {
+          "option": "Nos dá alimento."
+        },
+        {
+          "option": "Nos dá luz y calor."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayudan los animales?.",
+      "answers": [
+        {
+          "option": "Nos dá calor."
+        },
+        {
+          "option": "Nos dá oxígeno."
+        },
+        {
+          "option": "Nos hidrata."
+        },
+        {
+          "option": "Nos dán alimentos y ropa.",
+          "correct": true
+        },
+        {
+          "option": "Nos dá alimento."
+        },
+        {
+          "option": "Nos dá luz y calor."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayuda la tierra?.",
+      "answers": [
+        {
+          "option": "Nos dá calor."
+        },
+        {
+          "option": "Nos dá oxígeno."
+        },
+        {
+          "option": "Nos hidrata."
+        },
+        {
+          "option": "Nos dán alimentos y ropa."
+        },
+        {
+          "option": "Nos dá alimento.",
+          "correct": true
+        },
+        {
+          "option": "Nos dá luz y calor."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Elementos de la naturaleza",
+      "question": "De los elementos que necesitamos para vivir, ¿en qué nos ayuda el sol?.",
+      "answers": [
+        {
+          "option": "Nos dá calor."
+        },
+        {
+          "option": "Nos dá oxígeno."
+        },
+        {
+          "option": "Nos hidrata."
+        },
+        {
+          "option": "Nos dán alimentos y ropa."
+        },
+        {
+          "option": "Nos dá alimento."
+        },
+        {
+          "option": "Nos dá luz y calor.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Necesidades básicas",
+      "question": "Es todo lo que necesitamos los seres vivos para vivir (alimento, agua, aire, hogar, seguridad, ropa, educació, descanso, salud y sol).",
+      "answers": [
+        {
+          "option": "Elementos de la naturaleza."
+        },
+        {
+          "option": "Necesidades básicas.",
+          "correct": true
+        },
+        {
+          "option": "La familia."
+        },
+        {
+          "option": "El día y la noche."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Las plantas",
+      "question": "Son seres vivos que se caracterizan por generar su propio alimento y no desplazarse, ya que viven fijas en el suelo.",
+      "answers": [
+        {
+          "option": "Elementos de la naturaleza."
+        },
+        {
+          "option": "Necesidades básicas."
+        },
+        {
+          "option": "Las plantas.",
+          "correct": true
+        },
+        {
+          "option": "El día y la noche."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Las plantas",
+      "question": "Dan oxígeno, alimento, medicinas, algodón y madera.",
+      "answers": [
+        {
+          "option": "Elementos de la naturaleza."
+        },
+        {
+          "option": "Necesidades básicas."
+        },
+        {
+          "option": "Las plantas",
+          "correct": true
+        },
+        {
+          "option": "El día y la noche."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Las plantas",
+      "question": "Es el anclaje y absorción de agua y nutrientes.",
+      "image": "assets/images/conocimientoMedio2doTrimestre/11.jpg",
+      "answers": [
+        {
+          "option": "Raíz.",
+          "correct": true
+        },
+        {
+          "option": "Tallo."
+        },
+        {
+          "option": "Flores."
+        },
+        {
+          "option": "Hojas."
+        },
+        {
+          "option": "Fruto."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Las plantas",
+      "question": "Es el soporte y transporte de agua y nutrientes.",
+      "image": "assets/images/conocimientoMedio2doTrimestre/12.jpg",
+      "answers": [
+        {
+          "option": "Raíz."
+        },
+        {
+          "option": "Tallo.",
+          "correct": true
+        },
+        {
+          "option": "Flores."
+        },
+        {
+          "option": "Hojas."
+        },
+        {
+          "option": "Fruto."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Las plantas",
+      "question": "Son los organos reproductivos, se forman frutos.",
+      "image": "assets/images/conocimientoMedio2doTrimestre/13.jpg",
+      "answers": [
+        {
+          "option": "Raíz."
+        },
+        {
+          "option": "Tallo."
+        },
+        {
+          "option": "Flores.",
+          "correct": true
+        },
+        {
+          "option": "Hojas."
+        },
+        {
+          "option": "Fruto."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Las plantas",
+      "question": "Es donde ocurre la fotosíntesis.",
+      "image": "assets/images/conocimientoMedio2doTrimestre/14.jpg",
+      "answers": [
+        {
+          "option": "Raíz."
+        },
+        {
+          "option": "Tallo."
+        },
+        {
+          "option": "Flores."
+        },
+        {
+          "option": "Hojas.",
+          "correct": true
+        },
+        {
+          "option": "Fruto."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Las plantas",
+      "question": "Contiene la semilla.",
+      "image": "assets/images/conocimientoMedio2doTrimestre/15.jpg",
+      "answers": [
+        {
+          "option": "Raíz."
+        },
+        {
+          "option": "Tallo."
+        },
+        {
+          "option": "Flores."
+        },
+        {
+          "option": "Hojas."
+        },
+        {
+          "option": "Fruto.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "La tecnología",
+      "question": "Ayuda a resolver problemas y crear herramientas para aprender, comunicarnos, viajar, entretener y facilitarnos la vida.",
+      "answers": [
+        {
+          "option": "La tecnología.",
+          "correct": true
+        },
+        {
+          "option": "La familia."
+        },
+        {
+          "option": "Los animales."
+        },
+        {
+          "option": "Las plantas."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "La tecnología",
+      "question": "Son lugares donde ves la tecnología. (refrigerador, horno, licuadora, tellevisión, juguetes, semáforo, autos, iPad, proyector)",
+      "answers": [
+        {
+          "option": "Si.",
+          "correct": true
+        },
+        {
+          "option": "No"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "La familia",
+      "question": "Son las personas con las que vivimos.",
+      "answers": [
+        {
+          "option": "Familia.",
+          "correct": true
+        },
+        {
+          "option": "Comunidad."
+        },
+        {
+          "option": "Amigos."
+        },
+        {
+          "option": "Sociedad."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "La familia",
+      "question": "Pueden ser de diferentes tipos, biparentales, monoparentales, adoptivas o sin hijos.",
+      "answers": [
+        {
+          "option": "Familias.",
+          "correct": true
+        },
+        {
+          "option": "Tipos de personas."
+        },
+        {
+          "option": "Amigos."
+        },
+        {
+          "option": "Sociedad."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Los animales",
+      "question": "Son seres vivos que brindan compañía y alimento.",
+      "answers": [
+        {
+          "option": "Animales.",
+          "correct": true
+        },
+        {
+          "option": "Seres vivos."
+        },
+        {
+          "option": "Amigos."
+        },
+        {
+          "option": "Sociedad."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el agua.",
+      "answers": [
+        {
+          "option": "Acuáticos.",
+          "correct": true
+        },
+        {
+          "option": "Terrestres."
+        },
+        {
+          "option": "Aéreos."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el suelo.",
+      "answers": [
+        {
+          "option": "Acuáticos."
+        },
+        {
+          "option": "Terrestres.",
+          "correct": true
+        },
+        {
+          "option": "Aéreos."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el aire.",
+      "answers": [
+        {
+          "option": "Acuáticos."
+        },
+        {
+          "option": "Terrestres."
+        },
+        {
+          "option": "Aéreos.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el aire.",
+      "answers": [
+        {
+          "option": "Tiburón, Delfín y Estrella de Mar."
+        },
+        {
+          "option": "Elefante, Tigre y León."
+        },
+        {
+          "option": "Pájaro, Águila y Colibrí.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el suelo.",
+      "answers": [
+        {
+          "option": "Tiburón, Delfín y Estrella de Mar."
+        },
+        {
+          "option": "Elefante, Tigre y León.",
+          "correct": true
+        },
+        {
+          "option": "Pájaro, Águila y Colibrí."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Los animales",
+      "question": "Son animales que habitan en el agua.",
+      "answers": [
+        {
+          "option": "Tiburón, Delfín y Estrella de Mar.",
+          "correct": true
+        },
+        {
+          "option": "Elefante, Tigre y León."
+        },
+        {
+          "option": "Pájaro, Águila y Colibrí."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "El día y la noche",
+      "question": "Es más grande que el planeta Tierra.",
+      "answers": [
+        {
+          "option": "Sol.",
+          "correct": true
+        },
+        {
+          "option": "Luna."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "category": "El día y la noche",
+      "question": "Es más pequeña que el planeta Tierra.",
+      "answers": [
+        {
+          "option": "Sol."
+        },
+        {
+          "option": "Luna.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "category": "El día y la noche",
+      "question": "Emite luz y calor.",
+      "answers": [
+        {
+          "option": "Sol.",
+          "correct": true
+        },
+        {
+          "option": "Luna."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "category": "El día y la noche",
+      "question": "No tiene luz propia, se ve diferente a lo largo del mes.",
+      "answers": [
+        {
+          "option": "Sol."
+        },
+        {
+          "option": "Luna.",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
