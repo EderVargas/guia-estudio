@@ -1,0 +1,404 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Necesidades y Deseos",
+      "question": "Es lo que ocupamos para vivir. Por ejemplo: casa, alimentos, agua.",
+      "answers": [
+        {
+          "option": "Necesidades.",
+          "correct": true
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Necesidades y Deseos",
+      "question": "No son necesarios para vivir. Por ejemplo: juguetes, celulares, regalos.",
+      "answers": [
+        {
+          "option": "Necesidades."
+        },
+        {
+          "option": "Deseos.",
+          "correct": true
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Los valores",
+      "question": "Nos ayudan a actuar de forma justa y correcta hacia los demás. Los aprendemos en la casa, la escuela y la comunidad y mejorar la convivencia con los demás.",
+      "answers": [
+        {
+          "option": "Necesidades."
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores.",
+          "correct": true
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Los valores",
+      "question": "Es hacer lo que consideramos correcto.",
+      "answers": [
+        {
+          "option": "Necesidades."
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Los valores",
+      "question": "Aceptar las consecuencias de nuestros actos.",
+      "answers": [
+        {
+          "option": "Responsabilidad.",
+          "correct": true
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Los valores",
+      "question": "Decir la verdad es un ejemplo de...",
+      "answers": [
+        {
+          "option": "Responsabilidad."
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Los valores",
+      "question": "Olvidé hacer mi tarea y acepto que tengo cero de calificación por no presentarla es un ejemplo de...",
+      "answers": [
+        {
+          "option": "Responsabilidad.",
+          "correct": true
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "La empatía",
+      "question": "Es esforzarnos por entender a los demás. Es la capacidad de comprender y compartir sentimientos con otras personas.",
+      "answers": [
+        {
+          "option": "Empatía.",
+          "correct": true
+        },
+        {
+          "option": "Deseos."
+        },
+        {
+          "option": "Valores."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Reacción ante las emociones",
+      "question": "Son emociones.",
+      "answers": [
+        {
+          "option": "Alegría, tristeza y miedo.",
+          "correct": true
+        },
+        {
+          "option": "Hambre."
+        },
+        {
+          "option": "Correr."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Reacción ante las emociones",
+      "question": "Son emociones.",
+      "answers": [
+        {
+          "option": "Ira, asco y sorpresa.",
+          "correct": true
+        },
+        {
+          "option": "Hambre."
+        },
+        {
+          "option": "Correr."
+        },
+        {
+          "option": "Honestidad."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Reacción ante las emociones",
+      "question": "Que hacemos si nos sentimos tristes.",
+      "answers": [
+        {
+          "option": "Pegarle a las personas."
+        },
+        {
+          "option": "Reconocer la emoción, respirar y hablar con nuestros papás.",
+          "correct": true
+        },
+        {
+          "option": "Tirar los juguetes a la basura."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Toma de decisiones",
+      "question": "Es elegir lo que es mejor para mí. Por ejemplo: ropa, sabor del haelado, que jugar.",
+      "answers": [
+        {
+          "option": "Toma de decisiones.",
+          "correct": true
+        },
+        {
+          "option": "Reacción a las empociones."
+        },
+        {
+          "option": "Empatía."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Toma de decisiones",
+      "question": "¿Para qué puedo necesitar ayuda al momento de tomar decisiones?",
+      "answers": [
+        {
+          "option": "Cruzar la calle.",
+          "correct": true
+        },
+        {
+          "option": "Elegir helado de fresa."
+        },
+        {
+          "option": "Saber si quiero jugar a las atrapadas."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Grupos de pertenencia",
+      "question": "Son personas con las que convivimos y compartimos lo que nos gusta.",
+      "answers": [
+        {
+          "option": "Grupos de pertenencia.",
+          "correct": true
+        },
+        {
+          "option": "Toma de decisiones."
+        },
+        {
+          "option": "Reacción ante las emociones."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Grupos de pertenencia",
+      "question": "Hablando de grupos de pertenencia, ¿la familia que proporciona?",
+      "answers": [
+        {
+          "option": "Amor y cuidados.",
+          "correct": true
+        },
+        {
+          "option": "Aprendizaje y convivencia."
+        },
+        {
+          "option": "Juegos."
+        },
+        {
+          "option": "Convivencia."
+        },
+        {
+          "option": "Compartimos celebraciones."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Grupos de pertenencia",
+      "question": "Hablando de grupos de pertenencia, ¿la escuela que proporciona?",
+      "answers": [
+        {
+          "option": "Amor y cuidados."
+        },
+        {
+          "option": "Aprendizaje y convivencia.",
+          "correct": true
+        },
+        {
+          "option": "Juegos."
+        },
+        {
+          "option": "Convivencia."
+        },
+        {
+          "option": "Compartimos celebraciones."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Grupos de pertenencia",
+      "question": "Hablando de grupos de pertenencia, ¿los amigos que proporcionan?",
+      "answers": [
+        {
+          "option": "Amor y cuidados."
+        },
+        {
+          "option": "Aprendizaje y convivencia."
+        },
+        {
+          "option": "Juegos y compañía.",
+          "correct": true
+        },
+        {
+          "option": "Convivencia."
+        },
+        {
+          "option": "Compartimos celebraciones."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Grupos de pertenencia",
+      "question": "Hablando de grupos de pertenencia, ¿los vecinos que proporcionan?",
+      "answers": [
+        {
+          "option": "Amor y cuidados."
+        },
+        {
+          "option": "Aprendizaje y convivencia."
+        },
+        {
+          "option": "Juegos y compañía."
+        },
+        {
+          "option": "Convivencia.",
+          "correct": true
+        },
+        {
+          "option": "Compartimos celebraciones."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Grupos de pertenencia",
+      "question": "Hablando de grupos de pertenencia, ¿la comunidad que proporcionan?",
+      "answers": [
+        {
+          "option": "Amor y cuidados."
+        },
+        {
+          "option": "Aprendizaje y convivencia."
+        },
+        {
+          "option": "Juegos y compañía."
+        },
+        {
+          "option": "Convivencia."
+        },
+        {
+          "option": "Compartimos celebraciones.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Grupos de pertenencia",
+      "question": "Son cosas que compartimos con la comunidad y la familia.",
+      "answers": [
+        {
+          "option": "Amor y cuidados."
+        },
+        {
+          "option": "Los juguetes."
+        },
+        {
+          "option": "Tradiciones y costumbres.",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
