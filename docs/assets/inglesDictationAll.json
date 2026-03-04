@@ -1157,6 +1157,93 @@
           "correctAnswer": "travel"
         }
       ]
+    },
+    {
+      "id": "vocabulary-ou-ow",
+      "name": "Vocabulary - OU/OW",
+      "date": "2026-03-03",
+      "data": [
+        {
+          "id": 1,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "out",
+          "question": "Listen and write the word",
+          "correctAnswer": "out"
+        },
+        {
+          "id": 2,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "cloud",
+          "question": "Listen and write the word",
+          "correctAnswer": "cloud"
+        },
+        {
+          "id": 3,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "round",
+          "question": "Listen and write the word",
+          "correctAnswer": "round"
+        },
+        {
+          "id": 4,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "ouch",
+          "question": "Listen and write the word",
+          "correctAnswer": "ouch"
+        },
+        {
+          "id": 5,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "pouch",
+          "question": "Listen and write the word",
+          "correctAnswer": "pouch"
+        },
+        {
+          "id": 6,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "cow",
+          "question": "Listen and write the word",
+          "correctAnswer": "cow"
+        },
+        {
+          "id": 7,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "brown",
+          "question": "Listen and write the word",
+          "correctAnswer": "brown"
+        },
+        {
+          "id": 8,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "towel",
+          "question": "Listen and write the word",
+          "correctAnswer": "towel"
+        },
+        {
+          "id": 9,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "crown",
+          "question": "Listen and write the word",
+          "correctAnswer": "crown"
+        },
+        {
+          "id": 10,
+          "category": "Vocabulary - OU/OW",
+          "type": "audio-dictation",
+          "audioText": "owl",
+          "question": "Listen and write the word",
+          "correctAnswer": "owl"
+        }
+      ]
     }
   ]
 }

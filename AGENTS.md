@@ -621,7 +621,7 @@ python scripts/gen_cm2t_json.py <ruta/archivo.txt> <nombre_materia>
 **Ejemplos:**
 ```bash
 python scripts/gen_cm2t_json.py assets/GuiaExamenConocimientoDelMedioSegundoTrimestre.txt conocimientoMedio2doTrimestre
-python scripts/gen_cm2t_json.py assets/GuiaMatematicas3erTrimestre.txt matematicas3erTrimestre
+python scripts/gen_cm2t_json.py assets/GuiaExamenSegundoTrimestreCivicaYEtica.txt formacionCivicaEtica2doTrimestre
 ```
 
 - El JSON se guarda automáticamente en `docs/assets/<nombre_materia>.json`
