@@ -1244,6 +1244,93 @@
           "correctAnswer": "owl"
         }
       ]
+    },
+    {
+      "id": "vocabulary-st-patricks-day",
+      "name": "Vocabulary - St. Patrick's Day",
+      "date": "2026-03-17",
+      "data": [
+        {
+          "id": 1,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation-exact",
+          "audioText": "Saint Patrick",
+          "question": "Listen and write the word",
+          "correctAnswer": "Saint Patrick"
+        },
+        {
+          "id": 2,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "leprechaun",
+          "question": "Listen and write the word",
+          "correctAnswer": "leprechaun"
+        },
+        {
+          "id": 3,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "rainbow",
+          "question": "Listen and write the word",
+          "correctAnswer": "rainbow"
+        },
+        {
+          "id": 4,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "shamrock",
+          "question": "Listen and write the word",
+          "correctAnswer": "shamrock"
+        },
+        {
+          "id": 5,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "coins",
+          "question": "Listen and write the word",
+          "correctAnswer": "coins"
+        },
+        {
+          "id": 6,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "pot of gold",
+          "question": "Listen and write the word",
+          "correctAnswer": "pot of gold"
+        },
+        {
+          "id": 7,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation-exact",
+          "audioText": "Ireland",
+          "question": "Listen and write the word",
+          "correctAnswer": "Ireland"
+        },
+        {
+          "id": 8,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation-exact",
+          "audioText": "Irish",
+          "question": "Listen and write the word",
+          "correctAnswer": "Irish"
+        },
+        {
+          "id": 9,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "boots",
+          "question": "Listen and write the word",
+          "correctAnswer": "boots"
+        },
+        {
+          "id": 10,
+          "category": "Vocabulary - St. Patrick's Day",
+          "type": "audio-dictation",
+          "audioText": "green hat",
+          "question": "Listen and write the word",
+          "correctAnswer": "green hat"
+        }
+      ]
     }
   ]
 }
