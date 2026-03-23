@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <script>window.location.replace('maintenance.html');</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía de Estudio - Selecciona una Materia</title>
+    <script src="js/api.js"></script>
     <style>
         * {
             margin: 0;
@@ -134,6 +134,93 @@
             background: linear-gradient(135deg, #d2bbec 0%, #8e44ad 100%);
         }
 
+        .top-bar {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .top-bar-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 8px 16px;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            font-family: inherit;
+        }
+
+        .top-bar-btn:hover { opacity: 0.85; }
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-overlay.open { display: flex; }
+
+        .modal-box {
+            background: white;
+            border-radius: 20px;
+            padding: 35px 30px;
+            max-width: 500px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: #999;
+        }
+
+        .modal-close:hover { color: #333; }
+
+        .stat-subject {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .stat-subject-name {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 6px;
+        }
+
+        .stat-bar {
+            height: 8px;
+            background: #eee;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+
+        .stat-bar-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+            transition: width 0.4s;
+        }
+
         .subject-icon {
             font-size: 4em;
             margin-bottom: 15px;
@@ -173,7 +260,20 @@
     </style>
 </head>
 <body>
+    <!-- Modal de estadísticas -->
+    <div class="modal-overlay" id="stats-modal">
+        <div class="modal-box">
+            <button class="modal-close" id="stats-close">&times;</button>
+            <h2 style="color:#667eea; margin-bottom:20px;">📊 Mi Progreso</h2>
+            <div id="stats-content"><p style="color:#999;">Cargando...</p></div>
+        </div>
+    </div>
+
     <div class="container">
+        <div class="top-bar">
+            <button class="top-bar-btn" id="stats-btn">📊 Mi Progreso</button>
+            <button class="top-bar-btn" id="logout-btn">Salir</button>
+        </div>
         <h1>Guía de Estudio</h1>
         <p class="subtitle">Selecciona la materia que quieres practicar</p>
 
@@ -257,5 +357,58 @@
             &copy; 2025 EGLG
         </footer>
     </div>
+
+    <script>
+        authRedirect();
+
+        document.getElementById('logout-btn').addEventListener('click', function () {
+            clearToken();
+            window.location.replace('login.html');
+        });
+
+        var statsModal = document.getElementById('stats-modal');
+        var statsContent = document.getElementById('stats-content');
+
+        document.getElementById('stats-btn').addEventListener('click', async function () {
+            statsModal.classList.add('open');
+            statsContent.innerHTML = '<p style="color:#999;">Cargando...</p>';
+            try {
+                var res = await apiFetch('/stats');
+                if (!res || !res.ok) {
+                    statsContent.innerHTML = '<p style="color:#c00;">Error al cargar estadísticas.</p>';
+                    return;
+                }
+                var data = await res.json();
+                if (!data.subjects || data.subjects.length === 0) {
+                    statsContent.innerHTML = '<p style="color:#999;">Aún no hay progreso registrado.</p>';
+                    return;
+                }
+                var html = '';
+                data.subjects.forEach(function (s) {
+                    var pct = s.total > 0 ? Math.round((s.answered / s.total) * 100) : 0;
+                    html += '<div class="stat-subject">';
+                    html += '<div class="stat-subject-name">' + s.subject + '</div>';
+                    html += '<div style="font-size:0.85em;color:#555;">' + s.answered + ' / ' + s.total + ' respondidas';
+                    if (s.incorrect_pending > 0) {
+                        html += ' &nbsp;|&nbsp; <span style="color:#e74c3c;">' + s.incorrect_pending + ' para repasar</span>';
+                    }
+                    html += '</div>';
+                    html += '<div class="stat-bar"><div class="stat-bar-fill" style="width:' + pct + '%;"></div></div>';
+                    html += '</div>';
+                });
+                statsContent.innerHTML = html;
+            } catch (e) {
+                statsContent.innerHTML = '<p style="color:#c00;">Error de conexion.</p>';
+            }
+        });
+
+        document.getElementById('stats-close').addEventListener('click', function () {
+            statsModal.classList.remove('open');
+        });
+
+        statsModal.addEventListener('click', function (e) {
+            if (e.target === statsModal) statsModal.classList.remove('open');
+        });
+    </script>
 </body>
 </html>

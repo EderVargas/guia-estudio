@@ -89,6 +89,11 @@ function updateStorageKeys(prefix) {
 // Usar sessionStorage en lugar de localStorage
 const storage = sessionStorage;
 
+// Auth guard: redirigir a login si no hay token
+if (typeof authRedirect === 'function') {
+    authRedirect();
+}
+
 // Limpiar sesión de la materia actual si viene del menú
 const LAST_SUBJECT_KEY = 'lastSubject';
 const lastSubject = storage.getItem(LAST_SUBJECT_KEY);
@@ -185,6 +190,9 @@ function saveQuestionResult(questionId, wasCorrect) {
 function resetProgress() {
     storage.removeItem(STORAGE_KEYS.ANSWERED_QUESTIONS);
     storage.removeItem(STORAGE_KEYS.INCORRECT_QUESTIONS);
+    if (!currentSubject.categoriesFile && typeof apiFetch === 'function') {
+        apiFetch('/progress/' + selectedSubject, { method: 'DELETE' }).catch(() => {});
+    }
 }
 
 /**
@@ -260,10 +268,20 @@ async function loadQuestions() {
             return;
         }
         
-        // Cargar el JSON correspondiente a la materia
-        const response = await fetch(currentSubject.jsonFile);
+        // Cargar preguntas desde la API
+        const response = await apiFetch('/questions/' + selectedSubject);
         const data = await response.json();
         allQuestionsData = data.data;
+
+        // Precargar progreso desde la API a sessionStorage
+        try {
+            const progressRes = await apiFetch('/progress/' + selectedSubject);
+            if (progressRes && progressRes.ok) {
+                const progressData = await progressRes.json();
+                storage.setItem(STORAGE_KEYS.ANSWERED_QUESTIONS, JSON.stringify(progressData.answered_ids));
+                storage.setItem(STORAGE_KEYS.INCORRECT_QUESTIONS, JSON.stringify(progressData.incorrect_ids));
+            }
+        } catch (_) { /* Si falla, usamos el sessionStorage existente */ }
         
         // Seleccionar preguntas para este cuestionario
         currentQuizQuestions = selectQuestions();
@@ -779,6 +797,17 @@ function showFinalScreen() {
         playSuccessSound();
     }
     
+    // Sincronizar progreso con la API (solo para materias sin categorías)
+    if (!currentSubject.categoriesFile && typeof apiFetch === 'function') {
+        apiFetch('/progress/' + selectedSubject, {
+            method: 'PUT',
+            body: JSON.stringify({
+                answered_ids: [...getAnsweredQuestions()],
+                incorrect_ids: [...getIncorrectQuestions()]
+            })
+        }).catch(() => {});
+    }
+
     // Cambiar texto del botón según el estado
     if (stats.remaining === 0 && stats.incorrect === 0) {
         restartBtn.textContent = 'Reiniciar Todo';
