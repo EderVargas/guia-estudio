@@ -1331,6 +1331,109 @@
           "correctAnswer": "green hat"
         }
       ]
+    },
+        {
+      "id": "challenge-words-6",
+      "name": "Challenge Words 6",
+      "date": "2026-03-24",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "classroom",
+          "question": "Listen and write the word",
+          "correctAnswer": "classroom"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "school",
+          "question": "Listen and write the word",
+          "correctAnswer": "school"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "home",
+          "question": "Listen and write the word",
+          "correctAnswer": "home"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "investigation",
+          "question": "Listen and write the word",
+          "correctAnswer": "investigation"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "microscope",
+          "question": "Listen and write the word",
+          "correctAnswer": "microscope"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "shape",
+          "question": "Listen and write the word",
+          "correctAnswer": "shape"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "size",
+          "question": "Listen and write the word",
+          "correctAnswer": "size"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "signs",
+          "question": "Listen and write the word",
+          "correctAnswer": "signs"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "break",
+          "question": "Listen and write the word",
+          "correctAnswer": "break"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "problem",
+          "question": "Listen and write the word",
+          "correctAnswer": "problem"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "heating",
+          "question": "Listen and write the word",
+          "correctAnswer": "heating"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 6",
+          "type": "audio-dictation",
+          "audioText": "cooling",
+          "question": "Listen and write the word",
+          "correctAnswer": "cooling"
+        }
+      ]
     }
   ]
 }
