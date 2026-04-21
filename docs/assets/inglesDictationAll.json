@@ -1434,6 +1434,109 @@
           "correctAnswer": "cooling"
         }
       ]
+    },
+    {
+      "id": "vocabulary-compound-words",
+      "name": "Vocabulary - Compound Words",
+      "date": "2026-03-17",
+      "data": [
+        {
+          "id": 1,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "butterfly",
+          "question": "Listen and write the word",
+          "correctAnswer": "butterfly"
+        },
+        {
+          "id": 2,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "snowball",
+          "question": "Listen and write the word",
+          "correctAnswer": "snowball"
+        },
+        {
+          "id": 3,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "cupcake",
+          "question": "Listen and write the word",
+          "correctAnswer": "cupcake"
+        },
+        {
+          "id": 4,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "toothbrush",
+          "question": "Listen and write the word",
+          "correctAnswer": "toothbrush"
+        },
+        {
+          "id": 5,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "ladybug",
+          "question": "Listen and write the word",
+          "correctAnswer": "ladybug"
+        },
+        {
+          "id": 6,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "newspaper",
+          "question": "Listen and write the word",
+          "correctAnswer": "newspaper"
+        },
+        {
+          "id": 7,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "birdhouse",
+          "question": "Listen and write the word",
+          "correctAnswer": "birdhouse"
+        },
+        {
+          "id": 8,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation-exact",
+          "audioText": "starfish",
+          "question": "Listen and write the word",
+          "correctAnswer": "starfish"
+        },
+        {
+          "id": 9,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "sunflower",
+          "question": "Listen and write the word",
+          "correctAnswer": "sunflower"
+        },
+        {
+          "id": 10,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "raincoat",
+          "question": "Listen and write the word",
+          "correctAnswer": "raincoat"
+        },
+        {
+          "id": 11,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "sandcastle",
+          "question": "Listen and write the word",
+          "correctAnswer": "sandcastle"
+        },
+        {
+          "id": 12,
+          "category": "Vocabulary - Compound Words",
+          "type": "audio-dictation",
+          "audioText": "notebook",
+          "question": "Listen and write the word",
+          "correctAnswer": "notebook"
+        }
+      ]
     }
   ]
 }
