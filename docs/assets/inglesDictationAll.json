@@ -1537,6 +1537,109 @@
           "correctAnswer": "notebook"
         }
       ]
+    },
+    {
+      "id": "challenge-words-7",
+      "name": "Challenge Words 7",
+      "date": "2026-05-12",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "angry",
+          "question": "Listen and write the word",
+          "correctAnswer": "angry"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "worried",
+          "question": "Listen and write the word",
+          "correctAnswer": "worried"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "frustrated",
+          "question": "Listen and write the word",
+          "correctAnswer": "frustrated"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "happy",
+          "question": "Listen and write the word",
+          "correctAnswer": "happy"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "excited",
+          "question": "Listen and write the word",
+          "correctAnswer": "excited"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "conflict",
+          "question": "Listen and write the word",
+          "correctAnswer": "conflict"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "different",
+          "question": "Listen and write the word",
+          "correctAnswer": "different"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "important",
+          "question": "Listen and write the word",
+          "correctAnswer": "important"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "feelings",
+          "question": "Listen and write the word",
+          "correctAnswer": "feelings"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "agree",
+          "question": "Listen and write the word",
+          "correctAnswer": "agree"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "disagree",
+          "question": "Listen and write the word",
+          "correctAnswer": "disagree"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 7",
+          "type": "audio-dictation",
+          "audioText": "special",
+          "question": "Listen and write the word",
+          "correctAnswer": "special"
+        }
+      ]
     }
   ]
 }
