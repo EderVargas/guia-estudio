@@ -1640,6 +1640,109 @@
           "correctAnswer": "special"
         }
       ]
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "date": "2026-06-26",
+      "data": [
+        {
+          "id": 1,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "snake",
+          "question": "Listen and write the word",
+          "correctAnswer": "snake"
+        },
+        {
+          "id": 2,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "zebra",
+          "question": "Listen and write the word",
+          "correctAnswer": "zebra"
+        },
+        {
+          "id": 3,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "tiger",
+          "question": "Listen and write the word",
+          "correctAnswer": "tiger"
+        },
+        {
+          "id": 4,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "bison",
+          "question": "Listen and write the word",
+          "correctAnswer": "bison"
+        },
+        {
+          "id": 5,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "beluga",
+          "question": "Listen and write the word",
+          "correctAnswer": "beluga"
+        },
+        {
+          "id": 6,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "spider",
+          "question": "Listen and write the word",
+          "correctAnswer": "spider"
+        },
+        {
+          "id": 7,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "alligator",
+          "question": "Listen and write the word",
+          "correctAnswer": "alligator"
+        },
+        {
+          "id": 8,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "bat",
+          "question": "Listen and write the word",
+          "correctAnswer": "bat"
+        },
+        {
+          "id": 9,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "crab",
+          "question": "Listen and write the word",
+          "correctAnswer": "crab"
+        },
+        {
+          "id": 10,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "whale",
+          "question": "Listen and write the word",
+          "correctAnswer": "whale"
+        },
+        {
+          "id": 11,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "elephant",
+          "question": "Listen and write the word",
+          "correctAnswer": "elephant"
+        },
+        {
+          "id": 12,
+          "category": "Animals",
+          "type": "audio-dictation",
+          "audioText": "ape",
+          "question": "Listen and write the word",
+          "correctAnswer": "ape"
+        }
+      ]
     }
   ]
 }
