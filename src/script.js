@@ -60,10 +60,10 @@ const SUBJECTS = {
         jsonFile: 'assets/conocimientoMedio3erTrimestre.json',
         storagePrefix: 'cm3_'
     },
-    'formacionCivicaEtica2doTrimestre': {
-        title: '🤝 Formación Cívica y Ética 2do Trimestre',
-        jsonFile: 'assets/formacionCivicaEtica2doTrimestre.json',
-        storagePrefix: 'fce2_'
+    'formacionCivicaEtica3erTrimestre': {
+        title: '🤝 Formación Cívica y Ética 3er Trimestre',
+        jsonFile: 'assets/formacionCivicaEtica3erTrimestre.json',
+        storagePrefix: 'fce3_'
     }
 };
 
