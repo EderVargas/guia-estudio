@@ -1,0 +1,38 @@
+============================================================
+REPORTE DE OPTIMIZACIÓN DE IMÁGENES
+============================================================
+
+Archivo: 28.jpg
+  Original: 374.20 KB
+  JPEG: 22.80 KB
+  WebP: 13.91 KB
+
+Archivo: 29.jpg
+  Original: 28.03 KB
+  JPEG: 7.32 KB
+  WebP: 5.65 KB
+
+Archivo: 30.jpg
+  Original: 27.63 KB
+  JPEG: 6.93 KB
+  WebP: 5.21 KB
+
+Archivo: 31.jpg
+  Original: 27.25 KB
+  JPEG: 6.58 KB
+  WebP: 4.99 KB
+
+Archivo: 32.jpg
+  Original: 26.92 KB
+  JPEG: 6.26 KB
+  WebP: 4.63 KB
+
+Archivo: 33.jpg
+  Original: 27.12 KB
+  JPEG: 6.46 KB
+  WebP: 4.61 KB
+
+------------------------------------------------------------
+TOTAL ORIGINAL: 511.15 KB
+TOTAL OPTIMIZADO: 95.36 KB
+REDUCCIÓN TOTAL: 81.3%
