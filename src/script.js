@@ -55,10 +55,10 @@ const SUBJECTS = {
         jsonFile: 'assets/matematicas2doTrimestre.json',
         storagePrefix: 'mat2_'
     },
-    'conocimientoMedio2doTrimestre': {
-        title: '🌍 Conocimiento del Medio 2do Trimestre',
-        jsonFile: 'assets/conocimientoMedio2doTrimestre.json',
-        storagePrefix: 'cm2_'
+    'conocimientoMedio3erTrimestre': {
+        title: '🌍 Conocimiento del Medio 3er Trimestre',
+        jsonFile: 'assets/conocimientoMedio3erTrimestre.json',
+        storagePrefix: 'cm3_'
     },
     'formacionCivicaEtica2doTrimestre': {
         title: '🤝 Formación Cívica y Ética 2do Trimestre',
