@@ -614,3 +614,44 @@ header h1 {
         font-size: 0.9rem;
     }
 }
+
+/* ========== Spinner de carga ========== */
+#loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 20px;
+}
+
+.spinner {
+    width: 60px;
+    height: 60px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #6b8cce;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.loading-text {
+    font-size: 1.2rem;
+    color: #6b8cce;
+    font-weight: 600;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 480px) {
+    .spinner {
+        width: 50px;
+        height: 50px;
+        border-width: 5px;
+    }
+    .loading-text {
+        font-size: 1rem;
+    }
+}

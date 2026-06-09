@@ -132,6 +132,7 @@ const infoBtn = document.getElementById('info-btn');
 const infoModal = document.getElementById('info-modal');
 const closeModal = document.querySelector('.close-modal');
 const modalInfoContent = document.getElementById('modal-info-content');
+const loadingSpinner = document.getElementById('loading-spinner');
 
 /**
  * Función para mezclar un array aleatoriamente (algoritmo Fisher-Yates)
@@ -253,6 +254,12 @@ function getProgressStats() {
  */
 async function loadQuestions() {
     try {
+        // Mostrar spinner de carga
+        if (loadingSpinner) {
+            loadingSpinner.style.display = 'flex';
+            quizContainer.style.display = 'none';
+        }
+
         // Actualizar el título de la página con la materia seleccionada
         const titleElement = document.getElementById('quiz-title');
         if (titleElement) {
@@ -264,6 +271,8 @@ async function loadQuestions() {
             const response = await fetch(currentSubject.categoriesFile);
             const data = await response.json();
             data.categories.sort((a, b) => b.date.localeCompare(a.date)); // Ordenar categorías por fecha descendente
+            // Ocultar spinner antes de mostrar selector
+            if (loadingSpinner) loadingSpinner.style.display = 'none';
             showCategorySelector(data.categories);
             return;
         }
@@ -289,9 +298,16 @@ async function loadQuestions() {
         // Actualizar display
         totalQuestionsDisplay.textContent = currentQuizQuestions.length;
         
+        // Ocultar spinner y mostrar quiz
+        if (loadingSpinner) loadingSpinner.style.display = 'none';
+        quizContainer.style.display = 'block';
+        
         displayQuestion();
     } catch (error) {
         console.error('Error al cargar las preguntas:', error);
+        // Ocultar spinner en caso de error
+        if (loadingSpinner) loadingSpinner.style.display = 'none';
+        quizContainer.style.display = 'block';
         questionText.textContent = 'Error al cargar las preguntas. Por favor, recarga la página.';
     }
 }
@@ -329,6 +345,12 @@ function showCategorySelector(categories) {
  * Carga las preguntas de la categoría elegida y arranca el cuestionario
  */
 function loadCategoryQuestions(category) {
+    // Mostrar spinner
+    if (loadingSpinner) {
+        loadingSpinner.style.display = 'flex';
+        document.getElementById('category-selector').style.display = 'none';
+    }
+
     // Actualizar claves de sesión para esta categoría específica
     updateStorageKeys(currentSubject.storagePrefix + category.id + '_');
 
@@ -339,8 +361,9 @@ function loadCategoryQuestions(category) {
     const titleElement = document.getElementById('quiz-title');
     if (titleElement) titleElement.textContent = '🔊 ' + category.name;
 
-    // Ocultar selector, mostrar quiz y barra de progreso
+    // Ocultar selector y spinner, mostrar quiz y barra de progreso
     document.getElementById('category-selector').style.display = 'none';
+    if (loadingSpinner) loadingSpinner.style.display = 'none';
     const progressEl = document.getElementById('progress');
     if (progressEl) progressEl.style.display = '';
     quizContainer.style.display = 'block';
