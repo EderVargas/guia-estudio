@@ -33,7 +33,8 @@ CONFIG = {
     'output_base': str(_PROJECT_ROOT / 'docs' / 'assets' / 'images'),
     
     # Materias a procesar
-    'subjects': ['matematicas', 'lenguajes', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen', 'inglesExamen2doTrimestre', 'matematicas2doTrimestre', 'conocimientoMedio3erTrimestre'],
+    'subjects': ['matematicas', 'lenguajes', 'lenguajes3erTrimestre', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen',
+                  'inglesExamen2doTrimestre', 'matematicas2doTrimestre', 'conocimientoMedio3erTrimestre'],
     
     # Calidad de compresión (1-100, recomendado: 70-85)
     'jpeg_quality': 80,

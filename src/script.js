@@ -45,10 +45,10 @@ const SUBJECTS = {
         jsonFile: 'assets/inglesExamen2doTrimestre.json',
         storagePrefix: 'engex2_'
     },
-    'lenguajes2doTrimestre': {
-        title: '📚 Lenguajes 2do Trimestre',
-        jsonFile: 'assets/lenguajes2doTrimestre.json',
-        storagePrefix: 'lang2_'
+    'lenguajes3erTrimestre': {
+        title: '📚 Lenguajes 3er Trimestre',
+        jsonFile: 'assets/lenguajes3erTrimestre.json',
+        storagePrefix: 'lang3_'
     },
     'matematicas2doTrimestre': {
         title: '🔢 Matemáticas 2do Trimestre',
