@@ -50,10 +50,10 @@ const SUBJECTS = {
         jsonFile: 'assets/lenguajes3erTrimestre.json',
         storagePrefix: 'lang3_'
     },
-    'matematicas2doTrimestre': {
-        title: '🔢 Matemáticas 2do Trimestre',
-        jsonFile: 'assets/matematicas2doTrimestre.json',
-        storagePrefix: 'mat2_'
+    'matematicas3erTrimestre': {
+        title: '🔢 Matemáticas 3er Trimestre',
+        jsonFile: 'assets/matematicas3erTrimestre.json',
+        storagePrefix: 'mat3_'
     },
     'conocimientoMedio3erTrimestre': {
         title: '🌍 Conocimiento del Medio 3er Trimestre',
