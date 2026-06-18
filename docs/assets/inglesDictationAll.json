@@ -1743,6 +1743,109 @@
           "correctAnswer": "ape"
         }
       ]
+    },
+    {
+      "id": "challenge-words-8",
+      "name": "Challenge Words 8",
+      "date": "2026-06-18",
+      "data": [
+        {
+          "id": 1,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "recycle",
+          "question": "Listen and write the word",
+          "correctAnswer": "recycle"
+        },
+        {
+          "id": 2,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "landfill",
+          "question": "Listen and write the word",
+          "correctAnswer": "landfill"
+        },
+        {
+          "id": 3,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "growth",
+          "question": "Listen and write the word",
+          "correctAnswer": "growth"
+        },
+        {
+          "id": 4,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "litter",
+          "question": "Listen and write the word",
+          "correctAnswer": "litter"
+        },
+        {
+          "id": 5,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation-exact",
+          "audioText": "Earth",
+          "question": "Listen and write the word",
+          "correctAnswer": "Earth"
+        },
+        {
+          "id": 6,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "monkey",
+          "question": "Listen and write the word",
+          "correctAnswer": "monkey"
+        },
+        {
+          "id": 7,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "aluminium",
+          "question": "Listen and write the word",
+          "correctAnswer": "aluminium"
+        },
+        {
+          "id": 8,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "dispose",
+          "question": "Listen and write the word",
+          "correctAnswer": "dispose"
+        },
+        {
+          "id": 9,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "desert",
+          "question": "Listen and write the word",
+          "correctAnswer": "desert"
+        },
+        {
+          "id": 10,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "rain forest",
+          "question": "Listen and write the word",
+          "correctAnswer": "rain forest"
+        },
+        {
+          "id": 11,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation-exact",
+          "audioText": "the Artic",
+          "question": "Listen and write the word",
+          "correctAnswer": "the Artic"
+        },
+        {
+          "id": 12,
+          "category": "Challenge Words 8",
+          "type": "audio-dictation",
+          "audioText": "fresh water",
+          "question": "Listen and write the word",
+          "correctAnswer": "fresh water"
+        }
+      ]
     }
   ]
 }
