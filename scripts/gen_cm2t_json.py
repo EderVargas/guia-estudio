@@ -16,17 +16,33 @@ Formato esperado del .txt:
     Materia: ...
     Categoria: ...
     Pregunta: ...
-    Imagen: 1.jpg          (opcional)
+    Imagen: 1.jpg          (opcional; si la extension no coincide, se busca en originales)
     Opcion 1: Texto _correcta
     Opcion 2: Texto
+
+Pregunta de texto (sin opciones):
+    Respuesta: works
 """
 import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
+IMAGE_EXTS = ('.jpg', '.jpeg', '.png', '.webp')
 
 
-def parse_txt(txt_path: Path, img_base: str) -> list:
+def resolve_image_name(imagen: str, subject: str) -> str:
+    """Usa el archivo real en originales si la extension del txt no coincide."""
+    originales = ROOT / 'assets' / 'images' / 'originales' / subject
+    if (originales / imagen).exists():
+        return imagen
+    stem = Path(imagen).stem
+    for ext in IMAGE_EXTS:
+        if (originales / f'{stem}{ext}').exists():
+            return f'{stem}{ext}'
+    return imagen
+
+
+def parse_txt(txt_path: Path, img_base: str, subject: str) -> list:
     text = txt_path.read_text(encoding='utf-8')
     blocks = re.split(r'\n(?=Id:\d)', text.strip())
 
@@ -50,6 +66,7 @@ def parse_txt(txt_path: Path, img_base: str) -> list:
         categoria = re.sub(r'\.$', '', categoria).strip()
         pregunta  = get_field('Pregunta') or ''
         imagen    = get_field('Imágen') or get_field('Imagen') or None
+        respuesta = get_field('Respuesta')
 
         answers = []
         for l in lines:
@@ -65,8 +82,16 @@ def parse_txt(txt_path: Path, img_base: str) -> list:
 
         q = {'id': qid, 'category': categoria, 'question': pregunta}
         if imagen:
-            q['image'] = f'{img_base}/{imagen}'
-        q['answers'] = answers
+            q['image'] = f'{img_base}/{resolve_image_name(imagen, subject)}'
+        if answers:
+            q['type'] = 'multiple-choice'
+            q['answers'] = answers
+        elif respuesta:
+            q['type'] = 'text-input'
+            q['correctAnswer'] = respuesta
+        else:
+            q['type'] = 'multiple-choice'
+            q['answers'] = []
         questions.append(q)
 
     return questions
@@ -86,7 +111,7 @@ def main():
         print(f'Error: no se encuentra {txt_path}')
         sys.exit(1)
 
-    questions = parse_txt(txt_path, img_base)
+    questions = parse_txt(txt_path, img_base, subject)
     data = {'data': questions}
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
 

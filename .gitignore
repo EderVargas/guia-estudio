@@ -38,7 +38,7 @@ __pycache__/
 *.so
 *.egg-info/
 
-# Imágenes originales (muy pesadas, no subir al repo)
+# ImÃ¡genes originales (muy pesadas, no subir al repo)
 assets/images/originales/*
 
 # Reportes temporales generados
@@ -49,6 +49,10 @@ docs/assets/images/_optimization_report.txt
 *.tmp
 *.bak
 
-# Configuración local
+# ConfiguraciÃ³n local
 config.local.json
 *.local.*
+
+.cursor/
+graphify-out/
+.cursorignore

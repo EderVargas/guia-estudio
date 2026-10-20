@@ -1,0 +1,63 @@
+============================================================
+REPORTE DE OPTIMIZACIÓN DE IMÁGENES
+============================================================
+
+Archivo: 1.jpg
+  Original: 5.91 KB
+  JPEG: 2.01 KB
+  WebP: 1.20 KB
+
+Archivo: 2.jpg
+  Original: 5.86 KB
+  JPEG: 1.93 KB
+  WebP: 1.21 KB
+
+Archivo: 3.jpg
+  Original: 5.78 KB
+  JPEG: 1.88 KB
+  WebP: 1.16 KB
+
+Archivo: 4.jpg
+  Original: 6.27 KB
+  JPEG: 2.38 KB
+  WebP: 1.62 KB
+
+Archivo: 5.jpg
+  Original: 6.15 KB
+  JPEG: 2.26 KB
+  WebP: 1.35 KB
+
+Archivo: 6.jpg
+  Original: 5.87 KB
+  JPEG: 1.96 KB
+  WebP: 1.18 KB
+
+Archivo: 7.jpg
+  Original: 5.75 KB
+  JPEG: 1.82 KB
+  WebP: 0.98 KB
+
+Archivo: 8.jpg
+  Original: 6.17 KB
+  JPEG: 2.29 KB
+  WebP: 1.46 KB
+
+Archivo: 9.jpg
+  Original: 6.26 KB
+  JPEG: 2.36 KB
+  WebP: 1.58 KB
+
+Archivo: 10.jpg
+  Original: 5.85 KB
+  JPEG: 1.93 KB
+  WebP: 1.18 KB
+
+Archivo: 11.jpg
+  Original: 6.00 KB
+  JPEG: 2.08 KB
+  WebP: 1.23 KB
+
+------------------------------------------------------------
+TOTAL ORIGINAL: 65.87 KB
+TOTAL OPTIMIZADO: 37.05 KB
+REDUCCIÓN TOTAL: 43.8%

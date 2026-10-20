@@ -1,0 +1,232 @@
+Id:
+Materia: .
+Categoria: .
+Subcategoria: .
+Instruccion: Selecciona la opción correcta.
+Instruccion: Responde correctamente.
+Pregunta:
+Respuesta:
+Opcion 1: _correcta
+Opcion 2:
+Opcion 3:
+Opcion 4:
+
+Id:1
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Select the correct answer.
+Pregunta: What is the Present Simple used for?
+Opcion 1: We use it ti talk about routins. _correcta
+Opcion 2: We use to express actions.
+
+Id:2
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Select the correct answer.
+Pregunta: Add "s":
+Opcion 1: When the verb ends in S, SS, CH, X, O, Z.
+Opcion 2: When subject is HE, SHE or IT. _correcta
+
+Id:3
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Select the correct answer.
+Pregunta: Add "es":
+Opcion 1: When the verb ends in S, SS, CH, X, O, Z.  _correcta
+Opcion 2: When subject is HE, SHE or IT.
+
+Id:4
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: She _____ in a hospital. (work)
+Respuesta: works
+
+Id:5
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: My dad _____ a car. (drive)
+Respuesta: drives
+
+Id:6
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: My dog _____ during the night. (bark)
+Respuesta: barks
+
+Id:7
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: Robert _____ video games. (play)
+Respuesta: plays
+
+Id:8
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: I _____ my hands. (wash)
+Respuesta: wash
+
+Id:9
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: Sofi _____ T. V. a lot of time. (watch)
+Respuesta: watches
+
+Id:10
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: Mauricio _____ hamburgers. (eat)
+Respuesta: eats
+
+Id:11
+Materia: Inglés.
+Categoria: Simple Present.
+Instruccion: Write the correct answer.
+Pregunta: She _____ her teeth every morning. (brush)
+Respuesta: brushes
+
+Id:12
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Select the correct answer.
+Pregunta: It talks about actions that happen at the moment of speaking.
+Opcion 1: Simple Present.
+Opcion 2: Present Progressive or Present Continuous. _correcta
+
+Id:13
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Select the correct answer.
+Pregunta: If the verb ends with "e" take out and add...
+Opcion 1: "s".
+Opcion 2: "ing". _correcta
+Opcion 3: "es".
+
+Id:14
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Jhon _____ an ice cream. (eat)
+Respuesta: is eating
+
+Id:15
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: We _____ English. (practice)
+Respuesta: are practicing
+
+Id:16
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Camila _____ on the sofa. (sleep)
+Respuesta: is sleeping
+
+Id:17
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: You _____ exercise. (do)
+Respuesta: are doing
+
+Id:18
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: I _____ my clothes. (wash)
+Respuesta: am washing
+
+Id:19
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 1.png
+Respuesta: across
+
+Id:20
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 2.png
+Respuesta: out of
+
+Id:21
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 3.png
+Respuesta: between
+
+Id:22
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 4.png
+Respuesta: past
+
+Id:23
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 5.png
+Respuesta: down
+
+Id:24
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 6.png
+Respuesta: under
+
+Id:25
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 7.png
+Respuesta: into
+
+Id:26
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 8.png
+Respuesta: up
+
+Id:27
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 9.png
+Respuesta: around
+
+Id:28
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 10.png
+Respuesta: over
+
+Id:29
+Materia: Inglés.
+Categoria: Present Continuous or Present Progressive.
+Instruccion: Write the correct answer.
+Pregunta: Write which preposition of movement the picture represents.
+Imagen: 11.png
+Respuesta: trough

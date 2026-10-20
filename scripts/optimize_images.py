@@ -34,7 +34,7 @@ CONFIG = {
     
     # Materias a procesar
     'subjects': ['matematicas', 'matematicas3erTrimestre', 'lenguajes', 'lenguajes3erTrimestre', 'conocimientoMedio', 'formacionCivicaEtica', 'inglesExamen',
-                  'inglesExamen2doTrimestre', 'matematicas2doTrimestre', 'conocimientoMedio3erTrimestre'],
+                  'inglesExamen2doTrimestre', 'ingles2Examen1erTrimestre', 'matematicas2doTrimestre', 'conocimientoMedio3erTrimestre'],
     
     # Calidad de compresión (1-100, recomendado: 70-85)
     'jpeg_quality': 80,

@@ -1,0 +1,261 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Simple Present",
+      "question": "What is the Present Simple used for?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "We use it ti talk about routins.",
+          "correct": true
+        },
+        {
+          "option": "We use to express actions."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Simple Present",
+      "question": "Add \"s\":",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "When the verb ends in S, SS, CH, X, O, Z."
+        },
+        {
+          "option": "When subject is HE, SHE or IT.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Simple Present",
+      "question": "Add \"es\":",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "When the verb ends in S, SS, CH, X, O, Z.",
+          "correct": true
+        },
+        {
+          "option": "When subject is HE, SHE or IT."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Simple Present",
+      "question": "She _____ in a hospital. (work)",
+      "type": "text-input",
+      "correctAnswer": "works"
+    },
+    {
+      "id": 5,
+      "category": "Simple Present",
+      "question": "My dad _____ a car. (drive)",
+      "type": "text-input",
+      "correctAnswer": "drives"
+    },
+    {
+      "id": 6,
+      "category": "Simple Present",
+      "question": "My dog _____ during the night. (bark)",
+      "type": "text-input",
+      "correctAnswer": "barks"
+    },
+    {
+      "id": 7,
+      "category": "Simple Present",
+      "question": "Robert _____ video games. (play)",
+      "type": "text-input",
+      "correctAnswer": "plays"
+    },
+    {
+      "id": 8,
+      "category": "Simple Present",
+      "question": "I _____ my hands. (wash)",
+      "type": "text-input",
+      "correctAnswer": "wash"
+    },
+    {
+      "id": 9,
+      "category": "Simple Present",
+      "question": "Sofi _____ T. V. a lot of time. (watch)",
+      "type": "text-input",
+      "correctAnswer": "watches"
+    },
+    {
+      "id": 10,
+      "category": "Simple Present",
+      "question": "Mauricio _____ hamburgers. (eat)",
+      "type": "text-input",
+      "correctAnswer": "eats"
+    },
+    {
+      "id": 11,
+      "category": "Simple Present",
+      "question": "She _____ her teeth every morning. (brush)",
+      "type": "text-input",
+      "correctAnswer": "brushes"
+    },
+    {
+      "id": 12,
+      "category": "Present Continuous or Present Progressive",
+      "question": "It talks about actions that happen at the moment of speaking.",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Simple Present."
+        },
+        {
+          "option": "Present Progressive or Present Continuous.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Present Continuous or Present Progressive",
+      "question": "If the verb ends with \"e\" take out and add...",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "\"s\"."
+        },
+        {
+          "option": "\"ing\".",
+          "correct": true
+        },
+        {
+          "option": "\"es\"."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Jhon _____ an ice cream. (eat)",
+      "type": "text-input",
+      "correctAnswer": "is eating"
+    },
+    {
+      "id": 15,
+      "category": "Present Continuous or Present Progressive",
+      "question": "We _____ English. (practice)",
+      "type": "text-input",
+      "correctAnswer": "are practicing"
+    },
+    {
+      "id": 16,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Camila _____ on the sofa. (sleep)",
+      "type": "text-input",
+      "correctAnswer": "is sleeping"
+    },
+    {
+      "id": 17,
+      "category": "Present Continuous or Present Progressive",
+      "question": "You _____ exercise. (do)",
+      "type": "text-input",
+      "correctAnswer": "are doing"
+    },
+    {
+      "id": 18,
+      "category": "Present Continuous or Present Progressive",
+      "question": "I _____ my clothes. (wash)",
+      "type": "text-input",
+      "correctAnswer": "am washing"
+    },
+    {
+      "id": 19,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/1.jpg",
+      "type": "text-input",
+      "correctAnswer": "across"
+    },
+    {
+      "id": 20,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/2.jpg",
+      "type": "text-input",
+      "correctAnswer": "out of"
+    },
+    {
+      "id": 21,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/3.jpg",
+      "type": "text-input",
+      "correctAnswer": "between"
+    },
+    {
+      "id": 22,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/4.jpg",
+      "type": "text-input",
+      "correctAnswer": "past"
+    },
+    {
+      "id": 23,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/5.jpg",
+      "type": "text-input",
+      "correctAnswer": "down"
+    },
+    {
+      "id": 24,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/6.jpg",
+      "type": "text-input",
+      "correctAnswer": "under"
+    },
+    {
+      "id": 25,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/7.jpg",
+      "type": "text-input",
+      "correctAnswer": "into"
+    },
+    {
+      "id": 26,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/8.jpg",
+      "type": "text-input",
+      "correctAnswer": "up"
+    },
+    {
+      "id": 27,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/9.jpg",
+      "type": "text-input",
+      "correctAnswer": "around"
+    },
+    {
+      "id": 28,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/10.jpg",
+      "type": "text-input",
+      "correctAnswer": "over"
+    },
+    {
+      "id": 29,
+      "category": "Present Continuous or Present Progressive",
+      "question": "Write which preposition of movement the picture represents.",
+      "image": "assets/images/ingles2Examen1erTrimestre/11.jpg",
+      "type": "text-input",
+      "correctAnswer": "trough"
+    }
+  ]
+}
