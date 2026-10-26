@@ -1,0 +1,180 @@
+Id:1
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho a no ser explotado?
+Opcion 1: Deber de no abusar de mis compañeros pequeños e indefensos. _correcta
+Opcion 2: Deber de aprovecharme de quienes son más pequeños.
+Opcion 3: Deber de asociarme sin seguir ninguna norma.
+Opcion 4: Deber de dejar sucia y desordenada la vivienda.
+
+Id:2
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho a la libertad de asociación?
+Opcion 1: Deber de formar grupos para molestar a los demás.
+Opcion 2: Deber de asociarnos respetando las normas. _correcta
+Opcion 3: Deber de no relacionarnos con nadie.
+Opcion 4: Deber de imponer nuestras ideas sin escuchar a los demás.
+
+Id:3
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho de tener una vivienda digna?
+Opcion 1: Deber de destruir los muebles de la casa.
+Opcion 2: Deber de no colaborar en el orden del hogar.
+Opcion 3: Deber de tenerla limpia y ordenada. _correcta
+Opcion 4: Deber de vivir en un lugar sucio y descuidado.
+
+Id:4
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho a la educación?
+Opcion 1: Deber de ignorar a los maestros y no hacer las tareas.
+Opcion 2: Deber de burlarse de quienes estudian.
+Opcion 3: Deber de faltar a la escuela sin razón.
+Opcion 4: Deber de respetar a los maestros, poner atención y realizar mis tareas asignadas. _correcta
+
+Id:5
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho de tener su propia identidad?
+Opcion 1: Deber de respetar las distintas culturas. _correcta
+Opcion 2: Deber de burlarse de las costumbres de otras personas.
+Opcion 3: Deber de obligar a todos a ser iguales a nosotros.
+Opcion 4: Deber de ocultar quiénes somos.
+
+Id:6
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos y deberes.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el deber que corresponde al derecho a la vida?
+Opcion 1: Deber de realizar juegos peligrosos sin cuidado.
+Opcion 2: Deber de respetar nuestra propia vida, no realizando acciones que nos pongan en peligro. _correcta
+Opcion 3: Deber de poner en riesgo nuestra salud por diversión.
+Opcion 4: Deber de ignorar las medidas de seguridad.
+
+Id:7
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Medición del tiempo.
+Instruccion: Responde correctamente.
+Pregunta: Una semana tiene _____ días.
+Respuesta: 7
+
+Id:8
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Medición del tiempo.
+Instruccion: Responde correctamente.
+Pregunta: Un año tiene _____ días.
+Respuesta: 365
+
+Id:9
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Medición del tiempo.
+Instruccion: Responde correctamente.
+Pregunta: Un año tiene _____ meses.
+Respuesta: 12
+
+Id:10
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿A qué derecho hace referencia cuando se garantiza que todo niño tenga un nombre, una nacionalidad y un registro desde su nacimiento?
+Opcion 1: Igualdad.
+Opcion 2: Educación.
+Opcion 3: Identidad. _correcta
+Opcion 4: Vida.
+
+Id:11
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Qué derecho establece que todos los niños y niñas deben recibir el mismo trato y oportunidades sin importar sus diferencias o condición?
+Opcion 1: Igualdad. _correcta
+Opcion 2: Protección.
+Opcion 3: Prioridad.
+Opcion 4: Inclusión.
+
+Id:12
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cómo se le llama al derecho que garantiza ser cuidado y resguardado contra cualquier forma de abuso, maltrato o explotación?
+Opcion 1: Participación.
+Opcion 2: Protección. _correcta
+Opcion 3: No violencia.
+Opcion 4: Identidad.
+
+Id:13
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Qué derecho asegura que ningún niño sea rechazado, excluido o tratado con desprecio por su origen, género o condición?
+Opcion 1: Educación.
+Opcion 2: Vida.
+Opcion 3: No discriminación. _correcta
+Opcion 4: Identidad.
+
+Id:14
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿A qué derecho corresponde cuando se permite que las opiniones de las niñas y los niños sean escuchadas y tomadas en cuenta?
+Opcion 1: Participación. _correcta
+Opcion 2: Prioridad.
+Opcion 3: Protección.
+Opcion 4: Igualdad.
+
+Id:15
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Qué derecho garantiza recibir instrucción escolar para aprender, adquirir conocimientos y desarrollarse plenamente?
+Opcion 1: Inclusión.
+Opcion 2: Identidad.
+Opcion 3: Educación. _correcta
+Opcion 4: No violencia.
+
+Id:16
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cuál es el derecho supremo y fundamental que asegura la existencia y el desarrollo digno de la niñez?
+Opcion 1: Vida. _correcta
+Opcion 2: Educación.
+Opcion 3: Participación.
+Opcion 4: Igualdad.
+
+Id:17
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Cómo se le denomina al derecho y principio que busca rechazar los golpes, los gritos y cualquier trato hiriente hacia la infancia?
+Opcion 1: Protección.
+Opcion 2: No violencia. _correcta
+Opcion 3: Igualdad.
+Opcion 4: Prioridad.
+
+Id:18
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿Qué derecho establece que las necesidades de la infancia deben atenderse primero, colocándolos al frente en las políticas y decisiones?
+Opcion 1: Inclusión.
+Opcion 2: Participación.
+Opcion 3: Prioridad. _correcta
+Opcion 4: Identidad.
+
+Id:19
+Materia: Ética, Naturaleza y Sociedades.
+Categoria: Derechos de la niñez.
+Instruccion: Selecciona la opción correcta.
+Pregunta: ¿A qué derecho hace referencia integrar a todos los alumnos a las actividades sin importar si tienen alguna discapacidad o condición diferente?
+Opcion 1: No discriminación.
+Opcion 2: Educación.
+Opcion 3: Inclusión. _correcta
+Opcion 4: Igualdad.

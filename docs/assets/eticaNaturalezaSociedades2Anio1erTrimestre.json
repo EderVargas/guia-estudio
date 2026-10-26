@@ -1,0 +1,361 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho a no ser explotado?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de no abusar de mis compañeros pequeños e indefensos.",
+          "correct": true
+        },
+        {
+          "option": "Deber de aprovecharme de quienes son más pequeños."
+        },
+        {
+          "option": "Deber de asociarme sin seguir ninguna norma."
+        },
+        {
+          "option": "Deber de dejar sucia y desordenada la vivienda."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho a la libertad de asociación?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de formar grupos para molestar a los demás."
+        },
+        {
+          "option": "Deber de asociarnos respetando las normas.",
+          "correct": true
+        },
+        {
+          "option": "Deber de no relacionarnos con nadie."
+        },
+        {
+          "option": "Deber de imponer nuestras ideas sin escuchar a los demás."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho de tener una vivienda digna?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de destruir los muebles de la casa."
+        },
+        {
+          "option": "Deber de no colaborar en el orden del hogar."
+        },
+        {
+          "option": "Deber de tenerla limpia y ordenada.",
+          "correct": true
+        },
+        {
+          "option": "Deber de vivir en un lugar sucio y descuidado."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho a la educación?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de ignorar a los maestros y no hacer las tareas."
+        },
+        {
+          "option": "Deber de burlarse de quienes estudian."
+        },
+        {
+          "option": "Deber de faltar a la escuela sin razón."
+        },
+        {
+          "option": "Deber de respetar a los maestros, poner atención y realizar mis tareas asignadas.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho de tener su propia identidad?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de respetar las distintas culturas.",
+          "correct": true
+        },
+        {
+          "option": "Deber de burlarse de las costumbres de otras personas."
+        },
+        {
+          "option": "Deber de obligar a todos a ser iguales a nosotros."
+        },
+        {
+          "option": "Deber de ocultar quiénes somos."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Derechos y deberes",
+      "question": "¿Cuál es el deber que corresponde al derecho a la vida?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Deber de realizar juegos peligrosos sin cuidado."
+        },
+        {
+          "option": "Deber de respetar nuestra propia vida, no realizando acciones que nos pongan en peligro.",
+          "correct": true
+        },
+        {
+          "option": "Deber de poner en riesgo nuestra salud por diversión."
+        },
+        {
+          "option": "Deber de ignorar las medidas de seguridad."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Medición del tiempo",
+      "question": "Una semana tiene _____ días.",
+      "type": "text-input",
+      "correctAnswer": "7"
+    },
+    {
+      "id": 8,
+      "category": "Medición del tiempo",
+      "question": "Un año tiene _____ días.",
+      "type": "text-input",
+      "correctAnswer": "365"
+    },
+    {
+      "id": 9,
+      "category": "Medición del tiempo",
+      "question": "Un año tiene _____ meses.",
+      "type": "text-input",
+      "correctAnswer": "12"
+    },
+    {
+      "id": 10,
+      "category": "Derechos de la niñez",
+      "question": "¿A qué derecho hace referencia cuando se garantiza que todo niño tenga un nombre, una nacionalidad y un registro desde su nacimiento?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Igualdad."
+        },
+        {
+          "option": "Educación."
+        },
+        {
+          "option": "Identidad.",
+          "correct": true
+        },
+        {
+          "option": "Vida."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Derechos de la niñez",
+      "question": "¿Qué derecho establece que todos los niños y niñas deben recibir el mismo trato y oportunidades sin importar sus diferencias o condición?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Igualdad.",
+          "correct": true
+        },
+        {
+          "option": "Protección."
+        },
+        {
+          "option": "Prioridad."
+        },
+        {
+          "option": "Inclusión."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Derechos de la niñez",
+      "question": "¿Cómo se le llama al derecho que garantiza ser cuidado y resguardado contra cualquier forma de abuso, maltrato o explotación?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Participación."
+        },
+        {
+          "option": "Protección.",
+          "correct": true
+        },
+        {
+          "option": "No violencia."
+        },
+        {
+          "option": "Identidad."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Derechos de la niñez",
+      "question": "¿Qué derecho asegura que ningún niño sea rechazado, excluido o tratado con desprecio por su origen, género o condición?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Educación."
+        },
+        {
+          "option": "Vida."
+        },
+        {
+          "option": "No discriminación.",
+          "correct": true
+        },
+        {
+          "option": "Identidad."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Derechos de la niñez",
+      "question": "¿A qué derecho corresponde cuando se permite que las opiniones de las niñas y los niños sean escuchadas y tomadas en cuenta?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Participación.",
+          "correct": true
+        },
+        {
+          "option": "Prioridad."
+        },
+        {
+          "option": "Protección."
+        },
+        {
+          "option": "Igualdad."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Derechos de la niñez",
+      "question": "¿Qué derecho garantiza recibir instrucción escolar para aprender, adquirir conocimientos y desarrollarse plenamente?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Inclusión."
+        },
+        {
+          "option": "Identidad."
+        },
+        {
+          "option": "Educación.",
+          "correct": true
+        },
+        {
+          "option": "No violencia."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Derechos de la niñez",
+      "question": "¿Cuál es el derecho supremo y fundamental que asegura la existencia y el desarrollo digno de la niñez?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Vida.",
+          "correct": true
+        },
+        {
+          "option": "Educación."
+        },
+        {
+          "option": "Participación."
+        },
+        {
+          "option": "Igualdad."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Derechos de la niñez",
+      "question": "¿Cómo se le denomina al derecho y principio que busca rechazar los golpes, los gritos y cualquier trato hiriente hacia la infancia?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Protección."
+        },
+        {
+          "option": "No violencia.",
+          "correct": true
+        },
+        {
+          "option": "Igualdad."
+        },
+        {
+          "option": "Prioridad."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Derechos de la niñez",
+      "question": "¿Qué derecho establece que las necesidades de la infancia deben atenderse primero, colocándolos al frente en las políticas y decisiones?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "Inclusión."
+        },
+        {
+          "option": "Participación."
+        },
+        {
+          "option": "Prioridad.",
+          "correct": true
+        },
+        {
+          "option": "Identidad."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Derechos de la niñez",
+      "question": "¿A qué derecho hace referencia integrar a todos los alumnos a las actividades sin importar si tienen alguna discapacidad o condición diferente?",
+      "type": "multiple-choice",
+      "answers": [
+        {
+          "option": "No discriminación."
+        },
+        {
+          "option": "Educación."
+        },
+        {
+          "option": "Inclusión.",
+          "correct": true
+        },
+        {
+          "option": "Igualdad."
+        }
+      ]
+    }
+  ]
+}

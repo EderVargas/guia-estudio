@@ -69,6 +69,11 @@ const SUBJECTS = {
         title: '🤝 Formación Cívica y Ética 3er Trimestre',
         jsonFile: 'assets/formacionCivicaEtica3erTrimestre.json',
         storagePrefix: 'fce3_'
+    },
+    'eticaNaturalezaSociedades2Anio1erTrimestre': {
+        title: '🌿 Ética, Naturaleza y Sociedades 2 · 1er Trimestre',
+        jsonFile: 'assets/eticaNaturalezaSociedades2Anio1erTrimestre.json',
+        storagePrefix: 'ens2t1_'
     }
 };
 
