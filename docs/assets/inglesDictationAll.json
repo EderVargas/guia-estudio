@@ -372,6 +372,253 @@
           "correctAnswer": "score"
         }
       ]
+    },
+    {
+      "id": "food-and-extra-words",
+      "name": "food and extra words",
+      "date": "2026-11-05",
+      "data": [
+        {
+          "id": 1,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "fruit salad",
+          "question": "Listen and write the word",
+          "correctAnswer": "fruit salad"
+        },
+        {
+          "id": 2,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "chicken",
+          "question": "Listen and write the word",
+          "correctAnswer": "chicken"
+        },
+        {
+          "id": 3,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "pizza",
+          "question": "Listen and write the word",
+          "correctAnswer": "pizza"
+        },
+        {
+          "id": 4,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "chips",
+          "question": "Listen and write the word",
+          "correctAnswer": "chips"
+        },
+        {
+          "id": 5,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "bread",
+          "question": "Listen and write the word",
+          "correctAnswer": "bread"
+        },
+        {
+          "id": 6,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "vegetables",
+          "question": "Listen and write the word",
+          "correctAnswer": "vegetables"
+        },
+        {
+          "id": 7,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "apple",
+          "question": "Listen and write the word",
+          "correctAnswer": "apple"
+        },
+        {
+          "id": 8,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "banana",
+          "question": "Listen and write the word",
+          "correctAnswer": "banana"
+        },
+        {
+          "id": 9,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "cereal",
+          "question": "Listen and write the word",
+          "correctAnswer": "cereal"
+        },
+        {
+          "id": 10,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "orange",
+          "question": "Listen and write the word",
+          "correctAnswer": "orange"
+        },
+        {
+          "id": 11,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "carrot",
+          "question": "Listen and write the word",
+          "correctAnswer": "carrot"
+        },
+        {
+          "id": 12,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "celery",
+          "question": "Listen and write the word",
+          "correctAnswer": "celery"
+        },
+        {
+          "id": 13,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "fruit",
+          "question": "Listen and write the word",
+          "correctAnswer": "fruit"
+        },
+        {
+          "id": 14,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "grapes",
+          "question": "Listen and write the word",
+          "correctAnswer": "grapes"
+        },
+        {
+          "id": 15,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "juice",
+          "question": "Listen and write the word",
+          "correctAnswer": "juice"
+        },
+        {
+          "id": 16,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "milk",
+          "question": "Listen and write the word",
+          "correctAnswer": "milk"
+        },
+        {
+          "id": 17,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "pepper",
+          "question": "Listen and write the word",
+          "correctAnswer": "pepper"
+        },
+        {
+          "id": 18,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "salt",
+          "question": "Listen and write the word",
+          "correctAnswer": "salt"
+        },
+        {
+          "id": 19,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "soda",
+          "question": "Listen and write the word",
+          "correctAnswer": "soda"
+        },
+        {
+          "id": 20,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "strawberry",
+          "question": "Listen and write the word",
+          "correctAnswer": "strawberry"
+        },
+        {
+          "id": 21,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "sugar",
+          "question": "Listen and write the word",
+          "correctAnswer": "sugar"
+        },
+        {
+          "id": 22,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "tomato",
+          "question": "Listen and write the word",
+          "correctAnswer": "tomato"
+        },
+        {
+          "id": 23,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "water",
+          "question": "Listen and write the word",
+          "correctAnswer": "water"
+        },
+        {
+          "id": 24,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "honey",
+          "question": "Listen and write the word",
+          "correctAnswer": "honey"
+        },
+        {
+          "id": 25,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "bag",
+          "question": "Listen and write the word",
+          "correctAnswer": "bag"
+        },
+        {
+          "id": 26,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "cup",
+          "question": "Listen and write the word",
+          "correctAnswer": "cup"
+        },
+        {
+          "id": 27,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "half",
+          "question": "Listen and write the word",
+          "correctAnswer": "half"
+        },
+        {
+          "id": 28,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "quarter",
+          "question": "Listen and write the word",
+          "correctAnswer": "quarter"
+        },
+        {
+          "id": 29,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "tablespoon",
+          "question": "Listen and write the word",
+          "correctAnswer": "tablespoon"
+        },
+        {
+          "id": 30,
+          "category": "food and extra words",
+          "type": "audio-dictation",
+          "audioText": "teaspoon",
+          "question": "Listen and write the word",
+          "correctAnswer": "teaspoon"
+        }
+      ]
     }
   ]
 }
